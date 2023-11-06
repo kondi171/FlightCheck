@@ -1,10 +1,28 @@
 import styles from './../assets/scss/modules/Map.module.scss';
-import map from './../assets/img/map-test.png';
+import GoogleMapReact from 'google-map-react';
+
+const defaultMapProps = {
+    center: {
+        lat: 52.237049,
+        lng: 21.017532,
+    },
+    zoom: 10
+};
+
 const Map = () => {
+
     return (
         <section className={styles.map}>
-            <img src={map} alt="map" />
+            <div style={{ height: '83vh', width: '100%' }}>
+                <GoogleMapReact
+                    bootstrapURLKeys={{ key: "AIzaSyANuXfGFjl3_ovhubG_q38TL13FQUt44FM" }}
+                    defaultCenter={defaultMapProps.center}
+                    defaultZoom={defaultMapProps.zoom}
+                >
+                </GoogleMapReact>
+            </div>
         </section>
+
     );
 }
 
