@@ -1,5 +1,7 @@
 import styles from './../assets/scss/modules/Header.module.scss';
 import plane from './../assets/img/plane.png';
+import Clock from './Clock';
+import ControlPanel from './ControlPanel';
 const Header = () => {
     return (
         <header className={styles.header}>
@@ -11,6 +13,8 @@ const Header = () => {
                     <hr />
                 </h2>
             </div>
+            <Clock />
+            <ControlPanel />
         </header>
     );
 }

@@ -1,11 +1,49 @@
 @import './../variables';
 
 .stats {
+    position: absolute;
+    top: 14vh;
+    left: 2vw;
+    bottom: 7vh;
     width: 25vw;
-    background-color: $secondaryColor;
-    height: 100%;
+    background-color: rgba($color: #1AA782, $alpha: .8);
     font-size: 3vmin;
     padding: 0 1vmin;
+    border-radius: 1vmin;
+    border: .3vmin solid $darkColor;
+    z-index: 10;
+
+    h3 {
+        text-align: center;
+        font-family: $logoFont;
+        padding: 1vmin;
+        font-size: 5vmin;
+    }
+
+    .btnsWrapper {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+
+        button {
+            padding: 2vmin;
+            border: .6vmin solid $secondaryColor;
+            border-radius: 2vmin;
+            text-align: center;
+            font-size: 2vmin;
+            font-family: $logoFont;
+            background-color: $secondaryColor;
+            transition-duration: .4s;
+            outline: .6vmin solid $primaryColor;
+
+            &:hover {
+                cursor: pointer;
+                outline-color: $secondaryColor;
+                border-color: $primaryColor ;
+            }
+        }
+
+    }
 
     .stat {
         margin: 1rem 0;

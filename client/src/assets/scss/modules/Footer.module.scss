@@ -1,14 +1,20 @@
 @import './../variables';
 
 .footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: darken($darkColor, 20%);
+    background-color: rgba($color: #000, $alpha: .8);
     padding: 2vmin;
     color: white;
     text-align: center;
     font-size: 2vmin;
     height: 5vh;
     max-height: 5vh;
+    width: 100%;
+    border-top: 2px solid $primaryColor;
+    box-shadow: -2vmin 1vmin 4vmin 2vmin #000;
 }

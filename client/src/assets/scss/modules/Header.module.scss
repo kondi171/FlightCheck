@@ -1,14 +1,15 @@
 @import './../variables';
 
 .header {
-    background-color: darken($darkColor, 20%);
+    background-color: rgba($color: #000, $alpha: .8);
     padding: 2vmin;
     border-bottom: 2px solid $primaryColor;
     height: 12vh;
     max-height: 12vh;
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
+    box-shadow: 2vmin 0 4vmin 1vmin #000;
 
     .logo {
         width: 17vw;

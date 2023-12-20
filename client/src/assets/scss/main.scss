@@ -12,13 +12,5 @@
 }
 
 body {
-    background-color: $supportColor;
-}
-
-.wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 83vh;
-    max-height: 83vh;
+    background-color: $secondaryColor;
 }
