@@ -4,17 +4,15 @@ import Stats from './components/Stats';
 import Map from './components/Map';
 import Footer from './components/Footer';
 import './assets/scss/main.scss';
-import { AirportData } from './ts/interfaces';
 import ControlPanel from './components/ControlPanel';
 import { AppContext } from './AppContext';
 import { AppContextType } from './ts/types';
 import Modal from './components/modals/Modal';
 
 const App = () => {
-  const { isModalVisible } = useContext(AppContext) as AppContextType;
+  const { isModalVisible, setAirportsData } = useContext(AppContext) as AppContextType;
 
   const [flightData, setFlightData] = useState<[]>();
-  const [airportsData, setAirportsData] = useState<AirportData[]>([]);
 
   // useEffect(() => {
   //   const fetchFlights = async () => {
@@ -85,7 +83,7 @@ const App = () => {
   return (
     <>
       <Header />
-      <Stats airportsData={airportsData} />
+      <Stats />
       <Map flightData={flightData} />
       <ControlPanel />
       {isModalVisible &&

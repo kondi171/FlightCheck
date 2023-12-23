@@ -10,26 +10,26 @@ const ControlPanel = () => {
 
   const { darkMode, setDarkMode, isModalVisible, setIsModalVisible, setModalContent } = useContext(AppContext) as AppContextType;
 
-  const handleSetModalContent = () => {
+  const handleSetModalContent = (modalContent: ModalContent) => {
     setIsModalVisible(!isModalVisible);
-    setModalContent(ModalContent.TIMEZONE);
+    setModalContent(modalContent);
   }
 
   return (
     <div className={styles.controlPanel}>
-      <div className={styles.option}>
+      <div onClick={() => handleSetModalContent(ModalContent.FLIGHTS)} className={styles.option}>
         <FontAwesomeIcon className={styles.icon} icon={faPlane} />
         <span className={styles.tooltip}>
           <div className={styles.text}>Flights</div>
         </span>
       </div>
-      <div className={styles.option}>
+      <div onClick={() => handleSetModalContent(ModalContent.AIRPORTS)} className={styles.option}>
         <FontAwesomeIcon className={styles.icon} icon={faCartFlatbedSuitcase} />
         <span className={styles.tooltip}>
           <div className={styles.text}>Airports</div>
         </span>
       </div>
-      <div onClick={handleSetModalContent} className={styles.option}>
+      <div onClick={() => handleSetModalContent(ModalContent.TIMEZONE)} className={styles.option}>
         <FontAwesomeIcon className={styles.icon} icon={faClock} />
         <span className={styles.tooltip}>
           <div className={styles.text}>Timezone</div>

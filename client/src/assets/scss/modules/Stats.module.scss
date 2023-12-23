@@ -24,28 +24,46 @@
         display: flex;
         width: 100%;
         justify-content: center;
+        margin-top: 10vmin;
 
         button {
             padding: 2vmin;
             border: .6vmin solid $secondaryColor;
-            border-radius: 2vmin;
+            border-radius: 2px;
             text-align: center;
             font-size: 2vmin;
             font-family: $logoFont;
-            background-color: $secondaryColor;
+            background-color: $darkColor;
             transition-duration: .4s;
-            outline: .6vmin solid $primaryColor;
+            color: $secondaryColor;
 
             &:hover {
                 cursor: pointer;
-                outline-color: $secondaryColor;
-                border-color: $primaryColor ;
+                border-color: $darkColor;
+                background-color: $secondaryColor;
+                color: $darkColor;
             }
         }
 
     }
 
+    .error {
+        font-weight: bold;
+        color: $supportColor;
+    }
+
     .stat {
         margin: 1rem 0;
+
+        a {
+            color: $darkColor;
+            text-decoration: none;
+            transition-duration: .4s;
+
+            &:hover {
+                cursor: pointer;
+                color: $secondaryColor;
+            }
+        }
     }
 }

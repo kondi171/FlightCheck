@@ -1,9 +1,11 @@
 import { ModalContent } from "./enums"
-import { Watch } from "./interfaces"
+import { AirportData, Watch } from "./interfaces"
 
 export type AppContextType = {
   flightData: [],
   setFlightData: (statement: []) => void,
+  airportsData: AirportData[],
+  setAirportsData: (statement: []) => void,
   darkMode: boolean,
   setDarkMode: (statement: boolean) => void,
   isModalVisible: boolean,
@@ -14,6 +16,8 @@ export type AppContextType = {
   setCurrentTimezone: (timezone: string) => void,
   currentTime: Watch,
   setCurrentTime: (watch: Watch) => void,
+  activeAirport: AirportData,
+  setActiveAirport: (airport: AirportData) => void
 }
 
 export type Occurrence = {

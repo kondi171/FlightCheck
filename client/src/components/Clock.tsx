@@ -56,7 +56,6 @@ const Clock = () => {
       minutes: minuteResult,
       seconds: seconds
     });
-    console.log(`${hourResult} : ${minuteResult} : ${seconds}`);
   }
 
   const calculateTime = () => {
