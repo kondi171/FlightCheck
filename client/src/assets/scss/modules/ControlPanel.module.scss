@@ -1,0 +1,68 @@
+@import './../variables';
+
+.controlPanel {
+  position: fixed;
+  right: 2vmin;
+  bottom: 10vmin;
+  width: 7vmin;
+  height: 25vmin;
+  background-color: rgba(62, 61, 64, .6);
+  border-radius: 1vmin;
+
+  .option {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: calc(25vmin / 4);
+    text-align: center;
+    border-bottom: .3vmin solid $primaryColor;
+    transition-duration: .4s;
+    color: $primaryColor;
+
+    .icon {
+      font-size: 3vmin;
+    }
+
+    &:hover {
+      cursor: pointer;
+      color: $secondaryColor;
+
+      &>.tooltip {
+        transform: translateX(-5vmin) scale(1);
+      }
+    }
+
+    &:last-of-type {
+      border: none;
+    }
+
+    i {
+      font-size: 3vmin;
+    }
+
+    .tooltip {
+      position: absolute;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      left: -10vmin;
+      top: 0;
+      width: 10vmin;
+      height: calc(25vmin / 4);
+      font-size: 2.5vmin;
+      font-weight: bold;
+      font-family: $logoFont;
+      transition-duration: .4s;
+      transform: translateX(10vmin) scale(0);
+
+      .text {
+        background-color: rgba(62, 61, 64, .8);
+        padding: 1vmin;
+        border-radius: 1vmin;
+      }
+    }
+  }
+}

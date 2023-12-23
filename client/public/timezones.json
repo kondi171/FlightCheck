@@ -1,0 +1,1478 @@
+[
+  {
+    "name": "UTC-12:00",
+    "occurrence": [
+      {
+        "name": "Baker Island",
+        "code": "US"
+      },
+      {
+        "name": "Howland Island",
+        "code": "US"
+      }
+    ],
+    "occurrenceDST": []
+  },
+  {
+    "name": "UTC-11:00",
+    "occurrence": [
+      {
+        "name": "Jarvis Island",
+        "code": "US"
+      },
+      {
+        "name": "Kingman Reef",
+        "code": "US"
+      },
+      {
+        "name": "Midway Atoll",
+        "code": "US"
+      },
+      {
+        "name": "Niue",
+        "code": "NU"
+      },
+      {
+        "name": "Palmyra Atoll",
+        "code": "US"
+      },
+      {
+        "name": "American Samoa",
+        "code": "AS"
+      }
+    ],
+    "occurrenceDST": []
+  },
+  {
+    "name": "UTC-10:00",
+    "occurrence": [
+      {
+        "name": "Cook Islands",
+        "code": "CK"
+      },
+      {
+        "name": "French Polynesia (most)",
+        "code": "PF"
+      },
+      {
+        "name": "Johnston Atoll",
+        "code": "US"
+      },
+      {
+        "name": "United States: Hawaii",
+        "code": "US"
+      }
+    ],
+    "occurrenceDST": [
+      {
+        "name": "United States: Andreanof Islands, Islands of Four Mountains, Near Islands, Rat Islands (Aleutian Islands, Alaska)",
+        "code": "US"
+      }
+    ]
+  },
+  {
+    "name": "UTC-09:30",
+    "occurrence": [
+      {
+        "name": "French Polynesia: Marquesas Islands",
+        "code": "PF"
+      }
+    ],
+    "occurrenceDST": []
+  },
+  {
+    "name": "UTC-09:00",
+    "occurrence": [
+      {
+        "name": "French Polynesia: Gambier Islands",
+        "code": "PF"
+      }
+    ],
+    "occurrenceDST": [
+      {
+        "name": "United States: Alaska (most)",
+        "code": "US"
+      }
+    ]
+  },
+  {
+    "name": "UTC-08:00",
+    "occurrence": [
+      {
+        "name": "Clipperton Island",
+        "code": "FR"
+      },
+      {
+        "name": "Pitcairn Islands",
+        "code": "PN"
+      }
+    ],
+    "occurrenceDST": [
+      {
+        "name": "Canada: British Columbia (most)",
+        "code": "CA"
+      },
+      {
+        "name": "Mexico: Baja California",
+        "code": "MX"
+      },
+      {
+        "name": "United States: California, Idaho (north), Nevada (most), Oregon (most), Washington",
+        "code": "US"
+      }
+    ]
+  },
+  {
+    "name": "UTC-07:00",
+    "occurrence": [
+      {
+        "name": "Canada: British Columbia (northeast), Yukon",
+        "code": "CA"
+      },
+      {
+        "name": "Mexico: Baja California Sur, Nayarit (most), Sinaloa, Sonora",
+        "code": "MX"
+      },
+      {
+        "name": "United States: Arizona (most)",
+        "code": "US"
+      }
+    ],
+    "occurrenceDST": [
+      {
+        "name": "Canada: Alberta, British Columbia (southeast), Northwest Territories, Nunavut (west)",
+        "code": "CA"
+      },
+      {
+        "name": "Mexico: Chihuahua (northwest border)",
+        "code": "MX"
+      },
+      {
+        "name": "United States: Arizona (Navajo Nation), Colorado, Idaho (most), Kansas (west), Montana, Nebraska (west), New Mexico, Nevada (northeast border), North Dakota (southwest), Oregon (east), South Dakota (west), Texas (west), Utah, Wyoming",
+        "code": "US"
+      }
+    ]
+  },
+  {
+    "name": "UTC-06:00",
+    "occurrence": [
+      {
+        "name": "Belize",
+        "code": "BZ"
+      },
+      {
+        "name": "Canada: Saskatchewan (most)",
+        "code": "CA"
+      },
+      {
+        "name": "Costa Rica",
+        "code": "CR"
+      },
+      {
+        "name": "Ecuador: Galápagos",
+        "code": "EC"
+      },
+      {
+        "name": "El Salvador",
+        "code": "SV"
+      },
+      {
+        "name": "Guatemala",
+        "code": "GT"
+      },
+      {
+        "name": "Honduras",
+        "code": "HN"
+      },
+      {
+        "name": "Mexico (most)",
+        "code": "MX"
+      },
+      {
+        "name": "Nicaragua",
+        "code": "NI"
+      }
+    ],
+    "occurrenceDST": [
+      {
+        "name": "Canada: Manitoba, Nunavut (central), Ontario (west)",
+        "code": "CA"
+      },
+      {
+        "name": "Chile: Easter Island",
+        "code": "CL"
+      },
+      {
+        "name": "Mexico (northeast border)",
+        "code": "MX"
+      },
+      {
+        "name": "United States: Alabama, Arkansas, Florida (northwest), Illinois, Indiana (northwest, southwest), Iowa, Kansas (most), Kentucky (west), Louisiana, Michigan (northwest border), Minnesota, Mississippi, Missouri, Nebraska (most), North Dakota (most), Oklahoma, South Dakota (most), Tennessee (most), Texas (most), Wisconsin",
+        "code": "US"
+      }
+    ]
+  },
+  {
+    "name": "UTC-05:00",
+    "occurrence": [
+      {
+        "name": "Brazil: Acre, Amazonas (southwest)",
+        "code": "BR"
+      },
+      {
+        "name": "Canada: Atikokan, Mishkeegogamang, Southampton Island",
+        "code": "CA"
+      },
+      {
+        "name": "Cayman Islands",
+        "code": "KY"
+      },
+      {
+        "name": "Ecuador (most)",
+        "code": "EC"
+      },
+      {
+        "name": "Jamaica",
+        "code": "JM"
+      },
+      {
+        "name": "Mexico: Quintana Roo",
+        "code": "MX"
+      },
+      {
+        "name": "Navassa Island",
+        "code": "US"
+      },
+      {
+        "name": "Panama",
+        "code": "PA"
+      },
+      {
+        "name": "Colombia",
+        "code": "CO"
+      },
+      {
+        "name": "Peru",
+        "code": "PE"
+      }
+    ],
+    "occurrenceDST": [
+      {
+        "name": "Bahamas",
+        "code": "BS"
+      },
+      {
+        "name": "Canada: Nunavut (east), Ontario (most), Quebec (most)",
+        "code": "CA"
+      },
+      {
+        "name": "Cuba",
+        "code": "CU"
+      },
+      {
+        "name": "Haiti",
+        "code": "HT"
+      },
+      {
+        "name": "Turks and Caicos Islands",
+        "code": "TC"
+      },
+      {
+        "name": "United States: Connecticut, Delaware, District of Columbia, Florida (most), Georgia, Indiana (most), Kentucky (most), Maine, Maryland, Massachusetts, Michigan (most), New Hampshire, New Jersey, New York, North Carolina, Ohio, Pennsylvania, Rhode Island, South Carolina, Tennessee (east), Vermont, Virginia, West Virginia",
+        "code": "US"
+      }
+    ]
+  },
+  {
+    "name": "UTC-04:00",
+    "occurrence": [
+      {
+        "name": "Anguilla",
+        "code": "AI"
+      },
+      {
+        "name": "Antigua and Barbuda",
+        "code": "AG"
+      },
+      {
+        "name": "Aruba",
+        "code": "AW"
+      },
+      {
+        "name": "Barbados",
+        "code": "BB"
+      },
+      {
+        "name": "Bolivia",
+        "code": "BO"
+      },
+      {
+        "name": "Brazil: Amazonas (most), Mato Grosso, Mato Grosso do Sul, Rondônia, Roraima",
+        "code": "BR"
+      },
+      {
+        "name": "British Virgin Islands",
+        "code": "VG"
+      },
+      {
+        "name": "Canada: Quebec (east)",
+        "code": "CA"
+      },
+      {
+        "name": "Caribbean Netherlands",
+        "code": "NL"
+      },
+      {
+        "name": "Curaçao",
+        "code": "CW"
+      },
+      {
+        "name": "Dominica",
+        "code": "DM"
+      },
+      {
+        "name": "Dominican Republic",
+        "code": "DO"
+      },
+      {
+        "name": "Grenada",
+        "code": "GD"
+      },
+      {
+        "name": "Guyana",
+        "code": "GY"
+      },
+      {
+        "name": "Martinique",
+        "code": "MQ"
+      },
+      {
+        "name": "Montserrat",
+        "code": "MS"
+      },
+      {
+        "name": "Puerto Rico",
+        "code": "PR"
+      },
+      {
+        "name": "Saint Barthélemy",
+        "code": "SL"
+      },
+      {
+        "name": "Saint Kitts and Nevis",
+        "code": "KN"
+      },
+      {
+        "name": "Saint Lucia",
+        "code": "LC"
+      },
+      {
+        "name": "Saint Martin",
+        "code": "MF"
+      },
+      {
+        "name": "Saint Vincent and the Grenadines",
+        "code": "VC"
+      },
+      {
+        "name": "Trinidad and Tobago",
+        "code": "TT"
+      },
+      {
+        "name": "U.S. Virgin Islands",
+        "code": "VI"
+      },
+      {
+        "name": "Venezuela",
+        "code": "VE"
+      }
+    ],
+    "occurrenceDST": [
+      {
+        "name": "Bermuda",
+        "code": "BM"
+      },
+      {
+        "name": "Canada: Labrador (most), New Brunswick, Nova Scotia, Prince Edward Island",
+        "code": "CA"
+      },
+      {
+        "name": "Chile (most)",
+        "code": "CL"
+      },
+      {
+        "name": "Greenland: Pituffik Space Base",
+        "code": "GL"
+      },
+      {
+        "name": "Paraguay",
+        "code": "PY"
+      }
+    ]
+  },
+  {
+    "name": "UTC-03:30",
+    "occurrence": [],
+    "occurrenceDST": [
+      {
+        "name": " Canada: Newfoundland, Labrador (southeast)",
+        "code": "CA"
+      }
+    ]
+  },
+  {
+    "name": "UTC-03:00",
+    "occurrence": [
+      {
+        "name": "Argentina",
+        "code": "AR"
+      },
+      {
+        "name": "Brazil (most)",
+        "code": "BR"
+      },
+      {
+        "name": "Chile: Magallanes Region",
+        "code": "CL"
+      },
+      {
+        "name": "Falkland Islands",
+        "code": "FK"
+      },
+      {
+        "name": "Suriname",
+        "code": "SR"
+      },
+      {
+        "name": "Uruguay",
+        "code": "UY"
+      }
+    ],
+    "occurrenceDST": []
+  },
+  {
+    "name": "UTC-02:00",
+    "occurrence": [
+      {
+        "name": "Brazil: Fernando de Noronha",
+        "code": "BR"
+      },
+      {
+        "name": "South Georgia and the South Sandwich Islands",
+        "code": "GS"
+      }
+    ],
+    "occurrenceDST": [
+      {
+        "name": "Greenland (most)",
+        "code": "GL"
+      }
+    ]
+  },
+  {
+    "name": "UTC-01:00",
+    "occurrence": [
+      {
+        "name": "Cape Verde",
+        "code": "CV"
+      }
+    ],
+    "occurrenceDST": [
+      {
+        "name": "Greenland: Ittoqqortoormiit",
+        "code": "GL"
+      },
+      {
+        "name": "Portugal: Azores",
+        "code": "PT"
+      }
+    ]
+  },
+  {
+    "name": "UTC+00:00",
+    "occurrence": [
+      {
+        "name": "Burkina Faso",
+        "code": "BF"
+      },
+      {
+        "name": "Gambia",
+        "code": "GM"
+      },
+      {
+        "name": "Ghana",
+        "code": "GH"
+      },
+      {
+        "name": "Greenland: National Park (east coast)",
+        "code": "GL"
+      },
+      {
+        "name": "Guinea",
+        "code": "GN"
+      },
+      {
+        "name": "Guinea-Bissau",
+        "code": "GW"
+      },
+      {
+        "name": "Iceland",
+        "code": "IS"
+      },
+      {
+        "name": "Ivory Coast",
+        "code": "IE"
+      },
+      {
+        "name": "Liberia",
+        "code": "LR"
+      },
+      {
+        "name": "Mali",
+        "code": "ML"
+      },
+      {
+        "name": "Mauritania",
+        "code": "MR"
+      },
+      {
+        "name": "Saint Helena, Ascension and Tristan da Cunha",
+        "code": "GB"
+      },
+      {
+        "name": "Senegal",
+        "code": "SN"
+      },
+      {
+        "name": "Sierra Leone",
+        "code": "SL"
+      },
+      {
+        "name": "São Tomé and Príncipe",
+        "code": "ST"
+      },
+      {
+        "name": "Togo",
+        "code": "TG"
+      }
+    ],
+    "occurrenceDST": [
+      {
+        "name": "Faroe Islands",
+        "code": "FO"
+      },
+      {
+        "name": "Guernsey",
+        "code": "GG"
+      },
+      {
+        "name": "Ireland",
+        "code": "IE"
+      },
+      {
+        "name": "Isle of Man",
+        "code": "IM"
+      },
+      {
+        "name": "Jersey",
+        "code": "JE"
+      },
+      {
+        "name": "Portugal (most)",
+        "code": "PT"
+      },
+      {
+        "name": "Spain: Canary Islands",
+        "code": "ES"
+      },
+      {
+        "name": "United Kingdom",
+        "code": "GB"
+      }
+    ]
+  },
+  {
+    "name": "UTC+01:00",
+    "occurrence": [
+      {
+        "name": "Algeria",
+        "code": "DZ"
+      },
+      {
+        "name": "Angola",
+        "code": "AO"
+      },
+      {
+        "name": "Benin",
+        "code": "BJ"
+      },
+      {
+        "name": "Cameroon",
+        "code": "CM"
+      },
+      {
+        "name": "Central African Republic",
+        "code": "CF"
+      },
+      {
+        "name": "Chad",
+        "code": "TD"
+      },
+      {
+        "name": "Congo",
+        "code": "CG"
+      },
+      {
+        "name": "Democratic Republic of the Congo: Équateur, Kinshasa, Kongo Central, Kwango, Kwilu, Mai-Ndombe, Mongala, Nord-Ubangi, Sud-Ubangi, Tshuapa",
+        "code": "CD"
+      },
+      {
+        "name": "Equatorial Guinea",
+        "code": "GQ"
+      },
+      {
+        "name": "Gabon",
+        "code": "GA"
+      },
+      {
+        "name": "Morocco",
+        "code": "MA"
+      },
+      {
+        "name": "Niger",
+        "code": "NE"
+      },
+      {
+        "name": "Nigeria",
+        "code": "NA"
+      },
+      {
+        "name": "Tunisia",
+        "code": "TN"
+      },
+      {
+        "name": "Western Sahara",
+        "code": "EH"
+      }
+    ],
+    "occurrenceDST": [
+      {
+        "name": "Albania",
+        "code": "AL"
+      },
+      {
+        "name": "Andorra",
+        "code": "AD"
+      },
+      {
+        "name": "Austria",
+        "code": "AT"
+      },
+      {
+        "name": "Belgium",
+        "code": "BE"
+      },
+      {
+        "name": "Bosnia and Herzegovina",
+        "code": "BA"
+      },
+      {
+        "name": "Croatia",
+        "code": "HR"
+      },
+      {
+        "name": "Czech Republic",
+        "code": "CZ"
+      },
+      {
+        "name": "Denmark",
+        "code": "DK"
+      },
+      {
+        "name": "France (metropolitan)",
+        "code": "FR"
+      },
+      {
+        "name": "Germany",
+        "code": "DE"
+      },
+      {
+        "name": "Gibraltar",
+        "code": "GI"
+      },
+      {
+        "name": "Hungary",
+        "code": "HU"
+      },
+      {
+        "name": "Italy",
+        "code": "IT"
+      },
+      {
+        "name": "Liechtenstein",
+        "code": "LI"
+      },
+      {
+        "name": "Luxembourg",
+        "code": "LU"
+      },
+      {
+        "name": "Malta",
+        "code": "MT"
+      },
+      {
+        "name": "Monaco",
+        "code": "MC"
+      },
+      {
+        "name": "Montenegro",
+        "code": "ME"
+      },
+      {
+        "name": "Netherlands (European)",
+        "code": "NL"
+      },
+      {
+        "name": "North Macedonia",
+        "code": "MK"
+      },
+      {
+        "name": "Norway",
+        "code": "NO"
+      },
+      {
+        "name": "Poland",
+        "code": "PL"
+      },
+      {
+        "name": "San Marino",
+        "code": "SM"
+      },
+      {
+        "name": "Serbia",
+        "code": "RS"
+      },
+      {
+        "name": "Slovakia",
+        "code": "SK"
+      },
+      {
+        "name": "Slovenia",
+        "code": "SI"
+      },
+      {
+        "name": "Spain (most)",
+        "code": "ES"
+      },
+      {
+        "name": "Sweden",
+        "code": "SE"
+      },
+      {
+        "name": "Switzerland",
+        "code": "CH"
+      },
+      {
+        "name": "Vatican City",
+        "code": "VA"
+      }
+    ]
+  },
+  {
+    "name": "UTC+02:00",
+    "occurrence": [
+      {
+        "name": "Botswana",
+        "code": "BW"
+      },
+      {
+        "name": "Burundi",
+        "code": "BI"
+      },
+      {
+        "name": "Democratic Republic of the Congo (most)",
+        "code": "CD"
+      },
+      {
+        "name": "Lesotho",
+        "code": "LS"
+      },
+      {
+        "name": "Libya",
+        "code": "LY"
+      },
+      {
+        "name": "Malawi",
+        "code": "MW"
+      },
+      {
+        "name": "Mozambique",
+        "code": "MZ"
+      },
+      {
+        "name": "Namibia",
+        "code": "NA"
+      },
+      {
+        "name": "Russia: Kaliningrad",
+        "code": "RU"
+      },
+      {
+        "name": "Rwanda",
+        "code": "RW"
+      },
+      {
+        "name": "South Africa (most)",
+        "code": "ZA"
+      },
+      {
+        "name": "South Sudan",
+        "code": "SS"
+      },
+      {
+        "name": "Sudan",
+        "code": "SD"
+      },
+      {
+        "name": "Zambia",
+        "code": "ZM"
+      },
+      {
+        "name": "Zimbabwe",
+        "code": "ZW"
+      }
+    ],
+    "occurrenceDST": [
+      {
+        "name": "Akrotiri and Dhekelia",
+        "code": "GB"
+      },
+      {
+        "name": "Bulgaria",
+        "code": "BG"
+      },
+      {
+        "name": "Cyprus",
+        "code": "CY"
+      },
+      {
+        "name": "Egypt",
+        "code": "EG"
+      },
+      {
+        "name": "Estonia",
+        "code": "EE"
+      },
+      {
+        "name": "Finland",
+        "code": "FI"
+      },
+      {
+        "name": "Greece",
+        "code": "GR"
+      },
+      {
+        "name": "Israel",
+        "code": "IL"
+      },
+      {
+        "name": "Latvia",
+        "code": "LV"
+      },
+      {
+        "name": "Lebanon",
+        "code": "LB"
+      },
+      {
+        "name": "Lithuania",
+        "code": "LT"
+      },
+      {
+        "name": "Moldova",
+        "code": "MD"
+      },
+      {
+        "name": "Palestine",
+        "code": "PS"
+      },
+      {
+        "name": "Romania",
+        "code": "RO"
+      },
+      {
+        "name": "Ukraine (most)",
+        "code": "UA"
+      }
+    ]
+  },
+  {
+    "name": "UTC+03:00",
+    "occurrence": [
+      {
+        "name": "Belarus",
+        "code": "BY"
+      },
+      {
+        "name": "Comoros",
+        "code": "KM"
+      },
+      {
+        "name": "Djibouti",
+        "code": "DJ"
+      },
+      {
+        "name": "Eritrea",
+        "code": "ER"
+      },
+      {
+        "name": "Ethiopia",
+        "code": "ET"
+      },
+      {
+        "name": "French Southern and Antarctic Lands: Scattered Islands",
+        "code": "TF"
+      },
+      {
+        "name": "Iraq",
+        "code": "IQ"
+      },
+      {
+        "name": "Jordan",
+        "code": "JO"
+      },
+      {
+        "name": "Kenya",
+        "code": "KE"
+      },
+      {
+        "name": "Kuwait",
+        "code": "KW"
+      },
+      {
+        "name": "Madagascar",
+        "code": "MG"
+      },
+      {
+        "name": "Mayotte",
+        "code": "YT"
+      },
+      {
+        "name": "Qatar",
+        "code": "QA"
+      },
+      {
+        "name": "Russia (most of European part)",
+        "code": "RU"
+      },
+      {
+        "name": "Saudi Arabia",
+        "code": "SA"
+      },
+      {
+        "name": "Somalia",
+        "code": "SO"
+      },
+      {
+        "name": "South Africa: Prince Edward Islands",
+        "code": "ZA"
+      },
+      {
+        "name": "Syria",
+        "code": "SY"
+      },
+      {
+        "name": "Tanzania",
+        "code": "TZ"
+      },
+      {
+        "name": "Turkey",
+        "code": "TR"
+      },
+      {
+        "name": "Uganda",
+        "code": "UG"
+      },
+      {
+        "name": "Ukraine: occupied territories",
+        "code": "UA"
+      },
+      {
+        "name": "Yemen",
+        "code": "YE"
+      }
+    ],
+    "occurrenceDST": []
+  },
+  {
+    "name": "UTC+03:30",
+    "occurrence": [
+      {
+        "name": "Iran",
+        "code": "IR"
+      }
+    ],
+    "occurrenceDST": []
+  },
+  {
+    "name": "UTC+04:00",
+    "occurrence": [
+      {
+        "name": "Armenia",
+        "code": "AM"
+      },
+      {
+        "name": "Azerbaijan",
+        "code": "AZ"
+      },
+      {
+        "name": "French Southern and Antarctic Lands: Crozet Island",
+        "code": "TF"
+      },
+      {
+        "name": "Georgia",
+        "code": "GE"
+      },
+      {
+        "name": "Mauritius",
+        "code": "MU"
+      },
+      {
+        "name": "Oman",
+        "code": "OM"
+      },
+      {
+        "name": "Russia: Astrakhan, Samara, Saratov,",
+        "code": "RU"
+      },
+      {
+        "name": "Réunion",
+        "code": "RE"
+      },
+      {
+        "name": "Seychelles",
+        "code": "SC"
+      },
+      {
+        "name": "United Arab Emirates",
+        "code": "AE"
+      }
+    ],
+    "occurrenceDST": []
+  },
+  {
+    "name": "UTC+04:30",
+    "occurrence": [
+      {
+        "name": "Afghanistan",
+        "code": "AF"
+      }
+    ],
+    "occurrenceDST": []
+  },
+  {
+    "name": "UTC+05:00",
+    "occurrence": [
+      {
+        "name": "French Southern and Antarctic Lands: Kerguelen Islands, Saint Paul Island, Amsterdam Island",
+        "code": "TF"
+      },
+      {
+        "name": "Kazakhstan: Aktobe, Atyrau, Baikonur, Kyzylorda, Mangystau, West Kazakhstan",
+        "code": "KZ"
+      },
+      {
+        "name": "Maldives",
+        "code": "MV"
+      },
+      {
+        "name": "Pakistan",
+        "code": "PK"
+      },
+      {
+        "name": "Russia: Bashkortostan, Chelyabinsk, Khanty-Mansi, Kurgan, Orenburg, Perm, Sverdlovsk, Tyumen, Yamalia",
+        "code": "RU"
+      },
+      {
+        "name": "Tajikistan",
+        "code": "TJ"
+      },
+      {
+        "name": "Turkmenistan",
+        "code": "TM"
+      },
+      {
+        "name": "Uzbekistan",
+        "code": "UZ"
+      }
+    ],
+    "occurrenceDST": []
+  },
+  {
+    "name": "UTC+05:30",
+    "occurrence": [
+      {
+        "name": "India",
+        "code": "IN"
+      },
+      {
+        "name": "Sri Lanka",
+        "code": "LK"
+      }
+    ],
+    "occurrenceDST": []
+  },
+  {
+    "name": "UTC+05:45",
+    "occurrence": [
+      {
+        "name": "Nepal",
+        "code": "NP"
+      }
+    ],
+    "occurrenceDST": []
+  },
+  {
+    "name": "UTC+06:00",
+    "occurrence": [
+      {
+        "name": "Bangladesh",
+        "code": "BD"
+      },
+      {
+        "name": "Bhutan",
+        "code": "BT"
+      },
+      {
+        "name": "Kazakhstan (most)",
+        "code": "KZ"
+      },
+      {
+        "name": "Kyrgyzstan",
+        "code": "KG"
+      },
+      {
+        "name": "Russia: Omsk",
+        "code": "RU"
+      }
+    ],
+    "occurrenceDST": []
+  },
+  {
+    "name": "UTC+06:30",
+    "occurrence": [
+      {
+        "name": "Cocos (Keeling) Islands",
+        "code": "CC"
+      },
+      {
+        "name": "Myanmar",
+        "code": "MM"
+      }
+    ],
+    "occurrenceDST": []
+  },
+  {
+    "name": "UTC+07:00",
+    "occurrence": [
+      {
+        "name": "Cambodia",
+        "code": "KH"
+      },
+      {
+        "name": "Christmas Island",
+        "code": "CX"
+      },
+      {
+        "name": "Indonesia: Sumatra, Java, West Kalimantan, Central Kalimantan",
+        "code": "ID"
+      },
+      {
+        "name": "Mongolia: Bayan-Ölgii, Khovd, Uvs",
+        "code": "MN"
+      },
+      {
+        "name": "Russia: Altai Krai, Altai Republic, Kemerovo, Khakassia, Krasnoyarsk, Novosibirsk, Tomsk, Tuva",
+        "code": "RU"
+      },
+      {
+        "name": "Thailand",
+        "code": "TH"
+      },
+      {
+        "name": "Vietnam",
+        "code": "VN"
+      }
+    ],
+    "occurrenceDST": []
+  },
+  {
+    "name": "UTC+08:00",
+    "occurrence": [
+      {
+        "name": "Australia: Western Australia (most)",
+        "code": "AU"
+      },
+      {
+        "name": "Brunei",
+        "code": "BN"
+      },
+      {
+        "name": "China",
+        "code": "CN"
+      },
+      {
+        "name": "Hong Kong",
+        "code": "HK"
+      },
+      {
+        "name": "Indonesia: South Kalimantan, East Kalimantan, North Kalimantan, Sulawesi, Lesser Sunda Islands",
+        "code": "ID"
+      },
+      {
+        "name": "Malaysia",
+        "code": "MY"
+      },
+      {
+        "name": "Mongolia (most)",
+        "code": "MN"
+      },
+      {
+        "name": "Philippines",
+        "code": "PH"
+      },
+      {
+        "name": "Russia: Buryatia, Irkutsk",
+        "code": "RU"
+      },
+      {
+        "name": "Singapore",
+        "code": "SG"
+      },
+      {
+        "name": "Taiwan",
+        "code": "TW"
+      }
+    ],
+    "occurrenceDST": []
+  },
+  {
+    "name": "UTC+08:45",
+    "occurrence": [
+      {
+        "name": "Australia: Eucla",
+        "code": "AU"
+      }
+    ],
+    "occurrenceDST": []
+  },
+  {
+    "name": "UTC+09:00",
+    "occurrence": [
+      {
+        "name": "Indonesia: Maluku Islands, Western New Guinea",
+        "code": "ID"
+      },
+      {
+        "name": "Japan",
+        "code": "JP"
+      },
+      {
+        "name": "North Korea",
+        "code": "KP"
+      },
+      {
+        "name": "Palau",
+        "code": "PW"
+      },
+      {
+        "name": "Russia: Amur, Sakha (most), Zabaykalsky",
+        "code": "RU"
+      },
+      {
+        "name": "South Korea",
+        "code": "KR"
+      }
+    ],
+    "occurrenceDST": []
+  },
+  {
+    "name": "UTC+09:30",
+    "occurrence": [
+      {
+        "name": "Australia: Northern Territory",
+        "code": "AU"
+      }
+    ],
+    "occurrenceDST": [
+      {
+        "name": "Australia: South Australia, Broken Hill",
+        "code": "AU"
+      }
+    ]
+  },
+  {
+    "name": "UTC+10:00",
+    "occurrence": [
+      {
+        "name": "Australia: Queensland",
+        "code": "AU"
+      },
+      {
+        "name": "Guam",
+        "code": "GU"
+      },
+      {
+        "name": "Micronesia: Chuuk, Yap",
+        "code": "FM"
+      },
+      {
+        "name": "Northern Mariana Islands",
+        "code": "MP"
+      },
+      {
+        "name": "Papua New Guinea (most)",
+        "code": "PG"
+      },
+      {
+        "name": "Russia: Jewish, Khabarovsk, Primorsky, Sakha (central-east)",
+        "code": "RU"
+      }
+    ],
+    "occurrenceDST": [
+      {
+        "name": "Australia: Australian Capital Territory, Jervis Bay Territory, New South Wales (most), Tasmania, Victoria",
+        "code": "AU"
+      }
+    ]
+  },
+  {
+    "name": "UTC+10:30",
+    "occurrence": [],
+    "occurrenceDST": [
+      {
+        "name": "Australia: Lord Howe Island ( + ½ hour )",
+        "code": "AU"
+      }
+    ]
+  },
+  {
+    "name": "UTC+11:00",
+    "occurrence": [
+      {
+        "name": "Micronesia: Kosrae, Pohnpei",
+        "code": "FM"
+      },
+      {
+        "name": "New Caledonia",
+        "code": "NC"
+      },
+      {
+        "name": "Papua New Guinea: Bougainville",
+        "code": "PG"
+      },
+      {
+        "name": "Russia: Magadan, Sakha (east), Sakhalin",
+        "code": "RU"
+      },
+      {
+        "name": "Solomon Islands",
+        "code": "SB"
+      },
+      {
+        "name": "Vanuatu",
+        "code": "VU"
+      }
+    ],
+    "occurrenceDST": [
+      {
+        "name": "Norfolk Island",
+        "code": "NF"
+      }
+    ]
+  },
+  {
+    "name": "UTC+12:00",
+    "occurrence": [
+      {
+        "name": "Fiji",
+        "code": "FJ"
+      },
+      {
+        "name": "Kiribati: Gilbert Islands",
+        "code": "KI"
+      },
+      {
+        "name": "Marshall Islands",
+        "code": "MH"
+      },
+      {
+        "name": "Nauru",
+        "code": "NR"
+      },
+      {
+        "name": "Russia: Chukotka, Kamchatka",
+        "code": "RU"
+      },
+      {
+        "name": "Tuvalu",
+        "code": "TV"
+      },
+      {
+        "name": "Wake Island",
+        "code": "US"
+      },
+      {
+        "name": "Wallis and Futuna",
+        "code": "WF"
+      }
+    ],
+    "occurrenceDST": [
+      {
+        "name": "New Zealand (most)",
+        "code": "NZ"
+      }
+    ]
+  },
+  {
+    "name": "UTC+12:45",
+    "occurrence": [],
+    "occurrenceDST": [
+      {
+        "name": "New Zealand: Chatham Islands",
+        "code": "NZ"
+      }
+    ]
+  },
+  {
+    "name": "UTC+13:00",
+    "occurrence": [
+      {
+        "name": "Kiribati: Phoenix Islands",
+        "code": "KI"
+      },
+      {
+        "name": "Samoa",
+        "code": "WS"
+      },
+      {
+        "name": "Tokelau",
+        "code": "TK"
+      },
+      {
+        "name": "Tonga",
+        "code": "TO"
+      }
+    ],
+    "occurrenceDST": []
+  },
+  {
+    "name": "UTC+14:00",
+    "occurrence": [
+      {
+        "name": "Kiribati: Line Islands",
+        "code": "KI"
+      }
+    ],
+    "occurrenceDST": []
+  }
+]

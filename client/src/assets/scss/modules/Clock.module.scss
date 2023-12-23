@@ -1,0 +1,18 @@
+@import './../variables';
+
+.clock {
+  color: $primaryColor;
+  text-align: center;
+  font-family: $logoFont;
+  width: 40vmin;
+
+  .watch {
+    font-size: 5vmin;
+    letter-spacing: .5vmin;
+  }
+
+  .timeZone {
+    color: $secondaryColor;
+    font-size: 3vmin;
+  }
+}
