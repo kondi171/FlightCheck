@@ -1,5 +1,4 @@
 const express = require('express');
-// const fetch = require('node-fetch');
 const app = express();
 const port = 3000;
 const API_KEY = 'a119e6ac10d93dedba02b5d80689c274';
@@ -14,9 +13,9 @@ app.use((req, res, next) => {
     next();
 });
 
-app.get('/flights', async (req, res) => {
-    const url = `http://api.aviationstack.com/v1/flights?access_key=${API_KEY}`;
-
+app.get('/flights/:status', async (req, res) => {
+    const status = req.params.status;
+    const url = `http://api.aviationstack.com/v1/flights?access_key=${API_KEY}&flight_status=${status}`;
     try {
         const response = await fetch(url);
         const data = await response.json();
