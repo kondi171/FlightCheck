@@ -1,0 +1,4945 @@
+[
+    {
+        "flight_date": "2024-01-09",
+        "flight_status": "diverted",
+        "departure": {
+            "airport": "Jandakot",
+            "timezone": "Australia/Perth",
+            "iata": "JAD",
+            "icao": "YPJT",
+            "terminal": null,
+            "gate": null,
+            "delay": 5,
+            "scheduled": "2024-01-09T06:15:00+00:00",
+            "estimated": "2024-01-09T06:15:00+00:00",
+            "actual": "2024-01-09T06:20:00+00:00",
+            "estimated_runway": "2024-01-09T06:20:00+00:00",
+            "actual_runway": "2024-01-09T06:20:00+00:00"
+        },
+        "arrival": {
+            "airport": "Shark Bay",
+            "timezone": "Australia/Perth",
+            "iata": "MJK",
+            "icao": "YSHK",
+            "terminal": null,
+            "gate": null,
+            "baggage": null,
+            "delay": null,
+            "scheduled": "2024-01-09T08:49:00+00:00",
+            "estimated": "2024-01-09T08:49:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "airline": {
+            "name": "empty",
+            "iata": null,
+            "icao": null
+        },
+        "flight": {
+            "number": null,
+            "iata": null,
+            "icao": null,
+            "codeshared": null
+        },
+        "aircraft": null,
+        "live": null
+    },
+    {
+        "flight_date": "2024-01-09",
+        "flight_status": "diverted",
+        "departure": {
+            "airport": "Mackay",
+            "timezone": "Australia/Brisbane",
+            "iata": "MKY",
+            "icao": "YBMK",
+            "terminal": null,
+            "gate": null,
+            "delay": null,
+            "scheduled": "2024-01-09T11:00:00+00:00",
+            "estimated": "2024-01-09T11:00:00+00:00",
+            "actual": "2024-01-09T10:21:00+00:00",
+            "estimated_runway": "2024-01-09T10:21:00+00:00",
+            "actual_runway": "2024-01-09T10:21:00+00:00"
+        },
+        "arrival": {
+            "airport": "Brisbane International",
+            "timezone": "Australia/Brisbane",
+            "iata": "BNE",
+            "icao": "YBBN",
+            "terminal": "D",
+            "gate": null,
+            "baggage": null,
+            "delay": null,
+            "scheduled": "2024-01-09T12:41:00+00:00",
+            "estimated": "2024-01-09T12:41:00+00:00",
+            "actual": "2024-01-09T11:26:00+00:00",
+            "estimated_runway": "2024-01-09T11:26:00+00:00",
+            "actual_runway": "2024-01-09T11:26:00+00:00"
+        },
+        "airline": {
+            "name": "Thai AirAsia",
+            "iata": "FD",
+            "icao": "AIQ"
+        },
+        "flight": {
+            "number": "412",
+            "iata": "FD412",
+            "icao": "AIQ412",
+            "codeshared": null
+        },
+        "aircraft": null,
+        "live": null
+    },
+    {
+        "flight_date": "2024-01-09",
+        "flight_status": "diverted",
+        "departure": {
+            "airport": "Yichang",
+            "timezone": "Asia/Shanghai",
+            "iata": "YIH",
+            "icao": "ZHYC",
+            "terminal": "T2",
+            "gate": "5-14",
+            "delay": 39,
+            "scheduled": "2024-01-09T11:00:00+00:00",
+            "estimated": "2024-01-09T11:00:00+00:00",
+            "actual": "2024-01-09T11:39:00+00:00",
+            "estimated_runway": "2024-01-09T11:39:00+00:00",
+            "actual_runway": "2024-01-09T11:39:00+00:00"
+        },
+        "arrival": {
+            "airport": "Lanzhou Zhongchuan Airport",
+            "timezone": null,
+            "iata": "LHW",
+            "icao": "ZLLL",
+            "terminal": "T1",
+            "gate": null,
+            "baggage": "2",
+            "delay": null,
+            "scheduled": "2024-01-09T13:15:00+00:00",
+            "estimated": "2024-01-09T13:15:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "airline": {
+            "name": "China Southern Airlines",
+            "iata": "CZ",
+            "icao": "CSN"
+        },
+        "flight": {
+            "number": "9967",
+            "iata": "CZ9967",
+            "icao": "CSN9967",
+            "codeshared": {
+                "airline_name": "donghai airlines",
+                "airline_iata": "dz",
+                "airline_icao": "epa",
+                "flight_number": "6309",
+                "flight_iata": "dz6309",
+                "flight_icao": "epa6309"
+            }
+        },
+        "aircraft": null,
+        "live": null
+    },
+    {
+        "flight_date": "2024-01-09",
+        "flight_status": "diverted",
+        "departure": {
+            "airport": "Yichang",
+            "timezone": "Asia/Shanghai",
+            "iata": "YIH",
+            "icao": "ZHYC",
+            "terminal": "T2",
+            "gate": "5-14",
+            "delay": 39,
+            "scheduled": "2024-01-09T11:00:00+00:00",
+            "estimated": "2024-01-09T11:00:00+00:00",
+            "actual": "2024-01-09T11:39:00+00:00",
+            "estimated_runway": "2024-01-09T11:39:00+00:00",
+            "actual_runway": "2024-01-09T11:39:00+00:00"
+        },
+        "arrival": {
+            "airport": "Lanzhou Zhongchuan Airport",
+            "timezone": null,
+            "iata": "LHW",
+            "icao": "ZLLL",
+            "terminal": "T1",
+            "gate": null,
+            "baggage": "2",
+            "delay": null,
+            "scheduled": "2024-01-09T13:15:00+00:00",
+            "estimated": "2024-01-09T13:15:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "airline": {
+            "name": "Donghai Airlines",
+            "iata": "DZ",
+            "icao": "EPA"
+        },
+        "flight": {
+            "number": "6309",
+            "iata": "DZ6309",
+            "icao": "EPA6309",
+            "codeshared": null
+        },
+        "aircraft": {
+            "registration": "B-5311",
+            "iata": "B738",
+            "icao": "B738",
+            "icao24": "7802EC"
+        },
+        "live": {
+            "updated": "2024-01-09T03:10:38+00:00",
+            "latitude": 31.4225,
+            "longitude": 112.25,
+            "altitude": 3901.44,
+            "direction": 20,
+            "speed_horizontal": 516.708,
+            "speed_vertical": 0,
+            "is_ground": false
+        }
+    },
+    {
+        "flight_date": "2024-01-09",
+        "flight_status": "diverted",
+        "departure": {
+            "airport": "Shuangliu",
+            "timezone": "Asia/Shanghai",
+            "iata": "CTU",
+            "icao": "ZUUU",
+            "terminal": "2",
+            "gate": null,
+            "delay": 16,
+            "scheduled": "2024-01-09T06:10:00+00:00",
+            "estimated": "2024-01-09T06:10:00+00:00",
+            "actual": "2024-01-09T06:25:00+00:00",
+            "estimated_runway": "2024-01-09T06:25:00+00:00",
+            "actual_runway": "2024-01-09T06:25:00+00:00"
+        },
+        "arrival": {
+            "airport": "Lijiang",
+            "timezone": "Asia/Shanghai",
+            "iata": "LJG",
+            "icao": "ZPLJ",
+            "terminal": "T1",
+            "gate": null,
+            "baggage": "B1",
+            "delay": null,
+            "scheduled": "2024-01-09T07:45:00+00:00",
+            "estimated": "2024-01-09T07:45:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "airline": {
+            "name": "Sichuan Airlines",
+            "iata": "3U",
+            "icao": "CSC"
+        },
+        "flight": {
+            "number": "8645",
+            "iata": "3U8645",
+            "icao": "CSC8645",
+            "codeshared": null
+        },
+        "aircraft": null,
+        "live": null
+    },
+    {
+        "flight_date": "2024-01-09",
+        "flight_status": "diverted",
+        "departure": {
+            "airport": "Shuangliu",
+            "timezone": "Asia/Shanghai",
+            "iata": "CTU",
+            "icao": "ZUUU",
+            "terminal": "2",
+            "gate": null,
+            "delay": 16,
+            "scheduled": "2024-01-09T06:10:00+00:00",
+            "estimated": "2024-01-09T06:10:00+00:00",
+            "actual": "2024-01-09T06:25:00+00:00",
+            "estimated_runway": "2024-01-09T06:25:00+00:00",
+            "actual_runway": "2024-01-09T06:25:00+00:00"
+        },
+        "arrival": {
+            "airport": "Lijiang",
+            "timezone": "Asia/Shanghai",
+            "iata": "LJG",
+            "icao": "ZPLJ",
+            "terminal": "T1",
+            "gate": null,
+            "baggage": "B1",
+            "delay": null,
+            "scheduled": "2024-01-09T07:45:00+00:00",
+            "estimated": "2024-01-09T07:45:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "airline": {
+            "name": "Juneyao Airlines",
+            "iata": "HO",
+            "icao": "DKH"
+        },
+        "flight": {
+            "number": "7054",
+            "iata": "HO7054",
+            "icao": "DKH7054",
+            "codeshared": {
+                "airline_name": "sichuan airlines",
+                "airline_iata": "3u",
+                "airline_icao": "csc",
+                "flight_number": "8645",
+                "flight_iata": "3u8645",
+                "flight_icao": "csc8645"
+            }
+        },
+        "aircraft": null,
+        "live": null
+    },
+    {
+        "flight_date": "2024-01-09",
+        "flight_status": "diverted",
+        "departure": {
+            "airport": "Shuangliu",
+            "timezone": "Asia/Shanghai",
+            "iata": "CTU",
+            "icao": "ZUUU",
+            "terminal": "2",
+            "gate": null,
+            "delay": 16,
+            "scheduled": "2024-01-09T06:10:00+00:00",
+            "estimated": "2024-01-09T06:10:00+00:00",
+            "actual": "2024-01-09T06:25:00+00:00",
+            "estimated_runway": "2024-01-09T06:25:00+00:00",
+            "actual_runway": "2024-01-09T06:25:00+00:00"
+        },
+        "arrival": {
+            "airport": "Lijiang",
+            "timezone": "Asia/Shanghai",
+            "iata": "LJG",
+            "icao": "ZPLJ",
+            "terminal": "T1",
+            "gate": null,
+            "baggage": "B1",
+            "delay": null,
+            "scheduled": "2024-01-09T07:45:00+00:00",
+            "estimated": "2024-01-09T07:45:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "airline": {
+            "name": "China Eastern Airlines",
+            "iata": "MU",
+            "icao": "CES"
+        },
+        "flight": {
+            "number": "3441",
+            "iata": "MU3441",
+            "icao": "CES3441",
+            "codeshared": {
+                "airline_name": "sichuan airlines",
+                "airline_iata": "3u",
+                "airline_icao": "csc",
+                "flight_number": "8645",
+                "flight_iata": "3u8645",
+                "flight_icao": "csc8645"
+            }
+        },
+        "aircraft": null,
+        "live": null
+    },
+    {
+        "flight_date": "2024-01-09",
+        "flight_status": "diverted",
+        "departure": {
+            "airport": "Shuangliu",
+            "timezone": "Asia/Shanghai",
+            "iata": "CTU",
+            "icao": "ZUUU",
+            "terminal": "2",
+            "gate": null,
+            "delay": 16,
+            "scheduled": "2024-01-09T06:10:00+00:00",
+            "estimated": "2024-01-09T06:10:00+00:00",
+            "actual": "2024-01-09T06:25:00+00:00",
+            "estimated_runway": "2024-01-09T06:25:00+00:00",
+            "actual_runway": "2024-01-09T06:25:00+00:00"
+        },
+        "arrival": {
+            "airport": "Lijiang",
+            "timezone": "Asia/Shanghai",
+            "iata": "LJG",
+            "icao": "ZPLJ",
+            "terminal": "T1",
+            "gate": null,
+            "baggage": "B1",
+            "delay": null,
+            "scheduled": "2024-01-09T07:45:00+00:00",
+            "estimated": "2024-01-09T07:45:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "airline": {
+            "name": "Xiamen Airlines",
+            "iata": "MF",
+            "icao": "CXA"
+        },
+        "flight": {
+            "number": "5503",
+            "iata": "MF5503",
+            "icao": "CXA5503",
+            "codeshared": {
+                "airline_name": "sichuan airlines",
+                "airline_iata": "3u",
+                "airline_icao": "csc",
+                "flight_number": "8645",
+                "flight_iata": "3u8645",
+                "flight_icao": "csc8645"
+            }
+        },
+        "aircraft": null,
+        "live": null
+    },
+    {
+        "flight_date": "2024-01-09",
+        "flight_status": "diverted",
+        "departure": {
+            "airport": "Shuangliu",
+            "timezone": "Asia/Shanghai",
+            "iata": "CTU",
+            "icao": "ZUUU",
+            "terminal": "2",
+            "gate": null,
+            "delay": 16,
+            "scheduled": "2024-01-09T06:10:00+00:00",
+            "estimated": "2024-01-09T06:10:00+00:00",
+            "actual": "2024-01-09T06:25:00+00:00",
+            "estimated_runway": "2024-01-09T06:25:00+00:00",
+            "actual_runway": "2024-01-09T06:25:00+00:00"
+        },
+        "arrival": {
+            "airport": "Lijiang",
+            "timezone": "Asia/Shanghai",
+            "iata": "LJG",
+            "icao": "ZPLJ",
+            "terminal": "T1",
+            "gate": null,
+            "baggage": "B1",
+            "delay": null,
+            "scheduled": "2024-01-09T07:45:00+00:00",
+            "estimated": "2024-01-09T07:45:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "airline": {
+            "name": "China Southern Airlines",
+            "iata": "CZ",
+            "icao": "CSN"
+        },
+        "flight": {
+            "number": "9502",
+            "iata": "CZ9502",
+            "icao": "CSN9502",
+            "codeshared": {
+                "airline_name": "sichuan airlines",
+                "airline_iata": "3u",
+                "airline_icao": "csc",
+                "flight_number": "8645",
+                "flight_iata": "3u8645",
+                "flight_icao": "csc8645"
+            }
+        },
+        "aircraft": null,
+        "live": null
+    },
+    {
+        "flight_date": "2024-01-09",
+        "flight_status": "diverted",
+        "departure": {
+            "airport": "Chu-Bu Centrair International (Central Japan International)",
+            "timezone": "Asia/Tokyo",
+            "iata": "NGO",
+            "icao": "RJGG",
+            "terminal": "1",
+            "gate": "3",
+            "delay": null,
+            "scheduled": "2024-01-09T12:40:00+00:00",
+            "estimated": "2024-01-09T12:40:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "arrival": {
+            "airport": "Sendai",
+            "timezone": "Asia/Tokyo",
+            "iata": "SDJ",
+            "icao": "RJSS",
+            "terminal": "6",
+            "gate": null,
+            "baggage": null,
+            "delay": null,
+            "scheduled": "2024-01-09T13:40:00+00:00",
+            "estimated": "2024-01-09T13:40:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "airline": {
+            "name": "IBEX Airlines",
+            "iata": "FW",
+            "icao": "IBX"
+        },
+        "flight": {
+            "number": "21",
+            "iata": "FW21",
+            "icao": "IBX21",
+            "codeshared": null
+        },
+        "aircraft": null,
+        "live": null
+    },
+    {
+        "flight_date": "2024-01-09",
+        "flight_status": "diverted",
+        "departure": {
+            "airport": "Chu-Bu Centrair International (Central Japan International)",
+            "timezone": "Asia/Tokyo",
+            "iata": "NGO",
+            "icao": "RJGG",
+            "terminal": "1",
+            "gate": "3",
+            "delay": null,
+            "scheduled": "2024-01-09T12:40:00+00:00",
+            "estimated": "2024-01-09T12:40:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "arrival": {
+            "airport": "Sendai",
+            "timezone": "Asia/Tokyo",
+            "iata": "SDJ",
+            "icao": "RJSS",
+            "terminal": "6",
+            "gate": null,
+            "baggage": null,
+            "delay": null,
+            "scheduled": "2024-01-09T13:40:00+00:00",
+            "estimated": "2024-01-09T13:40:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "airline": {
+            "name": "ANA",
+            "iata": "NH",
+            "icao": "ANA"
+        },
+        "flight": {
+            "number": "3121",
+            "iata": "NH3121",
+            "icao": "ANA3121",
+            "codeshared": {
+                "airline_name": "ibex airlines",
+                "airline_iata": "fw",
+                "airline_icao": "ibx",
+                "flight_number": "21",
+                "flight_iata": "fw21",
+                "flight_icao": "ibx21"
+            }
+        },
+        "aircraft": null,
+        "live": null
+    },
+    {
+        "flight_date": "2024-01-09",
+        "flight_status": "diverted",
+        "departure": {
+            "airport": "King Abdulaziz International",
+            "timezone": "Asia/Riyadh",
+            "iata": "JED",
+            "icao": "OEJN",
+            "terminal": null,
+            "gate": null,
+            "delay": null,
+            "scheduled": "2024-01-09T03:45:00+00:00",
+            "estimated": "2024-01-09T03:45:00+00:00",
+            "actual": "2024-01-09T02:17:00+00:00",
+            "estimated_runway": "2024-01-09T02:17:00+00:00",
+            "actual_runway": "2024-01-09T02:17:00+00:00"
+        },
+        "arrival": {
+            "airport": "Multan International",
+            "timezone": "Asia/Karachi",
+            "iata": "MUX",
+            "icao": "OPMT",
+            "terminal": "H",
+            "gate": null,
+            "baggage": null,
+            "delay": null,
+            "scheduled": "2024-01-09T10:30:00+00:00",
+            "estimated": "2024-01-09T10:30:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "airline": {
+            "name": "Airblue",
+            "iata": "PA",
+            "icao": "ABQ"
+        },
+        "flight": {
+            "number": "871",
+            "iata": "PA871",
+            "icao": "ABQ871",
+            "codeshared": null
+        },
+        "aircraft": null,
+        "live": null
+    },
+    {
+        "flight_date": "2024-01-09",
+        "flight_status": "diverted",
+        "departure": {
+            "airport": "Thiruvananthapuram International",
+            "timezone": "Asia/Kolkata",
+            "iata": "TRV",
+            "icao": "VOTV",
+            "terminal": "2",
+            "gate": null,
+            "delay": 1,
+            "scheduled": "2024-01-09T00:55:00+00:00",
+            "estimated": "2024-01-09T00:55:00+00:00",
+            "actual": "2024-01-09T00:56:00+00:00",
+            "estimated_runway": "2024-01-09T00:56:00+00:00",
+            "actual_runway": "2024-01-09T00:56:00+00:00"
+        },
+        "arrival": {
+            "airport": "Sharjah",
+            "timezone": "Asia/Dubai",
+            "iata": "SHJ",
+            "icao": "OMSJ",
+            "terminal": "N",
+            "gate": null,
+            "baggage": null,
+            "delay": null,
+            "scheduled": "2024-01-09T03:55:00+00:00",
+            "estimated": "2024-01-09T03:55:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "airline": {
+            "name": "IndiGo",
+            "iata": "6E",
+            "icao": "IGO"
+        },
+        "flight": {
+            "number": "1425",
+            "iata": "6E1425",
+            "icao": "IGO1425",
+            "codeshared": null
+        },
+        "aircraft": null,
+        "live": null
+    },
+    {
+        "flight_date": "2024-01-09",
+        "flight_status": "diverted",
+        "departure": {
+            "airport": "Abu Dhabi International",
+            "timezone": "Asia/Dubai",
+            "iata": "AUH",
+            "icao": "OMAA",
+            "terminal": "A",
+            "gate": "B18",
+            "delay": 42,
+            "scheduled": "2024-01-09T02:10:00+00:00",
+            "estimated": "2024-01-09T02:10:00+00:00",
+            "actual": "2024-01-09T02:52:00+00:00",
+            "estimated_runway": "2024-01-09T02:52:00+00:00",
+            "actual_runway": "2024-01-09T02:52:00+00:00"
+        },
+        "arrival": {
+            "airport": "Peshawar",
+            "timezone": "Asia/Karachi",
+            "iata": "PEW",
+            "icao": "OPPS",
+            "terminal": null,
+            "gate": null,
+            "baggage": null,
+            "delay": 19,
+            "scheduled": "2024-01-09T06:10:00+00:00",
+            "estimated": "2024-01-09T06:10:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "airline": {
+            "name": "Pakistan International Airlines",
+            "iata": "PK",
+            "icao": "PIA"
+        },
+        "flight": {
+            "number": "218",
+            "iata": "PK218",
+            "icao": "PIA218",
+            "codeshared": null
+        },
+        "aircraft": null,
+        "live": null
+    },
+    {
+        "flight_date": "2024-01-09",
+        "flight_status": "diverted",
+        "departure": {
+            "airport": "Shanghai Pudong International",
+            "timezone": "Asia/Shanghai",
+            "iata": "PVG",
+            "icao": "ZSPD",
+            "terminal": "1",
+            "gate": "C",
+            "delay": 12,
+            "scheduled": "2024-01-09T08:00:00+00:00",
+            "estimated": "2024-01-09T08:00:00+00:00",
+            "actual": "2024-01-09T08:11:00+00:00",
+            "estimated_runway": "2024-01-09T08:11:00+00:00",
+            "actual_runway": "2024-01-09T08:11:00+00:00"
+        },
+        "arrival": {
+            "airport": "Harbin",
+            "timezone": "Asia/Shanghai",
+            "iata": "HRB",
+            "icao": "ZYHB",
+            "terminal": "T2",
+            "gate": null,
+            "baggage": "5",
+            "delay": null,
+            "scheduled": "2024-01-09T10:45:00+00:00",
+            "estimated": "2024-01-09T10:45:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "airline": {
+            "name": "Shanghai Airlines",
+            "iata": "FM",
+            "icao": "CSH"
+        },
+        "flight": {
+            "number": "9061",
+            "iata": "FM9061",
+            "icao": "CSH9061",
+            "codeshared": null
+        },
+        "aircraft": null,
+        "live": null
+    },
+    {
+        "flight_date": "2024-01-09",
+        "flight_status": "diverted",
+        "departure": {
+            "airport": "Narita International Airport",
+            "timezone": "Asia/Tokyo",
+            "iata": "NRT",
+            "icao": "RJAA",
+            "terminal": "3",
+            "gate": "163",
+            "delay": 103,
+            "scheduled": "2024-01-09T09:00:00+00:00",
+            "estimated": "2024-01-09T09:00:00+00:00",
+            "actual": "2024-01-09T10:43:00+00:00",
+            "estimated_runway": "2024-01-09T10:43:00+00:00",
+            "actual_runway": "2024-01-09T10:43:00+00:00"
+        },
+        "arrival": {
+            "airport": "Nagasaki",
+            "timezone": "Asia/Tokyo",
+            "iata": "NGS",
+            "icao": "RJFU",
+            "terminal": "2",
+            "gate": "7",
+            "baggage": null,
+            "delay": 70,
+            "scheduled": "2024-01-09T11:25:00+00:00",
+            "estimated": "2024-01-09T11:25:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "airline": {
+            "name": "Qantas",
+            "iata": "QF",
+            "icao": "QFA"
+        },
+        "flight": {
+            "number": "5962",
+            "iata": "QF5962",
+            "icao": "QFA5962",
+            "codeshared": {
+                "airline_name": "jetstar",
+                "airline_iata": "jq",
+                "airline_icao": "jst",
+                "flight_number": "641",
+                "flight_iata": "jq641",
+                "flight_icao": "jst641"
+            }
+        },
+        "aircraft": null,
+        "live": null
+    },
+    {
+        "flight_date": "2024-01-09",
+        "flight_status": "diverted",
+        "departure": {
+            "airport": "Narita International Airport",
+            "timezone": "Asia/Tokyo",
+            "iata": "NRT",
+            "icao": "RJAA",
+            "terminal": "3",
+            "gate": "163",
+            "delay": 103,
+            "scheduled": "2024-01-09T09:00:00+00:00",
+            "estimated": "2024-01-09T09:00:00+00:00",
+            "actual": "2024-01-09T10:43:00+00:00",
+            "estimated_runway": "2024-01-09T10:43:00+00:00",
+            "actual_runway": "2024-01-09T10:43:00+00:00"
+        },
+        "arrival": {
+            "airport": "Nagasaki",
+            "timezone": "Asia/Tokyo",
+            "iata": "NGS",
+            "icao": "RJFU",
+            "terminal": "2",
+            "gate": "7",
+            "baggage": null,
+            "delay": 70,
+            "scheduled": "2024-01-09T11:25:00+00:00",
+            "estimated": "2024-01-09T11:25:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "airline": {
+            "name": "Jet Linx Aviation",
+            "iata": "JL",
+            "icao": "JTL"
+        },
+        "flight": {
+            "number": "6099",
+            "iata": "JL6099",
+            "icao": "JTL6099",
+            "codeshared": {
+                "airline_name": "jetstar",
+                "airline_iata": "jq",
+                "airline_icao": "jst",
+                "flight_number": "641",
+                "flight_iata": "jq641",
+                "flight_icao": "jst641"
+            }
+        },
+        "aircraft": null,
+        "live": null
+    },
+    {
+        "flight_date": "2024-01-09",
+        "flight_status": "diverted",
+        "departure": {
+            "airport": "Dubai",
+            "timezone": "Asia/Dubai",
+            "iata": "DXB",
+            "icao": "OMDB",
+            "terminal": "1",
+            "gate": "D10",
+            "delay": 60,
+            "scheduled": "2024-01-09T04:15:00+00:00",
+            "estimated": "2024-01-09T04:15:00+00:00",
+            "actual": "2024-01-09T05:46:00+00:00",
+            "estimated_runway": "2024-01-09T05:46:00+00:00",
+            "actual_runway": "2024-01-09T05:46:00+00:00"
+        },
+        "arrival": {
+            "airport": "Peshawar",
+            "timezone": "Asia/Karachi",
+            "iata": "PEW",
+            "icao": "OPPS",
+            "terminal": "MAIN",
+            "gate": null,
+            "baggage": null,
+            "delay": 67,
+            "scheduled": "2024-01-09T08:05:00+00:00",
+            "estimated": "2024-01-09T08:05:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "airline": {
+            "name": "Pakistan International Airlines",
+            "iata": "PK",
+            "icao": "PIA"
+        },
+        "flight": {
+            "number": "284",
+            "iata": "PK284",
+            "icao": "PIA284",
+            "codeshared": null
+        },
+        "aircraft": null,
+        "live": null
+    },
+    {
+        "flight_date": "2024-01-09",
+        "flight_status": "diverted",
+        "departure": {
+            "airport": "Mildura",
+            "timezone": "Australia/Melbourne",
+            "iata": "MQL",
+            "icao": "YMIA",
+            "terminal": null,
+            "gate": null,
+            "delay": 8,
+            "scheduled": "2024-01-09T10:30:00+00:00",
+            "estimated": "2024-01-09T10:30:00+00:00",
+            "actual": "2024-01-09T10:37:00+00:00",
+            "estimated_runway": "2024-01-09T10:37:00+00:00",
+            "actual_runway": "2024-01-09T10:37:00+00:00"
+        },
+        "arrival": {
+            "airport": "Mildura",
+            "timezone": "Australia/Melbourne",
+            "iata": "MQL",
+            "icao": "YMIA",
+            "terminal": "1",
+            "gate": null,
+            "baggage": null,
+            "delay": null,
+            "scheduled": "2024-01-09T13:00:00+00:00",
+            "estimated": "2024-01-09T13:00:00+00:00",
+            "actual": "2024-01-09T11:24:00+00:00",
+            "estimated_runway": "2024-01-09T11:24:00+00:00",
+            "actual_runway": "2024-01-09T11:24:00+00:00"
+        },
+        "airline": {
+            "name": "empty",
+            "iata": null,
+            "icao": null
+        },
+        "flight": {
+            "number": null,
+            "iata": null,
+            "icao": null,
+            "codeshared": null
+        },
+        "aircraft": null,
+        "live": null
+    },
+    {
+        "flight_date": "2024-01-09",
+        "flight_status": "diverted",
+        "departure": {
+            "airport": "Lishe International Airport",
+            "timezone": "Asia/Shanghai",
+            "iata": "NGB",
+            "icao": "ZSNB",
+            "terminal": "T2",
+            "gate": "213",
+            "delay": 21,
+            "scheduled": "2024-01-09T08:35:00+00:00",
+            "estimated": "2024-01-09T08:35:00+00:00",
+            "actual": "2024-01-09T08:56:00+00:00",
+            "estimated_runway": "2024-01-09T08:56:00+00:00",
+            "actual_runway": "2024-01-09T08:56:00+00:00"
+        },
+        "arrival": {
+            "airport": "Nanning",
+            "timezone": "Asia/Shanghai",
+            "iata": "NNG",
+            "icao": "ZGNN",
+            "terminal": "T2",
+            "gate": null,
+            "baggage": null,
+            "delay": null,
+            "scheduled": "2024-01-09T11:40:00+00:00",
+            "estimated": "2024-01-09T11:40:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "airline": {
+            "name": "Spring Airlines",
+            "iata": "9C",
+            "icao": "CQH"
+        },
+        "flight": {
+            "number": "8669",
+            "iata": "9C8669",
+            "icao": "CQH8669",
+            "codeshared": null
+        },
+        "aircraft": null,
+        "live": null
+    },
+    {
+        "flight_date": "2024-01-09",
+        "flight_status": "diverted",
+        "departure": {
+            "airport": "Harbin",
+            "timezone": "Asia/Shanghai",
+            "iata": "HRB",
+            "icao": "ZYHB",
+            "terminal": "T2",
+            "gate": "B11",
+            "delay": 16,
+            "scheduled": "2024-01-09T08:10:00+00:00",
+            "estimated": "2024-01-09T08:10:00+00:00",
+            "actual": "2024-01-09T08:26:00+00:00",
+            "estimated_runway": "2024-01-09T08:26:00+00:00",
+            "actual_runway": "2024-01-09T08:26:00+00:00"
+        },
+        "arrival": {
+            "airport": "Linfen Qiaoli Airport",
+            "timezone": null,
+            "iata": "LFQ",
+            "icao": "ZBLF",
+            "terminal": "T2",
+            "gate": null,
+            "baggage": null,
+            "delay": null,
+            "scheduled": "2024-01-09T11:30:00+00:00",
+            "estimated": "2024-01-09T11:30:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "airline": {
+            "name": "LongJiang Airlines",
+            "iata": "LT",
+            "icao": "SNG"
+        },
+        "flight": {
+            "number": "8887",
+            "iata": "LT8887",
+            "icao": "SNG8887",
+            "codeshared": null
+        },
+        "aircraft": null,
+        "live": null
+    },
+    {
+        "flight_date": "2024-01-09",
+        "flight_status": "diverted",
+        "departure": {
+            "airport": "Sydney Kingsford Smith Airport",
+            "timezone": "Australia/Sydney",
+            "iata": "SYD",
+            "icao": "YSSY",
+            "terminal": "2",
+            "gate": "54",
+            "delay": 26,
+            "scheduled": "2024-01-09T12:00:00+00:00",
+            "estimated": "2024-01-09T12:00:00+00:00",
+            "actual": "2024-01-09T12:26:00+00:00",
+            "estimated_runway": "2024-01-09T12:26:00+00:00",
+            "actual_runway": "2024-01-09T12:26:00+00:00"
+        },
+        "arrival": {
+            "airport": "Hervey Bay",
+            "timezone": "Australia/Brisbane",
+            "iata": "HVB",
+            "icao": "YHBA",
+            "terminal": "T2",
+            "gate": null,
+            "baggage": "1",
+            "delay": 8,
+            "scheduled": "2024-01-09T12:45:00+00:00",
+            "estimated": "2024-01-09T12:45:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "airline": {
+            "name": "Qantas",
+            "iata": "QF",
+            "icao": "QFA"
+        },
+        "flight": {
+            "number": "5890",
+            "iata": "QF5890",
+            "icao": "QFA5890",
+            "codeshared": {
+                "airline_name": "jetstar",
+                "airline_iata": "jq",
+                "airline_icao": "jst",
+                "flight_number": "890",
+                "flight_iata": "jq890",
+                "flight_icao": "jst890"
+            }
+        },
+        "aircraft": null,
+        "live": null
+    },
+    {
+        "flight_date": "2024-01-09",
+        "flight_status": "diverted",
+        "departure": {
+            "airport": "Shanghai Pudong International",
+            "timezone": "Asia/Shanghai",
+            "iata": "PVG",
+            "icao": "ZSPD",
+            "terminal": "1",
+            "gate": "C",
+            "delay": 12,
+            "scheduled": "2024-01-09T08:00:00+00:00",
+            "estimated": "2024-01-09T08:00:00+00:00",
+            "actual": "2024-01-09T08:11:00+00:00",
+            "estimated_runway": "2024-01-09T08:11:00+00:00",
+            "actual_runway": "2024-01-09T08:11:00+00:00"
+        },
+        "arrival": {
+            "airport": "Harbin",
+            "timezone": "Asia/Shanghai",
+            "iata": "HRB",
+            "icao": "ZYHB",
+            "terminal": "T2",
+            "gate": null,
+            "baggage": "5",
+            "delay": null,
+            "scheduled": "2024-01-09T10:45:00+00:00",
+            "estimated": "2024-01-09T10:45:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "airline": {
+            "name": "China Eastern Airlines",
+            "iata": "MU",
+            "icao": "CES"
+        },
+        "flight": {
+            "number": "8301",
+            "iata": "MU8301",
+            "icao": "CES8301",
+            "codeshared": {
+                "airline_name": "shanghai airlines",
+                "airline_iata": "fm",
+                "airline_icao": "csh",
+                "flight_number": "9061",
+                "flight_iata": "fm9061",
+                "flight_icao": "csh9061"
+            }
+        },
+        "aircraft": null,
+        "live": null
+    },
+    {
+        "flight_date": "2024-01-09",
+        "flight_status": "diverted",
+        "departure": {
+            "airport": "Adelaide International Airport",
+            "timezone": "Australia/Adelaide",
+            "iata": "ADL",
+            "icao": "YPAD",
+            "terminal": null,
+            "gate": null,
+            "delay": 19,
+            "scheduled": "2024-01-09T06:00:00+00:00",
+            "estimated": "2024-01-09T06:00:00+00:00",
+            "actual": "2024-01-09T06:19:00+00:00",
+            "estimated_runway": "2024-01-09T06:19:00+00:00",
+            "actual_runway": "2024-01-09T06:19:00+00:00"
+        },
+        "arrival": {
+            "airport": "Port Augusta",
+            "timezone": "Australia/Adelaide",
+            "iata": "PUG",
+            "icao": "YPAG",
+            "terminal": null,
+            "gate": null,
+            "baggage": null,
+            "delay": 31,
+            "scheduled": "2024-01-09T06:31:00+00:00",
+            "estimated": "2024-01-09T06:31:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "airline": {
+            "name": "National Jet Express",
+            "iata": "NC",
+            "icao": "JTE"
+        },
+        "flight": {
+            "number": null,
+            "iata": "NC",
+            "icao": "JTE",
+            "codeshared": null
+        },
+        "aircraft": null,
+        "live": null
+    },
+    {
+        "flight_date": "2024-01-09",
+        "flight_status": "diverted",
+        "departure": {
+            "airport": "Balranald",
+            "timezone": "Australia/Sydney",
+            "iata": "BZD",
+            "icao": "YBRN",
+            "terminal": null,
+            "gate": null,
+            "delay": 57,
+            "scheduled": "2024-01-09T11:00:00+00:00",
+            "estimated": "2024-01-09T11:00:00+00:00",
+            "actual": "2024-01-09T11:56:00+00:00",
+            "estimated_runway": "2024-01-09T11:56:00+00:00",
+            "actual_runway": "2024-01-09T11:56:00+00:00"
+        },
+        "arrival": {
+            "airport": "Mildura",
+            "timezone": "Australia/Melbourne",
+            "iata": "MQL",
+            "icao": "YMIA",
+            "terminal": "1",
+            "gate": null,
+            "baggage": null,
+            "delay": null,
+            "scheduled": "2024-01-09T16:00:00+00:00",
+            "estimated": "2024-01-09T16:00:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "airline": {
+            "name": "empty",
+            "iata": null,
+            "icao": null
+        },
+        "flight": {
+            "number": null,
+            "iata": null,
+            "icao": null,
+            "codeshared": null
+        },
+        "aircraft": null,
+        "live": null
+    },
+    {
+        "flight_date": "2024-01-09",
+        "flight_status": "diverted",
+        "departure": {
+            "airport": "Sydney Kingsford Smith Airport",
+            "timezone": "Australia/Sydney",
+            "iata": "SYD",
+            "icao": "YSSY",
+            "terminal": "2",
+            "gate": "54",
+            "delay": 26,
+            "scheduled": "2024-01-09T12:00:00+00:00",
+            "estimated": "2024-01-09T12:00:00+00:00",
+            "actual": "2024-01-09T12:26:00+00:00",
+            "estimated_runway": "2024-01-09T12:26:00+00:00",
+            "actual_runway": "2024-01-09T12:26:00+00:00"
+        },
+        "arrival": {
+            "airport": "Hervey Bay",
+            "timezone": "Australia/Brisbane",
+            "iata": "HVB",
+            "icao": "YHBA",
+            "terminal": "T2",
+            "gate": null,
+            "baggage": "1",
+            "delay": 8,
+            "scheduled": "2024-01-09T12:45:00+00:00",
+            "estimated": "2024-01-09T12:45:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "airline": {
+            "name": "Jetstar",
+            "iata": "JQ",
+            "icao": "JST"
+        },
+        "flight": {
+            "number": "890",
+            "iata": "JQ890",
+            "icao": "JST890",
+            "codeshared": null
+        },
+        "aircraft": {
+            "registration": "VH-VQJ",
+            "iata": "A320",
+            "icao": "A320",
+            "icao24": "7C6C99"
+        },
+        "live": {
+            "updated": "2024-01-09T01:22:12+00:00",
+            "latitude": -33.9451,
+            "longitude": 151.179,
+            "altitude": 0,
+            "direction": 191,
+            "speed_horizontal": 31.484,
+            "speed_vertical": 0,
+            "is_ground": true
+        }
+    },
+    {
+        "flight_date": "2024-01-09",
+        "flight_status": "diverted",
+        "departure": {
+            "airport": "Axamo",
+            "timezone": "Europe/Stockholm",
+            "iata": "JKG",
+            "icao": "ESGJ",
+            "terminal": null,
+            "gate": null,
+            "delay": 65,
+            "scheduled": "2024-01-09T01:30:00+00:00",
+            "estimated": "2024-01-09T01:30:00+00:00",
+            "actual": "2024-01-09T02:34:00+00:00",
+            "estimated_runway": "2024-01-09T02:34:00+00:00",
+            "actual_runway": "2024-01-09T02:34:00+00:00"
+        },
+        "arrival": {
+            "airport": "Billund",
+            "timezone": "Europe/Copenhagen",
+            "iata": "BLL",
+            "icao": "EKBI",
+            "terminal": "1",
+            "gate": null,
+            "baggage": null,
+            "delay": 53,
+            "scheduled": "2024-01-09T02:40:00+00:00",
+            "estimated": "2024-01-09T02:40:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "airline": {
+            "name": "Airest",
+            "iata": null,
+            "icao": "AEG"
+        },
+        "flight": {
+            "number": "402",
+            "iata": null,
+            "icao": "AEG402",
+            "codeshared": null
+        },
+        "aircraft": null,
+        "live": null
+    },
+    {
+        "flight_date": "2024-01-09",
+        "flight_status": "diverted",
+        "departure": {
+            "airport": "Narita International Airport",
+            "timezone": "Asia/Tokyo",
+            "iata": "NRT",
+            "icao": "RJAA",
+            "terminal": "3",
+            "gate": "163",
+            "delay": 103,
+            "scheduled": "2024-01-09T09:00:00+00:00",
+            "estimated": "2024-01-09T09:00:00+00:00",
+            "actual": "2024-01-09T10:43:00+00:00",
+            "estimated_runway": "2024-01-09T10:43:00+00:00",
+            "actual_runway": "2024-01-09T10:43:00+00:00"
+        },
+        "arrival": {
+            "airport": "Nagasaki",
+            "timezone": "Asia/Tokyo",
+            "iata": "NGS",
+            "icao": "RJFU",
+            "terminal": "2",
+            "gate": "7",
+            "baggage": null,
+            "delay": 70,
+            "scheduled": "2024-01-09T11:25:00+00:00",
+            "estimated": "2024-01-09T11:25:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "airline": {
+            "name": "Jetstar",
+            "iata": "JQ",
+            "icao": "JST"
+        },
+        "flight": {
+            "number": "641",
+            "iata": "JQ641",
+            "icao": "JST641",
+            "codeshared": null
+        },
+        "aircraft": null,
+        "live": null
+    },
+    {
+        "flight_date": "2024-01-08",
+        "flight_status": "diverted",
+        "departure": {
+            "airport": "Dubai",
+            "timezone": "Asia/Dubai",
+            "iata": "DXB",
+            "icao": "OMDB",
+            "terminal": "3",
+            "gate": "B2",
+            "delay": 43,
+            "scheduled": "2024-01-08T09:45:00+00:00",
+            "estimated": "2024-01-08T09:45:00+00:00",
+            "actual": "2024-01-08T10:28:00+00:00",
+            "estimated_runway": "2024-01-08T10:28:00+00:00",
+            "actual_runway": "2024-01-08T10:28:00+00:00"
+        },
+        "arrival": {
+            "airport": "Ben Gurion International",
+            "timezone": "Asia/Jerusalem",
+            "iata": "TLV",
+            "icao": "LLBG",
+            "terminal": "3",
+            "gate": null,
+            "baggage": null,
+            "delay": null,
+            "scheduled": "2024-01-08T11:40:00+00:00",
+            "estimated": "2024-01-08T11:40:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "airline": {
+            "name": "Emirates",
+            "iata": "EK",
+            "icao": "UAE"
+        },
+        "flight": {
+            "number": "2363",
+            "iata": "EK2363",
+            "icao": "UAE2363",
+            "codeshared": {
+                "airline_name": "flydubai",
+                "airline_iata": "fz",
+                "airline_icao": "fdb",
+                "flight_number": "1211",
+                "flight_iata": "fz1211",
+                "flight_icao": "fdb1211"
+            }
+        },
+        "aircraft": null,
+        "live": null
+    },
+    {
+        "flight_date": "2024-01-08",
+        "flight_status": "diverted",
+        "departure": {
+            "airport": null,
+            "timezone": null,
+            "iata": "CFM",
+            "icao": "CET2",
+            "terminal": null,
+            "gate": null,
+            "delay": 2,
+            "scheduled": "2024-01-08T17:00:00+00:00",
+            "estimated": "2024-01-08T17:00:00+00:00",
+            "actual": "2024-01-08T17:01:00+00:00",
+            "estimated_runway": "2024-01-08T17:01:00+00:00",
+            "actual_runway": "2024-01-08T17:01:00+00:00"
+        },
+        "arrival": {
+            "airport": "Calgary International Airport",
+            "timezone": "America/Edmonton",
+            "iata": "YYC",
+            "icao": "CYYC",
+            "terminal": "1",
+            "gate": null,
+            "baggage": null,
+            "delay": 4,
+            "scheduled": "2024-01-08T18:17:00+00:00",
+            "estimated": "2024-01-08T18:17:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "airline": {
+            "name": "Sunwest Aviation",
+            "iata": "CNK",
+            "icao": "CNK"
+        },
+        "flight": {
+            "number": "33",
+            "iata": "CNK33",
+            "icao": "CNK33",
+            "codeshared": null
+        },
+        "aircraft": null,
+        "live": null
+    },
+    {
+        "flight_date": "2024-01-08",
+        "flight_status": "diverted",
+        "departure": {
+            "airport": "Arlanda",
+            "timezone": "Europe/Stockholm",
+            "iata": "ARN",
+            "icao": "ESSA",
+            "terminal": null,
+            "gate": null,
+            "delay": 10,
+            "scheduled": "2024-01-08T09:30:00+00:00",
+            "estimated": "2024-01-08T09:30:00+00:00",
+            "actual": "2024-01-08T09:39:00+00:00",
+            "estimated_runway": "2024-01-08T09:39:00+00:00",
+            "actual_runway": "2024-01-08T09:39:00+00:00"
+        },
+        "arrival": {
+            "airport": "Sturup",
+            "timezone": "Europe/Stockholm",
+            "iata": "MMX",
+            "icao": "ESMS",
+            "terminal": "T1",
+            "gate": null,
+            "baggage": null,
+            "delay": 8,
+            "scheduled": "2024-01-08T10:35:00+00:00",
+            "estimated": "2024-01-08T10:35:00+00:00",
+            "actual": "2024-01-08T10:10:00+00:00",
+            "estimated_runway": "2024-01-08T10:10:00+00:00",
+            "actual_runway": "2024-01-08T10:10:00+00:00"
+        },
+        "airline": {
+            "name": "Grafair",
+            "iata": null,
+            "icao": "GFM"
+        },
+        "flight": {
+            "number": null,
+            "iata": null,
+            "icao": "GFM",
+            "codeshared": null
+        },
+        "aircraft": null,
+        "live": null
+    },
+    {
+        "flight_date": "2024-01-08",
+        "flight_status": "diverted",
+        "departure": {
+            "airport": "Liszt Ferenc International",
+            "timezone": "Europe/Budapest",
+            "iata": "BUD",
+            "icao": "LHBP",
+            "terminal": "2B",
+            "gate": null,
+            "delay": 14,
+            "scheduled": "2024-01-08T10:45:00+00:00",
+            "estimated": "2024-01-08T10:45:00+00:00",
+            "actual": "2024-01-08T10:59:00+00:00",
+            "estimated_runway": "2024-01-08T10:59:00+00:00",
+            "actual_runway": "2024-01-08T10:59:00+00:00"
+        },
+        "arrival": {
+            "airport": "Ben Gurion International",
+            "timezone": "Asia/Jerusalem",
+            "iata": "TLV",
+            "icao": "LLBG",
+            "terminal": "3",
+            "gate": null,
+            "baggage": null,
+            "delay": null,
+            "scheduled": "2024-01-08T14:55:00+00:00",
+            "estimated": "2024-01-08T14:55:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "airline": {
+            "name": "El Al",
+            "iata": "LY",
+            "icao": "ELY"
+        },
+        "flight": {
+            "number": "2366",
+            "iata": "LY2366",
+            "icao": "ELY2366",
+            "codeshared": null
+        },
+        "aircraft": {
+            "registration": "4X-EKF",
+            "iata": "B738",
+            "icao": "B738",
+            "icao24": "73806C"
+        },
+        "live": {
+            "updated": "2024-01-08T11:29:54+00:00",
+            "latitude": 38.3153,
+            "longitude": 27.0023,
+            "altitude": 11277.6,
+            "direction": 147,
+            "speed_horizontal": 842.66,
+            "speed_vertical": 0,
+            "is_ground": false
+        }
+    },
+    {
+        "flight_date": "2024-01-08",
+        "flight_status": "diverted",
+        "departure": {
+            "airport": "Greater Rockford Airport",
+            "timezone": "America/Chicago",
+            "iata": "RFD",
+            "icao": "KRFD",
+            "terminal": null,
+            "gate": null,
+            "delay": 7,
+            "scheduled": "2024-01-08T21:01:00+00:00",
+            "estimated": "2024-01-08T21:01:00+00:00",
+            "actual": "2024-01-08T21:08:00+00:00",
+            "estimated_runway": "2024-01-08T21:08:00+00:00",
+            "actual_runway": "2024-01-08T21:08:00+00:00"
+        },
+        "arrival": {
+            "airport": "Louisville International (Standiford Field)",
+            "timezone": "America/Kentucky/Louisville",
+            "iata": "SDF",
+            "icao": "KSDF",
+            "terminal": "C",
+            "gate": null,
+            "baggage": null,
+            "delay": null,
+            "scheduled": "2024-01-08T23:02:00+00:00",
+            "estimated": "2024-01-08T23:02:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "airline": {
+            "name": "UPS Airlines",
+            "iata": "5X",
+            "icao": "UPS"
+        },
+        "flight": {
+            "number": "617",
+            "iata": "5X617",
+            "icao": "UPS617",
+            "codeshared": null
+        },
+        "aircraft": null,
+        "live": null
+    },
+    {
+        "flight_date": "2024-01-08",
+        "flight_status": "diverted",
+        "departure": {
+            "airport": "Memorial",
+            "timezone": "America/Chicago",
+            "iata": "SBM",
+            "icao": "KSBM",
+            "terminal": null,
+            "gate": null,
+            "delay": 63,
+            "scheduled": "2024-01-08T09:45:00+00:00",
+            "estimated": "2024-01-08T09:45:00+00:00",
+            "actual": "2024-01-08T10:48:00+00:00",
+            "estimated_runway": "2024-01-08T10:48:00+00:00",
+            "actual_runway": "2024-01-08T10:48:00+00:00"
+        },
+        "arrival": {
+            "airport": "Dougherty County",
+            "timezone": "America/New_York",
+            "iata": "ABY",
+            "icao": "KABY",
+            "terminal": null,
+            "gate": null,
+            "baggage": null,
+            "delay": null,
+            "scheduled": "2024-01-08T17:03:00+00:00",
+            "estimated": "2024-01-08T17:03:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "airline": {
+            "name": "empty",
+            "iata": null,
+            "icao": null
+        },
+        "flight": {
+            "number": null,
+            "iata": null,
+            "icao": null,
+            "codeshared": null
+        },
+        "aircraft": null,
+        "live": null
+    },
+    {
+        "flight_date": "2024-01-08",
+        "flight_status": "diverted",
+        "departure": {
+            "airport": "Scottsdale Municipalcipal",
+            "timezone": "America/Phoenix",
+            "iata": "SCF",
+            "icao": "KSDL",
+            "terminal": null,
+            "gate": null,
+            "delay": 26,
+            "scheduled": "2024-01-08T13:00:00+00:00",
+            "estimated": "2024-01-08T13:00:00+00:00",
+            "actual": "2024-01-08T13:25:00+00:00",
+            "estimated_runway": "2024-01-08T13:25:00+00:00",
+            "actual_runway": "2024-01-08T13:25:00+00:00"
+        },
+        "arrival": {
+            "airport": "William P Hobby",
+            "timezone": "America/Chicago",
+            "iata": "HOU",
+            "icao": "KHOU",
+            "terminal": "4",
+            "gate": null,
+            "baggage": null,
+            "delay": 53,
+            "scheduled": "2024-01-08T16:26:00+00:00",
+            "estimated": "2024-01-08T16:26:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "airline": {
+            "name": "flyExclusive",
+            "iata": null,
+            "icao": "JRE"
+        },
+        "flight": {
+            "number": "932",
+            "iata": null,
+            "icao": "JRE932",
+            "codeshared": null
+        },
+        "aircraft": null,
+        "live": null
+    },
+    {
+        "flight_date": "2024-01-08",
+        "flight_status": "diverted",
+        "departure": {
+            "airport": "San Antonio International",
+            "timezone": "America/Chicago",
+            "iata": "SAT",
+            "icao": "KSAT",
+            "terminal": "B",
+            "gate": "6",
+            "delay": 1,
+            "scheduled": "2024-01-08T20:37:00+00:00",
+            "estimated": "2024-01-08T20:37:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "arrival": {
+            "airport": "Dallas/Fort Worth International",
+            "timezone": "America/Chicago",
+            "iata": "DFW",
+            "icao": "KDFW",
+            "terminal": "C",
+            "gate": "C16",
+            "baggage": "C12",
+            "delay": null,
+            "scheduled": "2024-01-08T21:48:00+00:00",
+            "estimated": "2024-01-08T21:48:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "airline": {
+            "name": "American Airlines",
+            "iata": "AA",
+            "icao": "AAL"
+        },
+        "flight": {
+            "number": "2368",
+            "iata": "AA2368",
+            "icao": "AAL2368",
+            "codeshared": null
+        },
+        "aircraft": null,
+        "live": null
+    },
+    {
+        "flight_date": "2024-01-08",
+        "flight_status": "diverted",
+        "departure": {
+            "airport": "San Antonio International",
+            "timezone": "America/Chicago",
+            "iata": "SAT",
+            "icao": "KSAT",
+            "terminal": "B",
+            "gate": "6",
+            "delay": 1,
+            "scheduled": "2024-01-08T20:37:00+00:00",
+            "estimated": "2024-01-08T20:37:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "arrival": {
+            "airport": "Dallas/Fort Worth International",
+            "timezone": "America/Chicago",
+            "iata": "DFW",
+            "icao": "KDFW",
+            "terminal": "C",
+            "gate": "C16",
+            "baggage": "C12",
+            "delay": null,
+            "scheduled": "2024-01-08T21:48:00+00:00",
+            "estimated": "2024-01-08T21:48:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "airline": {
+            "name": "Qatar Airways",
+            "iata": "QR",
+            "icao": "QTR"
+        },
+        "flight": {
+            "number": "9045",
+            "iata": "QR9045",
+            "icao": "QTR9045",
+            "codeshared": {
+                "airline_name": "american airlines",
+                "airline_iata": "aa",
+                "airline_icao": "aal",
+                "flight_number": "2368",
+                "flight_iata": "aa2368",
+                "flight_icao": "aal2368"
+            }
+        },
+        "aircraft": null,
+        "live": null
+    },
+    {
+        "flight_date": "2024-01-08",
+        "flight_status": "diverted",
+        "departure": {
+            "airport": "San Antonio International",
+            "timezone": "America/Chicago",
+            "iata": "SAT",
+            "icao": "KSAT",
+            "terminal": "B",
+            "gate": "6",
+            "delay": 1,
+            "scheduled": "2024-01-08T20:37:00+00:00",
+            "estimated": "2024-01-08T20:37:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "arrival": {
+            "airport": "Dallas/Fort Worth International",
+            "timezone": "America/Chicago",
+            "iata": "DFW",
+            "icao": "KDFW",
+            "terminal": "C",
+            "gate": "C16",
+            "baggage": "C12",
+            "delay": null,
+            "scheduled": "2024-01-08T21:48:00+00:00",
+            "estimated": "2024-01-08T21:48:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "airline": {
+            "name": "British Airways",
+            "iata": "BA",
+            "icao": "BAW"
+        },
+        "flight": {
+            "number": "5563",
+            "iata": "BA5563",
+            "icao": "BAW5563",
+            "codeshared": {
+                "airline_name": "american airlines",
+                "airline_iata": "aa",
+                "airline_icao": "aal",
+                "flight_number": "2368",
+                "flight_iata": "aa2368",
+                "flight_icao": "aal2368"
+            }
+        },
+        "aircraft": null,
+        "live": null
+    },
+    {
+        "flight_date": "2024-01-08",
+        "flight_status": "diverted",
+        "departure": {
+            "airport": "San Antonio International",
+            "timezone": "America/Chicago",
+            "iata": "SAT",
+            "icao": "KSAT",
+            "terminal": "B",
+            "gate": "6",
+            "delay": 1,
+            "scheduled": "2024-01-08T20:37:00+00:00",
+            "estimated": "2024-01-08T20:37:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "arrival": {
+            "airport": "Dallas/Fort Worth International",
+            "timezone": "America/Chicago",
+            "iata": "DFW",
+            "icao": "KDFW",
+            "terminal": "C",
+            "gate": "C16",
+            "baggage": "C12",
+            "delay": null,
+            "scheduled": "2024-01-08T21:48:00+00:00",
+            "estimated": "2024-01-08T21:48:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "airline": {
+            "name": "Alaska Airlines",
+            "iata": "AS",
+            "icao": "ASA"
+        },
+        "flight": {
+            "number": "6179",
+            "iata": "AS6179",
+            "icao": "ASA6179",
+            "codeshared": {
+                "airline_name": "american airlines",
+                "airline_iata": "aa",
+                "airline_icao": "aal",
+                "flight_number": "2368",
+                "flight_iata": "aa2368",
+                "flight_icao": "aal2368"
+            }
+        },
+        "aircraft": null,
+        "live": null
+    },
+    {
+        "flight_date": "2024-01-08",
+        "flight_status": "diverted",
+        "departure": {
+            "airport": "Orly",
+            "timezone": "Europe/Paris",
+            "iata": "ORY",
+            "icao": "LFPO",
+            "terminal": "1",
+            "gate": "D23",
+            "delay": 10,
+            "scheduled": "2024-01-08T07:25:00+00:00",
+            "estimated": "2024-01-08T07:25:00+00:00",
+            "actual": "2024-01-08T07:35:00+00:00",
+            "estimated_runway": "2024-01-08T07:35:00+00:00",
+            "actual_runway": "2024-01-08T07:35:00+00:00"
+        },
+        "arrival": {
+            "airport": "Agadir Almassira",
+            "timezone": "Africa/Casablanca",
+            "iata": "AGA",
+            "icao": "GMAD",
+            "terminal": "1",
+            "gate": null,
+            "baggage": null,
+            "delay": null,
+            "scheduled": "2024-01-08T10:55:00+00:00",
+            "estimated": "2024-01-08T10:55:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "airline": {
+            "name": "Vueling",
+            "iata": "VY",
+            "icao": "VLG"
+        },
+        "flight": {
+            "number": "8140",
+            "iata": "VY8140",
+            "icao": "VLG8140",
+            "codeshared": null
+        },
+        "aircraft": {
+            "registration": "EC-NYF",
+            "iata": "A21N",
+            "icao": "A21N",
+            "icao24": "34744D"
+        },
+        "live": {
+            "updated": "2024-01-08T08:47:40+00:00",
+            "latitude": 34.2498,
+            "longitude": -6.5708,
+            "altitude": 11887.2,
+            "direction": 216,
+            "speed_horizontal": 755.616,
+            "speed_vertical": 0,
+            "is_ground": false
+        }
+    },
+    {
+        "flight_date": "2024-01-08",
+        "flight_status": "diverted",
+        "departure": {
+            "airport": "Orly",
+            "timezone": "Europe/Paris",
+            "iata": "ORY",
+            "icao": "LFPO",
+            "terminal": "1",
+            "gate": "D23",
+            "delay": 10,
+            "scheduled": "2024-01-08T07:25:00+00:00",
+            "estimated": "2024-01-08T07:25:00+00:00",
+            "actual": "2024-01-08T07:35:00+00:00",
+            "estimated_runway": "2024-01-08T07:35:00+00:00",
+            "actual_runway": "2024-01-08T07:35:00+00:00"
+        },
+        "arrival": {
+            "airport": "Agadir Almassira",
+            "timezone": "Africa/Casablanca",
+            "iata": "AGA",
+            "icao": "GMAD",
+            "terminal": "1",
+            "gate": null,
+            "baggage": null,
+            "delay": null,
+            "scheduled": "2024-01-08T10:55:00+00:00",
+            "estimated": "2024-01-08T10:55:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "airline": {
+            "name": "Iberia",
+            "iata": "IB",
+            "icao": "IBE"
+        },
+        "flight": {
+            "number": "5708",
+            "iata": "IB5708",
+            "icao": "IBE5708",
+            "codeshared": {
+                "airline_name": "vueling",
+                "airline_iata": "vy",
+                "airline_icao": "vlg",
+                "flight_number": "8140",
+                "flight_iata": "vy8140",
+                "flight_icao": "vlg8140"
+            }
+        },
+        "aircraft": null,
+        "live": null
+    },
+    {
+        "flight_date": "2024-01-08",
+        "flight_status": "diverted",
+        "departure": {
+            "airport": "Zvartnots International",
+            "timezone": "Asia/Yerevan",
+            "iata": "EVN",
+            "icao": "UDYZ",
+            "terminal": null,
+            "gate": "2",
+            "delay": null,
+            "scheduled": "2024-01-08T10:30:00+00:00",
+            "estimated": "2024-01-08T10:30:00+00:00",
+            "actual": "2024-01-08T10:27:00+00:00",
+            "estimated_runway": "2024-01-08T10:27:00+00:00",
+            "actual_runway": "2024-01-08T10:27:00+00:00"
+        },
+        "arrival": {
+            "airport": "Larnaca",
+            "timezone": "Asia/Nicosia",
+            "iata": "LCA",
+            "icao": "LCLK",
+            "terminal": "3",
+            "gate": null,
+            "baggage": null,
+            "delay": null,
+            "scheduled": "2024-01-08T11:15:00+00:00",
+            "estimated": "2024-01-08T11:15:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "airline": {
+            "name": "Wizz Air",
+            "iata": "W6",
+            "icao": "WZZ"
+        },
+        "flight": {
+            "number": "4550",
+            "iata": "W64550",
+            "icao": "WZZ4550",
+            "codeshared": null
+        },
+        "aircraft": null,
+        "live": null
+    },
+    {
+        "flight_date": "2024-01-08",
+        "flight_status": "diverted",
+        "departure": {
+            "airport": "Zunyi Maotai Airport\r\n",
+            "timezone": null,
+            "iata": "WMT",
+            "icao": "ZUMT",
+            "terminal": null,
+            "gate": "2-6",
+            "delay": 56,
+            "scheduled": "2024-01-08T12:15:00+00:00",
+            "estimated": "2024-01-08T12:15:00+00:00",
+            "actual": "2024-01-08T13:11:00+00:00",
+            "estimated_runway": "2024-01-08T13:11:00+00:00",
+            "actual_runway": "2024-01-08T13:11:00+00:00"
+        },
+        "arrival": {
+            "airport": "Haikou",
+            "timezone": "Asia/Shanghai",
+            "iata": "HAK",
+            "icao": "ZJHK",
+            "terminal": "1",
+            "gate": null,
+            "baggage": "3",
+            "delay": null,
+            "scheduled": "2024-01-08T14:15:00+00:00",
+            "estimated": "2024-01-08T14:15:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "airline": {
+            "name": "Tianjin Airlines",
+            "iata": "GS",
+            "icao": "GCR"
+        },
+        "flight": {
+            "number": "7601",
+            "iata": "GS7601",
+            "icao": "GCR7601",
+            "codeshared": null
+        },
+        "aircraft": null,
+        "live": null
+    },
+    {
+        "flight_date": "2024-01-08",
+        "flight_status": "diverted",
+        "departure": {
+            "airport": "Hartsfield-jackson Atlanta International",
+            "timezone": "America/New_York",
+            "iata": "ATL",
+            "icao": "KATL",
+            "terminal": "S",
+            "gate": "B11",
+            "delay": 10,
+            "scheduled": "2024-01-08T08:15:00+00:00",
+            "estimated": "2024-01-08T08:15:00+00:00",
+            "actual": "2024-01-08T08:15:00+00:00",
+            "estimated_runway": "2024-01-08T08:15:00+00:00",
+            "actual_runway": "2024-01-08T08:15:00+00:00"
+        },
+        "arrival": {
+            "airport": "Indianapolis International",
+            "timezone": "America/Indiana/Indianapolis",
+            "iata": "IND",
+            "icao": "KIND",
+            "terminal": "2",
+            "gate": "A6",
+            "baggage": null,
+            "delay": null,
+            "scheduled": "2024-01-08T09:44:00+00:00",
+            "estimated": "2024-01-08T09:44:00+00:00",
+            "actual": "2024-01-08T08:39:00+00:00",
+            "estimated_runway": "2024-01-08T08:39:00+00:00",
+            "actual_runway": "2024-01-08T08:39:00+00:00"
+        },
+        "airline": {
+            "name": "Delta Air Lines",
+            "iata": "DL",
+            "icao": "DAL"
+        },
+        "flight": {
+            "number": "2952",
+            "iata": "DL2952",
+            "icao": "DAL2952",
+            "codeshared": null
+        },
+        "aircraft": null,
+        "live": null
+    },
+    {
+        "flight_date": "2024-01-08",
+        "flight_status": "diverted",
+        "departure": {
+            "airport": "Minneapolis - St. Paul International",
+            "timezone": "America/Chicago",
+            "iata": "MSP",
+            "icao": "KMSP",
+            "terminal": "1",
+            "gate": "F15",
+            "delay": 29,
+            "scheduled": "2024-01-08T10:00:00+00:00",
+            "estimated": "2024-01-08T10:00:00+00:00",
+            "actual": "2024-01-08T10:29:00+00:00",
+            "estimated_runway": "2024-01-08T10:29:00+00:00",
+            "actual_runway": "2024-01-08T10:29:00+00:00"
+        },
+        "arrival": {
+            "airport": "George Bush Intercontinental",
+            "timezone": "America/Chicago",
+            "iata": "IAH",
+            "icao": "KIAH",
+            "terminal": "A",
+            "gate": "9",
+            "baggage": null,
+            "delay": 22,
+            "scheduled": "2024-01-08T13:13:00+00:00",
+            "estimated": "2024-01-08T13:13:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "airline": {
+            "name": "Delta Air Lines",
+            "iata": "DL",
+            "icao": "DAL"
+        },
+        "flight": {
+            "number": "2920",
+            "iata": "DL2920",
+            "icao": "DAL2920",
+            "codeshared": null
+        },
+        "aircraft": null,
+        "live": null
+    },
+    {
+        "flight_date": "2024-01-08",
+        "flight_status": "diverted",
+        "departure": {
+            "airport": "Qingdao",
+            "timezone": "Asia/Shanghai",
+            "iata": "TAO",
+            "icao": "ZSQD",
+            "terminal": null,
+            "gate": "23",
+            "delay": 18,
+            "scheduled": "2024-01-08T10:30:00+00:00",
+            "estimated": "2024-01-08T10:30:00+00:00",
+            "actual": "2024-01-08T10:48:00+00:00",
+            "estimated_runway": "2024-01-08T10:48:00+00:00",
+            "actual_runway": "2024-01-08T10:48:00+00:00"
+        },
+        "arrival": {
+            "airport": "Tianhe International",
+            "timezone": "Asia/Shanghai",
+            "iata": "WUH",
+            "icao": "ZHHH",
+            "terminal": "3",
+            "gate": null,
+            "baggage": "05",
+            "delay": 63,
+            "scheduled": "2024-01-08T13:00:00+00:00",
+            "estimated": "2024-01-08T13:00:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "airline": {
+            "name": "China Express Air",
+            "iata": "G5",
+            "icao": "HXA"
+        },
+        "flight": {
+            "number": "6567",
+            "iata": "G56567",
+            "icao": "HXA6567",
+            "codeshared": {
+                "airline_name": "shandong airlines",
+                "airline_iata": "sc",
+                "airline_icao": "cdg",
+                "flight_number": "4863",
+                "flight_iata": "sc4863",
+                "flight_icao": "cdg4863"
+            }
+        },
+        "aircraft": null,
+        "live": null
+    },
+    {
+        "flight_date": "2024-01-08",
+        "flight_status": "diverted",
+        "departure": {
+            "airport": "Stansted",
+            "timezone": "Europe/London",
+            "iata": "STN",
+            "icao": "EGSS",
+            "terminal": null,
+            "gate": null,
+            "delay": 15,
+            "scheduled": "2024-01-08T09:55:00+00:00",
+            "estimated": "2024-01-08T09:55:00+00:00",
+            "actual": "2024-01-08T09:52:00+00:00",
+            "estimated_runway": "2024-01-08T09:52:00+00:00",
+            "actual_runway": "2024-01-08T09:52:00+00:00"
+        },
+        "arrival": {
+            "airport": "Milano Malpensa",
+            "timezone": "Europe/Rome",
+            "iata": "MXP",
+            "icao": "LIMC",
+            "terminal": "2",
+            "gate": null,
+            "baggage": null,
+            "delay": null,
+            "scheduled": "2024-01-08T12:45:00+00:00",
+            "estimated": "2024-01-08T12:45:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "airline": {
+            "name": "Qatar Airways",
+            "iata": "QR",
+            "icao": "QTR"
+        },
+        "flight": {
+            "number": "8445",
+            "iata": "QR8445",
+            "icao": "QTR8445",
+            "codeshared": null
+        },
+        "aircraft": {
+            "registration": "A7-BFO",
+            "iata": "B77L",
+            "icao": "B77L",
+            "icao24": "06A1EC"
+        },
+        "live": {
+            "updated": "2024-01-08T10:15:13+00:00",
+            "latitude": 53.3069,
+            "longitude": 2.7787,
+            "altitude": 11277.6,
+            "direction": 26,
+            "speed_horizontal": 846.364,
+            "speed_vertical": 0,
+            "is_ground": false
+        }
+    },
+    {
+        "flight_date": "2024-01-08",
+        "flight_status": "diverted",
+        "departure": {
+            "airport": "Frankfurt International Airport",
+            "timezone": "Europe/Berlin",
+            "iata": "FRA",
+            "icao": "EDDF",
+            "terminal": "1",
+            "gate": "C6",
+            "delay": 59,
+            "scheduled": "2024-01-08T10:50:00+00:00",
+            "estimated": "2024-01-08T10:50:00+00:00",
+            "actual": "2024-01-08T11:49:00+00:00",
+            "estimated_runway": "2024-01-08T11:49:00+00:00",
+            "actual_runway": "2024-01-08T11:49:00+00:00"
+        },
+        "arrival": {
+            "airport": "Ben Gurion International",
+            "timezone": "Asia/Jerusalem",
+            "iata": "TLV",
+            "icao": "LLBG",
+            "terminal": "3",
+            "gate": null,
+            "baggage": null,
+            "delay": 35,
+            "scheduled": "2024-01-08T15:55:00+00:00",
+            "estimated": "2024-01-08T15:55:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "airline": {
+            "name": "El Al",
+            "iata": "LY",
+            "icao": "ELY"
+        },
+        "flight": {
+            "number": "358",
+            "iata": "LY358",
+            "icao": "ELY358",
+            "codeshared": null
+        },
+        "aircraft": null,
+        "live": null
+    },
+    {
+        "flight_date": "2024-01-08",
+        "flight_status": "diverted",
+        "departure": {
+            "airport": "Lester B. Pearson International",
+            "timezone": "America/Toronto",
+            "iata": "YYZ",
+            "icao": "CYYZ",
+            "terminal": "3",
+            "gate": "B22",
+            "delay": 8,
+            "scheduled": "2024-01-08T13:45:00+00:00",
+            "estimated": "2024-01-08T13:45:00+00:00",
+            "actual": "2024-01-08T13:52:00+00:00",
+            "estimated_runway": "2024-01-08T13:52:00+00:00",
+            "actual_runway": "2024-01-08T13:52:00+00:00"
+        },
+        "arrival": {
+            "airport": "St. John's International",
+            "timezone": "America/St_Johns",
+            "iata": "YYT",
+            "icao": "CYYT",
+            "terminal": "MA",
+            "gate": "10",
+            "baggage": null,
+            "delay": 58,
+            "scheduled": "2024-01-08T18:16:00+00:00",
+            "estimated": "2024-01-08T18:16:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "airline": {
+            "name": "Korean Air",
+            "iata": "KE",
+            "icao": "KAL"
+        },
+        "flight": {
+            "number": "6557",
+            "iata": "KE6557",
+            "icao": "KAL6557",
+            "codeshared": {
+                "airline_name": "westjet",
+                "airline_iata": "ws",
+                "airline_icao": "wja",
+                "flight_number": "626",
+                "flight_iata": "ws626",
+                "flight_icao": "wja626"
+            }
+        },
+        "aircraft": null,
+        "live": null
+    },
+    {
+        "flight_date": "2024-01-08",
+        "flight_status": "diverted",
+        "departure": {
+            "airport": "Taizhou",
+            "timezone": "Asia/Shanghai",
+            "iata": "YTY",
+            "icao": "ZSYA",
+            "terminal": null,
+            "gate": "6",
+            "delay": 3,
+            "scheduled": "2024-01-08T17:55:00+00:00",
+            "estimated": "2024-01-08T17:55:00+00:00",
+            "actual": "2024-01-08T17:57:00+00:00",
+            "estimated_runway": "2024-01-08T17:57:00+00:00",
+            "actual_runway": "2024-01-08T17:57:00+00:00"
+        },
+        "arrival": {
+            "airport": "Shenyang",
+            "timezone": "Asia/Shanghai",
+            "iata": "SHE",
+            "icao": "ZYTX",
+            "terminal": "T3",
+            "gate": null,
+            "baggage": null,
+            "delay": null,
+            "scheduled": "2024-01-08T20:15:00+00:00",
+            "estimated": "2024-01-08T20:15:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "airline": {
+            "name": "Spring Airlines",
+            "iata": "9C",
+            "icao": "CQH"
+        },
+        "flight": {
+            "number": "6552",
+            "iata": "9C6552",
+            "icao": "CQH6552",
+            "codeshared": null
+        },
+        "aircraft": null,
+        "live": null
+    },
+    {
+        "flight_date": "2024-01-08",
+        "flight_status": "diverted",
+        "departure": {
+            "airport": "Santa Barbara Metropolitan Area",
+            "timezone": "America/Los_Angeles",
+            "iata": "SBA",
+            "icao": "KSBA",
+            "terminal": null,
+            "gate": "2",
+            "delay": 7,
+            "scheduled": "2024-01-08T05:30:00+00:00",
+            "estimated": "2024-01-08T05:30:00+00:00",
+            "actual": "2024-01-08T05:37:00+00:00",
+            "estimated_runway": "2024-01-08T05:37:00+00:00",
+            "actual_runway": "2024-01-08T05:37:00+00:00"
+        },
+        "arrival": {
+            "airport": "Dallas/Fort Worth International",
+            "timezone": "America/Chicago",
+            "iata": "DFW",
+            "icao": "KDFW",
+            "terminal": "D",
+            "gate": "D18",
+            "baggage": "D16",
+            "delay": 30,
+            "scheduled": "2024-01-08T10:37:00+00:00",
+            "estimated": "2024-01-08T10:37:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "airline": {
+            "name": "Qatar Airways",
+            "iata": "QR",
+            "icao": "QTR"
+        },
+        "flight": {
+            "number": "9326",
+            "iata": "QR9326",
+            "icao": "QTR9326",
+            "codeshared": {
+                "airline_name": "american airlines",
+                "airline_iata": "aa",
+                "airline_icao": "aal",
+                "flight_number": "842",
+                "flight_iata": "aa842",
+                "flight_icao": "aal842"
+            }
+        },
+        "aircraft": null,
+        "live": null
+    },
+    {
+        "flight_date": "2024-01-08",
+        "flight_status": "diverted",
+        "departure": {
+            "airport": "Chicago O'hare International",
+            "timezone": "America/Chicago",
+            "iata": "ORD",
+            "icao": "KORD",
+            "terminal": "3",
+            "gate": "L5",
+            "delay": 83,
+            "scheduled": "2024-01-08T05:05:00+00:00",
+            "estimated": "2024-01-08T05:05:00+00:00",
+            "actual": "2024-01-08T06:28:00+00:00",
+            "estimated_runway": "2024-01-08T06:28:00+00:00",
+            "actual_runway": "2024-01-08T06:28:00+00:00"
+        },
+        "arrival": {
+            "airport": "Fort Lauderdale–Hollywood International",
+            "timezone": "America/New_York",
+            "iata": "FLL",
+            "icao": "KFLL",
+            "terminal": "3",
+            "gate": "E7",
+            "baggage": null,
+            "delay": 50,
+            "scheduled": "2024-01-08T09:18:00+00:00",
+            "estimated": "2024-01-08T09:18:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "airline": {
+            "name": "Spirit Airlines",
+            "iata": "NK",
+            "icao": "NKS"
+        },
+        "flight": {
+            "number": "7",
+            "iata": "NK7",
+            "icao": "NKS7",
+            "codeshared": null
+        },
+        "aircraft": null,
+        "live": null
+    },
+    {
+        "flight_date": "2024-01-08",
+        "flight_status": "diverted",
+        "departure": {
+            "airport": "Leonardo Da Vinci (Fiumicino)",
+            "timezone": "Europe/Rome",
+            "iata": "FCO",
+            "icao": "LIRF",
+            "terminal": "1",
+            "gate": "81",
+            "delay": 17,
+            "scheduled": "2024-01-08T10:15:00+00:00",
+            "estimated": "2024-01-08T10:15:00+00:00",
+            "actual": "2024-01-08T10:31:00+00:00",
+            "estimated_runway": "2024-01-08T10:31:00+00:00",
+            "actual_runway": "2024-01-08T10:31:00+00:00"
+        },
+        "arrival": {
+            "airport": "Punta Raisi",
+            "timezone": "Europe/Rome",
+            "iata": "PMO",
+            "icao": "LICJ",
+            "terminal": "1",
+            "gate": "A71",
+            "baggage": null,
+            "delay": 63,
+            "scheduled": "2024-01-08T11:20:00+00:00",
+            "estimated": "2024-01-08T11:20:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "airline": {
+            "name": "Ryanair",
+            "iata": "FR",
+            "icao": "RYR"
+        },
+        "flight": {
+            "number": "4902",
+            "iata": "FR4902",
+            "icao": "RYR4902",
+            "codeshared": null
+        },
+        "aircraft": null,
+        "live": null
+    },
+    {
+        "flight_date": "2024-01-08",
+        "flight_status": "diverted",
+        "departure": {
+            "airport": "Wood County",
+            "timezone": "America/New_York",
+            "iata": "PKB",
+            "icao": "KPKB",
+            "terminal": null,
+            "gate": null,
+            "delay": null,
+            "scheduled": "2024-01-08T15:15:00+00:00",
+            "estimated": "2024-01-08T15:15:00+00:00",
+            "actual": "2024-01-08T15:06:00+00:00",
+            "estimated_runway": "2024-01-08T15:06:00+00:00",
+            "actual_runway": "2024-01-08T15:06:00+00:00"
+        },
+        "arrival": {
+            "airport": "Dannelly Field",
+            "timezone": "America/Chicago",
+            "iata": "MGM",
+            "icao": "KMGM",
+            "terminal": null,
+            "gate": null,
+            "baggage": null,
+            "delay": null,
+            "scheduled": "2024-01-08T16:03:00+00:00",
+            "estimated": "2024-01-08T16:03:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "airline": {
+            "name": "Volato",
+            "iata": null,
+            "icao": "TMB"
+        },
+        "flight": {
+            "number": null,
+            "iata": null,
+            "icao": "TMB",
+            "codeshared": null
+        },
+        "aircraft": null,
+        "live": null
+    },
+    {
+        "flight_date": "2024-01-08",
+        "flight_status": "diverted",
+        "departure": {
+            "airport": "Gwinnett County Airport",
+            "timezone": "America/New_York",
+            "iata": "LZU",
+            "icao": "KLZU",
+            "terminal": null,
+            "gate": null,
+            "delay": 62,
+            "scheduled": "2024-01-08T18:00:00+00:00",
+            "estimated": "2024-01-08T18:00:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "arrival": {
+            "airport": "Dothan Airport",
+            "timezone": "America/Chicago",
+            "iata": "DHN",
+            "icao": "KDHN",
+            "terminal": "S",
+            "gate": null,
+            "baggage": null,
+            "delay": null,
+            "scheduled": "2024-01-08T17:45:00+00:00",
+            "estimated": "2024-01-08T17:45:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "airline": {
+            "name": "Quest Diagnostics",
+            "iata": "LBQ",
+            "icao": "LBQ"
+        },
+        "flight": {
+            "number": "850",
+            "iata": "LBQ850",
+            "icao": "LBQ850",
+            "codeshared": null
+        },
+        "aircraft": null,
+        "live": null
+    },
+    {
+        "flight_date": "2024-01-08",
+        "flight_status": "diverted",
+        "departure": {
+            "airport": "Spirit Of St Louis",
+            "timezone": "America/Chicago",
+            "iata": "SUS",
+            "icao": "KSUS",
+            "terminal": null,
+            "gate": null,
+            "delay": 9,
+            "scheduled": "2024-01-08T13:45:00+00:00",
+            "estimated": "2024-01-08T13:45:00+00:00",
+            "actual": "2024-01-08T13:54:00+00:00",
+            "estimated_runway": "2024-01-08T13:54:00+00:00",
+            "actual_runway": "2024-01-08T13:54:00+00:00"
+        },
+        "arrival": {
+            "airport": "Colorado Springs",
+            "timezone": "America/Denver",
+            "iata": "COS",
+            "icao": "KCOS",
+            "terminal": null,
+            "gate": null,
+            "baggage": null,
+            "delay": 2,
+            "scheduled": "2024-01-08T15:34:00+00:00",
+            "estimated": "2024-01-08T15:34:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "airline": {
+            "name": "empty",
+            "iata": null,
+            "icao": null
+        },
+        "flight": {
+            "number": null,
+            "iata": null,
+            "icao": null,
+            "codeshared": null
+        },
+        "aircraft": null,
+        "live": null
+    },
+    {
+        "flight_date": "2024-01-08",
+        "flight_status": "diverted",
+        "departure": {
+            "airport": "St Augustine",
+            "timezone": "America/New_York",
+            "iata": "UST",
+            "icao": "KSGJ",
+            "terminal": null,
+            "gate": null,
+            "delay": null,
+            "scheduled": "2024-01-08T16:30:00+00:00",
+            "estimated": "2024-01-08T16:30:00+00:00",
+            "actual": "2024-01-08T16:30:00+00:00",
+            "estimated_runway": "2024-01-08T16:30:00+00:00",
+            "actual_runway": "2024-01-08T16:30:00+00:00"
+        },
+        "arrival": {
+            "airport": "St Augustine",
+            "timezone": "America/New_York",
+            "iata": "UST",
+            "icao": "KSGJ",
+            "terminal": null,
+            "gate": null,
+            "baggage": null,
+            "delay": 5,
+            "scheduled": "2024-01-08T17:53:00+00:00",
+            "estimated": "2024-01-08T17:53:00+00:00",
+            "actual": "2024-01-08T14:34:00+00:00",
+            "estimated_runway": "2024-01-08T14:34:00+00:00",
+            "actual_runway": "2024-01-08T14:34:00+00:00"
+        },
+        "airline": {
+            "name": "Florida Flyers Flight Academy",
+            "iata": null,
+            "icao": "FFY"
+        },
+        "flight": {
+            "number": "781",
+            "iata": null,
+            "icao": "FFY781",
+            "codeshared": null
+        },
+        "aircraft": null,
+        "live": null
+    },
+    {
+        "flight_date": "2024-01-08",
+        "flight_status": "diverted",
+        "departure": {
+            "airport": null,
+            "timezone": null,
+            "iata": "RIV",
+            "icao": "KRIV",
+            "terminal": null,
+            "gate": null,
+            "delay": 46,
+            "scheduled": "2024-01-08T11:25:00+00:00",
+            "estimated": "2024-01-08T11:25:00+00:00",
+            "actual": "2024-01-08T12:11:00+00:00",
+            "estimated_runway": "2024-01-08T12:11:00+00:00",
+            "actual_runway": "2024-01-08T12:11:00+00:00"
+        },
+        "arrival": {
+            "airport": "George Bush Intercontinental",
+            "timezone": "America/Chicago",
+            "iata": "IAH",
+            "icao": "KIAH",
+            "terminal": "E",
+            "gate": null,
+            "baggage": null,
+            "delay": 82,
+            "scheduled": "2024-01-08T16:19:00+00:00",
+            "estimated": "2024-01-08T16:19:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "airline": {
+            "name": "ATI",
+            "iata": "8C",
+            "icao": "ATN"
+        },
+        "flight": {
+            "number": "3261",
+            "iata": "8C3261",
+            "icao": "ATN3261",
+            "codeshared": null
+        },
+        "aircraft": {
+            "registration": "N761CX",
+            "iata": "B762",
+            "icao": "B762",
+            "icao24": "AA4587"
+        },
+        "live": {
+            "updated": "2024-01-08T22:28:40+00:00",
+            "latitude": 28.9259,
+            "longitude": -99.5531,
+            "altitude": 8846.82,
+            "direction": 67,
+            "speed_horizontal": 1013.04,
+            "speed_vertical": 0,
+            "is_ground": false
+        }
+    },
+    {
+        "flight_date": "2024-01-08",
+        "flight_status": "diverted",
+        "departure": {
+            "airport": "Teterboro",
+            "timezone": "America/New_York",
+            "iata": "TEB",
+            "icao": "KTEB",
+            "terminal": null,
+            "gate": null,
+            "delay": 52,
+            "scheduled": "2024-01-08T13:30:00+00:00",
+            "estimated": "2024-01-08T13:30:00+00:00",
+            "actual": "2024-01-08T14:22:00+00:00",
+            "estimated_runway": "2024-01-08T14:22:00+00:00",
+            "actual_runway": "2024-01-08T14:22:00+00:00"
+        },
+        "arrival": {
+            "airport": "George Bush Intercontinental",
+            "timezone": "America/Chicago",
+            "iata": "IAH",
+            "icao": "KIAH",
+            "terminal": "D",
+            "gate": null,
+            "baggage": null,
+            "delay": 16,
+            "scheduled": "2024-01-08T17:59:00+00:00",
+            "estimated": "2024-01-08T17:59:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "airline": {
+            "name": "Flexjet",
+            "iata": "LXJ",
+            "icao": "LXJ"
+        },
+        "flight": {
+            "number": "560",
+            "iata": "LXJ560",
+            "icao": "LXJ560",
+            "codeshared": null
+        },
+        "aircraft": null,
+        "live": null
+    },
+    {
+        "flight_date": "2024-01-08",
+        "flight_status": "diverted",
+        "departure": {
+            "airport": "Public",
+            "timezone": "America/New_York",
+            "iata": "BCT",
+            "icao": "KBCT",
+            "terminal": null,
+            "gate": null,
+            "delay": 52,
+            "scheduled": "2024-01-08T11:30:00+00:00",
+            "estimated": "2024-01-08T11:30:00+00:00",
+            "actual": "2024-01-08T12:22:00+00:00",
+            "estimated_runway": "2024-01-08T12:22:00+00:00",
+            "actual_runway": "2024-01-08T12:22:00+00:00"
+        },
+        "arrival": {
+            "airport": "Fort Lauderdale–Hollywood International",
+            "timezone": "America/New_York",
+            "iata": "FLL",
+            "icao": "KFLL",
+            "terminal": "3",
+            "gate": null,
+            "baggage": null,
+            "delay": null,
+            "scheduled": "2024-01-08T12:38:00+00:00",
+            "estimated": "2024-01-08T12:38:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "airline": {
+            "name": "flyExclusive",
+            "iata": null,
+            "icao": "JRE"
+        },
+        "flight": {
+            "number": "863",
+            "iata": null,
+            "icao": "JRE863",
+            "codeshared": null
+        },
+        "aircraft": null,
+        "live": null
+    },
+    {
+        "flight_date": "2024-01-08",
+        "flight_status": "diverted",
+        "departure": {
+            "airport": "Midway",
+            "timezone": "America/Chicago",
+            "iata": "MDW",
+            "icao": "KMDW",
+            "terminal": null,
+            "gate": null,
+            "delay": 6,
+            "scheduled": "2024-01-08T17:30:00+00:00",
+            "estimated": "2024-01-08T17:30:00+00:00",
+            "actual": "2024-01-08T15:38:00+00:00",
+            "estimated_runway": "2024-01-08T15:38:00+00:00",
+            "actual_runway": "2024-01-08T15:38:00+00:00"
+        },
+        "arrival": {
+            "airport": "Akron/canton Regional",
+            "timezone": "America/New_York",
+            "iata": "CAK",
+            "icao": "KCAK",
+            "terminal": null,
+            "gate": null,
+            "baggage": null,
+            "delay": null,
+            "scheduled": "2024-01-08T19:36:00+00:00",
+            "estimated": "2024-01-08T19:36:00+00:00",
+            "actual": "2024-01-08T17:52:00+00:00",
+            "estimated_runway": "2024-01-08T17:52:00+00:00",
+            "actual_runway": "2024-01-08T17:52:00+00:00"
+        },
+        "airline": {
+            "name": "NetJets Aviation",
+            "iata": "1I",
+            "icao": "EJA"
+        },
+        "flight": {
+            "number": "933",
+            "iata": "1I933",
+            "icao": "EJA933",
+            "codeshared": null
+        },
+        "aircraft": null,
+        "live": null
+    },
+    {
+        "flight_date": "2024-01-08",
+        "flight_status": "diverted",
+        "departure": {
+            "airport": "Ted Stevens Anchorage International Airport",
+            "timezone": "America/Anchorage",
+            "iata": "ANC",
+            "icao": "PANC",
+            "terminal": null,
+            "gate": null,
+            "delay": 27,
+            "scheduled": "2024-01-08T16:05:00+00:00",
+            "estimated": "2024-01-08T16:05:00+00:00",
+            "actual": "2024-01-08T16:31:00+00:00",
+            "estimated_runway": "2024-01-08T16:31:00+00:00",
+            "actual_runway": "2024-01-08T16:31:00+00:00"
+        },
+        "arrival": {
+            "airport": "Municipal",
+            "timezone": "America/Anchorage",
+            "iata": "DLG",
+            "icao": "PADL",
+            "terminal": null,
+            "gate": null,
+            "baggage": null,
+            "delay": 3,
+            "scheduled": "2024-01-08T18:06:00+00:00",
+            "estimated": "2024-01-08T18:06:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "airline": {
+            "name": "ACE Air Cargo",
+            "iata": "KO",
+            "icao": "AER"
+        },
+        "flight": {
+            "number": "68",
+            "iata": "KO68",
+            "icao": "AER68",
+            "codeshared": null
+        },
+        "aircraft": null,
+        "live": null
+    },
+    {
+        "flight_date": "2024-01-08",
+        "flight_status": "diverted",
+        "departure": {
+            "airport": "Narita International Airport",
+            "timezone": "Asia/Tokyo",
+            "iata": "NRT",
+            "icao": "RJAA",
+            "terminal": "2",
+            "gate": "81",
+            "delay": 83,
+            "scheduled": "2024-01-08T08:35:00+00:00",
+            "estimated": "2024-01-08T08:35:00+00:00",
+            "actual": "2024-01-08T09:58:00+00:00",
+            "estimated_runway": "2024-01-08T09:58:00+00:00",
+            "actual_runway": "2024-01-08T09:58:00+00:00"
+        },
+        "arrival": {
+            "airport": "Kuala Lumpur International Airport (klia)",
+            "timezone": "Asia/Kuala_Lumpur",
+            "iata": "KUL",
+            "icao": "WMKK",
+            "terminal": "1",
+            "gate": null,
+            "baggage": null,
+            "delay": 91,
+            "scheduled": "2024-01-08T15:20:00+00:00",
+            "estimated": "2024-01-08T15:20:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "airline": {
+            "name": "Batik Air",
+            "iata": "ID",
+            "icao": "BTK"
+        },
+        "flight": {
+            "number": "873",
+            "iata": "ID873",
+            "icao": "BTK873",
+            "codeshared": null
+        },
+        "aircraft": null,
+        "live": null
+    },
+    {
+        "flight_date": "2024-01-08",
+        "flight_status": "diverted",
+        "departure": {
+            "airport": "Daytona Beach International Airport",
+            "timezone": "America/New_York",
+            "iata": "DAB",
+            "icao": "KDAB",
+            "terminal": null,
+            "gate": null,
+            "delay": null,
+            "scheduled": "2024-01-08T20:35:00+00:00",
+            "estimated": "2024-01-08T20:35:00+00:00",
+            "actual": "2024-01-08T20:29:00+00:00",
+            "estimated_runway": "2024-01-08T20:29:00+00:00",
+            "actual_runway": "2024-01-08T20:29:00+00:00"
+        },
+        "arrival": {
+            "airport": "Orlando Sanford International",
+            "timezone": "America/New_York",
+            "iata": "SFB",
+            "icao": "KSFB",
+            "terminal": "B",
+            "gate": null,
+            "baggage": null,
+            "delay": 3,
+            "scheduled": "2024-01-08T21:27:00+00:00",
+            "estimated": "2024-01-08T21:27:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "airline": {
+            "name": "Private owner",
+            "iata": null,
+            "icao": null
+        },
+        "flight": {
+            "number": "973",
+            "iata": null,
+            "icao": null,
+            "codeshared": null
+        },
+        "aircraft": null,
+        "live": null
+    },
+    {
+        "flight_date": "2024-01-08",
+        "flight_status": "diverted",
+        "departure": {
+            "airport": "Charles De Gaulle",
+            "timezone": "Europe/Paris",
+            "iata": "CDG",
+            "icao": "LFPG",
+            "terminal": "2B",
+            "gate": "B28",
+            "delay": 64,
+            "scheduled": "2024-01-08T11:10:00+00:00",
+            "estimated": "2024-01-08T11:10:00+00:00",
+            "actual": "2024-01-08T12:14:00+00:00",
+            "estimated_runway": "2024-01-08T12:14:00+00:00",
+            "actual_runway": "2024-01-08T12:14:00+00:00"
+        },
+        "arrival": {
+            "airport": "Ben Gurion International",
+            "timezone": "Asia/Jerusalem",
+            "iata": "TLV",
+            "icao": "LLBG",
+            "terminal": "3",
+            "gate": null,
+            "baggage": null,
+            "delay": 39,
+            "scheduled": "2024-01-08T16:35:00+00:00",
+            "estimated": "2024-01-08T16:35:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "airline": {
+            "name": "El Al",
+            "iata": "LY",
+            "icao": "ELY"
+        },
+        "flight": {
+            "number": "320",
+            "iata": "LY320",
+            "icao": "ELY320",
+            "codeshared": null
+        },
+        "aircraft": {
+            "registration": "4X-EHC",
+            "iata": "B739",
+            "icao": "B739",
+            "icao24": "738052"
+        },
+        "live": {
+            "updated": "2024-01-08T12:32:42+00:00",
+            "latitude": 44.6342,
+            "longitude": 14.3679,
+            "altitude": 10675.6,
+            "direction": 130,
+            "speed_horizontal": 811.176,
+            "speed_vertical": 0,
+            "is_ground": false
+        }
+    },
+    {
+        "flight_date": "2024-01-08",
+        "flight_status": "diverted",
+        "departure": {
+            "airport": "Gatwick",
+            "timezone": "Europe/London",
+            "iata": "LGW",
+            "icao": "EGKK",
+            "terminal": "S",
+            "gate": "16",
+            "delay": 30,
+            "scheduled": "2024-01-08T10:10:00+00:00",
+            "estimated": "2024-01-08T10:10:00+00:00",
+            "actual": "2024-01-08T10:39:00+00:00",
+            "estimated_runway": "2024-01-08T10:39:00+00:00",
+            "actual_runway": "2024-01-08T10:39:00+00:00"
+        },
+        "arrival": {
+            "airport": "Tromso/langnes",
+            "timezone": "Europe/Oslo",
+            "iata": "TOS",
+            "icao": "ENTC",
+            "terminal": null,
+            "gate": null,
+            "baggage": "2",
+            "delay": 16,
+            "scheduled": "2024-01-08T14:40:00+00:00",
+            "estimated": "2024-01-08T14:40:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "airline": {
+            "name": "Norwegian",
+            "iata": "DY",
+            "icao": "NOZ"
+        },
+        "flight": {
+            "number": "1323",
+            "iata": "DY1323",
+            "icao": "NOZ1323",
+            "codeshared": null
+        },
+        "aircraft": null,
+        "live": null
+    },
+    {
+        "flight_date": "2024-01-08",
+        "flight_status": "diverted",
+        "departure": {
+            "airport": "Kuwait International",
+            "timezone": "Asia/Kuwait",
+            "iata": "KWI",
+            "icao": "OKKK",
+            "terminal": "1",
+            "gate": "5",
+            "delay": 32,
+            "scheduled": "2024-01-08T15:00:00+00:00",
+            "estimated": "2024-01-08T15:00:00+00:00",
+            "actual": "2024-01-08T15:32:00+00:00",
+            "estimated_runway": "2024-01-08T15:32:00+00:00",
+            "actual_runway": "2024-01-08T15:32:00+00:00"
+        },
+        "arrival": {
+            "airport": "Sialkot International",
+            "timezone": "Asia/Karachi",
+            "iata": "SKT",
+            "icao": "OPST",
+            "terminal": "MAIN",
+            "gate": null,
+            "baggage": null,
+            "delay": 13,
+            "scheduled": "2024-01-08T20:30:00+00:00",
+            "estimated": "2024-01-08T20:30:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "airline": {
+            "name": "Pakistan International Airlines",
+            "iata": "PK",
+            "icao": "PIA"
+        },
+        "flight": {
+            "number": "240",
+            "iata": "PK240",
+            "icao": "PIA240",
+            "codeshared": null
+        },
+        "aircraft": {
+            "registration": "AP-BMV",
+            "iata": "A320",
+            "icao": "A320",
+            "icao24": "7609B6"
+        },
+        "live": {
+            "updated": "2024-01-08T13:52:52+00:00",
+            "latitude": 29.8405,
+            "longitude": 59.1734,
+            "altitude": 10660.4,
+            "direction": 102,
+            "speed_horizontal": 887.108,
+            "speed_vertical": 0,
+            "is_ground": false
+        }
+    },
+    {
+        "flight_date": "2024-01-08",
+        "flight_status": "diverted",
+        "departure": {
+            "airport": "Eugene",
+            "timezone": "America/Los_Angeles",
+            "iata": "EUG",
+            "icao": "KEUG",
+            "terminal": null,
+            "gate": "A1",
+            "delay": 14,
+            "scheduled": "2024-01-08T05:39:00+00:00",
+            "estimated": "2024-01-08T05:39:00+00:00",
+            "actual": "2024-01-08T05:39:00+00:00",
+            "estimated_runway": "2024-01-08T05:39:00+00:00",
+            "actual_runway": "2024-01-08T05:39:00+00:00"
+        },
+        "arrival": {
+            "airport": "Dallas/Fort Worth International",
+            "timezone": "America/Chicago",
+            "iata": "DFW",
+            "icao": "KDFW",
+            "terminal": "D",
+            "gate": "D4",
+            "baggage": "D16",
+            "delay": 3,
+            "scheduled": "2024-01-08T11:18:00+00:00",
+            "estimated": "2024-01-08T11:18:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "airline": {
+            "name": "Qatar Airways",
+            "iata": "QR",
+            "icao": "QTR"
+        },
+        "flight": {
+            "number": "9144",
+            "iata": "QR9144",
+            "icao": "QTR9144",
+            "codeshared": {
+                "airline_name": "american airlines",
+                "airline_iata": "aa",
+                "airline_icao": "aal",
+                "flight_number": "2442",
+                "flight_iata": "aa2442",
+                "flight_icao": "aal2442"
+            }
+        },
+        "aircraft": null,
+        "live": null
+    },
+    {
+        "flight_date": "2024-01-08",
+        "flight_status": "diverted",
+        "departure": {
+            "airport": "Eugene",
+            "timezone": "America/Los_Angeles",
+            "iata": "EUG",
+            "icao": "KEUG",
+            "terminal": null,
+            "gate": "A1",
+            "delay": 14,
+            "scheduled": "2024-01-08T05:39:00+00:00",
+            "estimated": "2024-01-08T05:39:00+00:00",
+            "actual": "2024-01-08T05:39:00+00:00",
+            "estimated_runway": "2024-01-08T05:39:00+00:00",
+            "actual_runway": "2024-01-08T05:39:00+00:00"
+        },
+        "arrival": {
+            "airport": "Dallas/Fort Worth International",
+            "timezone": "America/Chicago",
+            "iata": "DFW",
+            "icao": "KDFW",
+            "terminal": "D",
+            "gate": "D4",
+            "baggage": "D16",
+            "delay": 3,
+            "scheduled": "2024-01-08T11:18:00+00:00",
+            "estimated": "2024-01-08T11:18:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "airline": {
+            "name": "Alaska Airlines",
+            "iata": "AS",
+            "icao": "ASA"
+        },
+        "flight": {
+            "number": "4557",
+            "iata": "AS4557",
+            "icao": "ASA4557",
+            "codeshared": {
+                "airline_name": "american airlines",
+                "airline_iata": "aa",
+                "airline_icao": "aal",
+                "flight_number": "2442",
+                "flight_iata": "aa2442",
+                "flight_icao": "aal2442"
+            }
+        },
+        "aircraft": null,
+        "live": null
+    },
+    {
+        "flight_date": "2024-01-08",
+        "flight_status": "diverted",
+        "departure": {
+            "airport": "Public",
+            "timezone": "America/New_York",
+            "iata": "BCT",
+            "icao": "KBCT",
+            "terminal": null,
+            "gate": null,
+            "delay": null,
+            "scheduled": "2024-01-08T15:58:00+00:00",
+            "estimated": "2024-01-08T15:58:00+00:00",
+            "actual": "2024-01-08T15:58:00+00:00",
+            "estimated_runway": "2024-01-08T15:58:00+00:00",
+            "actual_runway": "2024-01-08T15:58:00+00:00"
+        },
+        "arrival": {
+            "airport": "Dekalb-Peachtree",
+            "timezone": "America/New_York",
+            "iata": "PDK",
+            "icao": "KPDK",
+            "terminal": null,
+            "gate": null,
+            "baggage": null,
+            "delay": null,
+            "scheduled": "2024-01-08T18:02:00+00:00",
+            "estimated": "2024-01-08T18:02:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "airline": {
+            "name": "NetJets Aviation",
+            "iata": "1I",
+            "icao": "EJA"
+        },
+        "flight": {
+            "number": "925",
+            "iata": "1I925",
+            "icao": "EJA925",
+            "codeshared": null
+        },
+        "aircraft": null,
+        "live": null
+    },
+    {
+        "flight_date": "2024-01-08",
+        "flight_status": "diverted",
+        "departure": {
+            "airport": "Easterwood Field",
+            "timezone": "America/Chicago",
+            "iata": "CLL",
+            "icao": "KCLL",
+            "terminal": null,
+            "gate": null,
+            "delay": 34,
+            "scheduled": "2024-01-08T20:00:00+00:00",
+            "estimated": "2024-01-08T20:00:00+00:00",
+            "actual": "2024-01-08T20:33:00+00:00",
+            "estimated_runway": "2024-01-08T20:33:00+00:00",
+            "actual_runway": "2024-01-08T20:33:00+00:00"
+        },
+        "arrival": {
+            "airport": "William P Hobby",
+            "timezone": "America/Chicago",
+            "iata": "HOU",
+            "icao": "KHOU",
+            "terminal": "4",
+            "gate": null,
+            "baggage": null,
+            "delay": 9,
+            "scheduled": "2024-01-08T21:05:00+00:00",
+            "estimated": "2024-01-08T21:05:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "airline": {
+            "name": "Executive Flight Services",
+            "iata": null,
+            "icao": "XSR"
+        },
+        "flight": {
+            "number": "724",
+            "iata": null,
+            "icao": "XSR724",
+            "codeshared": null
+        },
+        "aircraft": null,
+        "live": null
+    },
+    {
+        "flight_date": "2024-01-08",
+        "flight_status": "diverted",
+        "departure": {
+            "airport": "Denver International",
+            "timezone": "America/Denver",
+            "iata": "DEN",
+            "icao": "KDEN",
+            "terminal": null,
+            "gate": "B70",
+            "delay": 19,
+            "scheduled": "2024-01-08T19:00:00+00:00",
+            "estimated": "2024-01-08T19:00:00+00:00",
+            "actual": "2024-01-08T19:19:00+00:00",
+            "estimated_runway": "2024-01-08T19:19:00+00:00",
+            "actual_runway": "2024-01-08T19:19:00+00:00"
+        },
+        "arrival": {
+            "airport": "Campbell County",
+            "timezone": "America/Denver",
+            "iata": "GCC",
+            "icao": "KGCC",
+            "terminal": null,
+            "gate": "3",
+            "baggage": null,
+            "delay": null,
+            "scheduled": "2024-01-08T19:58:00+00:00",
+            "estimated": "2024-01-08T19:58:00+00:00",
+            "actual": "2024-01-08T19:43:00+00:00",
+            "estimated_runway": "2024-01-08T19:43:00+00:00",
+            "actual_runway": "2024-01-08T19:43:00+00:00"
+        },
+        "airline": {
+            "name": "United Airlines",
+            "iata": "UA",
+            "icao": "UAL"
+        },
+        "flight": {
+            "number": "5252",
+            "iata": "UA5252",
+            "icao": "UAL5252",
+            "codeshared": null
+        },
+        "aircraft": null,
+        "live": null
+    },
+    {
+        "flight_date": "2024-01-08",
+        "flight_status": "diverted",
+        "departure": {
+            "airport": "Aeroporto Internacional Guarulhos",
+            "timezone": "America/Sao_Paulo",
+            "iata": "GRU",
+            "icao": "SBGR",
+            "terminal": "2",
+            "gate": "221",
+            "delay": 66,
+            "scheduled": "2024-01-08T14:00:00+00:00",
+            "estimated": "2024-01-08T14:00:00+00:00",
+            "actual": "2024-01-08T15:05:00+00:00",
+            "estimated_runway": "2024-01-08T15:05:00+00:00",
+            "actual_runway": "2024-01-08T15:05:00+00:00"
+        },
+        "arrival": {
+            "airport": "Luis Eduardo Magalhaes",
+            "timezone": "America/Bahia",
+            "iata": "SSA",
+            "icao": "SBSV",
+            "terminal": "2",
+            "gate": null,
+            "baggage": null,
+            "delay": 106,
+            "scheduled": "2024-01-08T16:25:00+00:00",
+            "estimated": "2024-01-08T16:25:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "airline": {
+            "name": "Aeromexico",
+            "iata": "AM",
+            "icao": "AMX"
+        },
+        "flight": {
+            "number": "8126",
+            "iata": "AM8126",
+            "icao": "AMX8126",
+            "codeshared": {
+                "airline_name": "gol",
+                "airline_iata": "g3",
+                "airline_icao": "glo",
+                "flight_number": "1696",
+                "flight_iata": "g31696",
+                "flight_icao": "glo1696"
+            }
+        },
+        "aircraft": null,
+        "live": null
+    },
+    {
+        "flight_date": "2024-01-08",
+        "flight_status": "diverted",
+        "departure": {
+            "airport": "Glasgow International",
+            "timezone": "Europe/London",
+            "iata": "GLA",
+            "icao": "EGPF",
+            "terminal": "M",
+            "gate": "25",
+            "delay": 12,
+            "scheduled": "2024-01-08T08:40:00+00:00",
+            "estimated": "2024-01-08T08:40:00+00:00",
+            "actual": "2024-01-08T08:51:00+00:00",
+            "estimated_runway": "2024-01-08T08:51:00+00:00",
+            "actual_runway": "2024-01-08T08:51:00+00:00"
+        },
+        "arrival": {
+            "airport": "London City Airport",
+            "timezone": "Europe/London",
+            "iata": "LCY",
+            "icao": "EGLC",
+            "terminal": "1",
+            "gate": null,
+            "baggage": "03",
+            "delay": 26,
+            "scheduled": "2024-01-08T10:10:00+00:00",
+            "estimated": "2024-01-08T10:10:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "airline": {
+            "name": "British Airways",
+            "iata": "BA",
+            "icao": "BAW"
+        },
+        "flight": {
+            "number": "8723",
+            "iata": "BA8723",
+            "icao": "BAW8723",
+            "codeshared": null
+        },
+        "aircraft": {
+            "registration": "G-LCYR",
+            "iata": "E190",
+            "icao": "E190",
+            "icao24": "40676A"
+        },
+        "live": {
+            "updated": "2024-01-08T09:38:42+00:00",
+            "latitude": 52.1012,
+            "longitude": 0.5178,
+            "altitude": 5425.44,
+            "direction": 99,
+            "speed_horizontal": 600.048,
+            "speed_vertical": 0,
+            "is_ground": false
+        }
+    },
+    {
+        "flight_date": "2024-01-08",
+        "flight_status": "diverted",
+        "departure": {
+            "airport": "Honolulu International",
+            "timezone": "Pacific/Honolulu",
+            "iata": "HNL",
+            "icao": "PHNL",
+            "terminal": null,
+            "gate": null,
+            "delay": 8,
+            "scheduled": "2024-01-08T11:00:00+00:00",
+            "estimated": "2024-01-08T11:00:00+00:00",
+            "actual": "2024-01-08T11:07:00+00:00",
+            "estimated_runway": "2024-01-08T11:07:00+00:00",
+            "actual_runway": "2024-01-08T11:07:00+00:00"
+        },
+        "arrival": {
+            "airport": "Lanai City",
+            "timezone": "Pacific/Honolulu",
+            "iata": "LNY",
+            "icao": "PHNY",
+            "terminal": null,
+            "gate": null,
+            "baggage": null,
+            "delay": 32,
+            "scheduled": "2024-01-08T12:05:00+00:00",
+            "estimated": "2024-01-08T12:05:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "airline": {
+            "name": "FedEx",
+            "iata": "FX",
+            "icao": "FDX"
+        },
+        "flight": {
+            "number": "914",
+            "iata": "FX914",
+            "icao": "FDX914",
+            "codeshared": null
+        },
+        "aircraft": null,
+        "live": null
+    },
+    {
+        "flight_date": "2024-01-08",
+        "flight_status": "diverted",
+        "departure": {
+            "airport": "Alfonso B. Aragon",
+            "timezone": "America/Bogota",
+            "iata": "CLO",
+            "icao": "SKCL",
+            "terminal": null,
+            "gate": null,
+            "delay": 13,
+            "scheduled": "2024-01-08T05:29:00+00:00",
+            "estimated": "2024-01-08T05:29:00+00:00",
+            "actual": "2024-01-08T05:42:00+00:00",
+            "estimated_runway": "2024-01-08T05:42:00+00:00",
+            "actual_runway": "2024-01-08T05:42:00+00:00"
+        },
+        "arrival": {
+            "airport": "Jose Maria Cordova",
+            "timezone": "America/Bogota",
+            "iata": "MDE",
+            "icao": "SKRG",
+            "terminal": "4",
+            "gate": null,
+            "baggage": null,
+            "delay": 45,
+            "scheduled": "2024-01-08T06:26:00+00:00",
+            "estimated": "2024-01-08T06:26:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "airline": {
+            "name": "SA AVIANCA",
+            "iata": "AV",
+            "icao": "AVA"
+        },
+        "flight": {
+            "number": "9434",
+            "iata": "AV9434",
+            "icao": "AVA9434",
+            "codeshared": null
+        },
+        "aircraft": null,
+        "live": null
+    },
+    {
+        "flight_date": "2024-01-08",
+        "flight_status": "diverted",
+        "departure": {
+            "airport": "Naples",
+            "timezone": "America/New_York",
+            "iata": "APF",
+            "icao": "KAPF",
+            "terminal": null,
+            "gate": null,
+            "delay": 55,
+            "scheduled": "2024-01-08T13:12:00+00:00",
+            "estimated": "2024-01-08T13:12:00+00:00",
+            "actual": "2024-01-08T14:06:00+00:00",
+            "estimated_runway": "2024-01-08T14:06:00+00:00",
+            "actual_runway": "2024-01-08T14:06:00+00:00"
+        },
+        "arrival": {
+            "airport": "Palm Beach International Airport",
+            "timezone": "America/New_York",
+            "iata": "PBI",
+            "icao": "KPBI",
+            "terminal": "B",
+            "gate": null,
+            "baggage": null,
+            "delay": 45,
+            "scheduled": "2024-01-08T13:48:00+00:00",
+            "estimated": "2024-01-08T13:48:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "airline": {
+            "name": "NetJets Aviation",
+            "iata": "1I",
+            "icao": "EJA"
+        },
+        "flight": {
+            "number": "516",
+            "iata": "1I516",
+            "icao": "EJA516",
+            "codeshared": null
+        },
+        "aircraft": null,
+        "live": null
+    },
+    {
+        "flight_date": "2024-01-08",
+        "flight_status": "diverted",
+        "departure": {
+            "airport": "Schiphol",
+            "timezone": "Europe/Amsterdam",
+            "iata": "AMS",
+            "icao": "EHAM",
+            "terminal": null,
+            "gate": null,
+            "delay": 48,
+            "scheduled": "2024-01-08T10:20:00+00:00",
+            "estimated": "2024-01-08T10:20:00+00:00",
+            "actual": "2024-01-08T11:08:00+00:00",
+            "estimated_runway": "2024-01-08T11:08:00+00:00",
+            "actual_runway": "2024-01-08T11:08:00+00:00"
+        },
+        "arrival": {
+            "airport": "Ben Gurion International",
+            "timezone": "Asia/Jerusalem",
+            "iata": "TLV",
+            "icao": "LLBG",
+            "terminal": "3",
+            "gate": null,
+            "baggage": null,
+            "delay": 33,
+            "scheduled": "2024-01-08T15:45:00+00:00",
+            "estimated": "2024-01-08T15:45:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "airline": {
+            "name": "El Al",
+            "iata": "LY",
+            "icao": "ELY"
+        },
+        "flight": {
+            "number": "840",
+            "iata": "LY840",
+            "icao": "ELY840",
+            "codeshared": null
+        },
+        "aircraft": {
+            "registration": "4X-EKZ",
+            "iata": "B738",
+            "icao": "B738",
+            "icao24": "73805C"
+        },
+        "live": {
+            "updated": "2024-01-08T13:20:30+00:00",
+            "latitude": 35.926,
+            "longitude": 28.7909,
+            "altitude": 11887.2,
+            "direction": 125,
+            "speed_horizontal": 907.48,
+            "speed_vertical": 0,
+            "is_ground": false
+        }
+    },
+    {
+        "flight_date": "2024-01-08",
+        "flight_status": "diverted",
+        "departure": {
+            "airport": "Milano Malpensa",
+            "timezone": "Europe/Rome",
+            "iata": "MXP",
+            "icao": "LIMC",
+            "terminal": "1",
+            "gate": null,
+            "delay": 24,
+            "scheduled": "2024-01-08T11:15:00+00:00",
+            "estimated": "2024-01-08T11:15:00+00:00",
+            "actual": "2024-01-08T11:38:00+00:00",
+            "estimated_runway": "2024-01-08T11:38:00+00:00",
+            "actual_runway": "2024-01-08T11:38:00+00:00"
+        },
+        "arrival": {
+            "airport": "Ben Gurion International",
+            "timezone": "Asia/Jerusalem",
+            "iata": "TLV",
+            "icao": "LLBG",
+            "terminal": "3",
+            "gate": null,
+            "baggage": null,
+            "delay": 3,
+            "scheduled": "2024-01-08T16:00:00+00:00",
+            "estimated": "2024-01-08T16:00:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "airline": {
+            "name": "El Al",
+            "iata": "LY",
+            "icao": "ELY"
+        },
+        "flight": {
+            "number": "382",
+            "iata": "LY382",
+            "icao": "ELY382",
+            "codeshared": null
+        },
+        "aircraft": {
+            "registration": "4X-EKO",
+            "iata": "B738",
+            "icao": "B738",
+            "icao24": "738069"
+        },
+        "live": {
+            "updated": "2024-01-08T10:28:01+00:00",
+            "latitude": 45.6293,
+            "longitude": 8.715,
+            "altitude": 0,
+            "direction": 78,
+            "speed_horizontal": 3.704,
+            "speed_vertical": 0,
+            "is_ground": true
+        }
+    },
+    {
+        "flight_date": "2024-01-08",
+        "flight_status": "diverted",
+        "departure": {
+            "airport": "Teterboro",
+            "timezone": "America/New_York",
+            "iata": "TEB",
+            "icao": "KTEB",
+            "terminal": null,
+            "gate": null,
+            "delay": 6,
+            "scheduled": "2024-01-08T19:00:00+00:00",
+            "estimated": "2024-01-08T19:00:00+00:00",
+            "actual": "2024-01-08T17:18:00+00:00",
+            "estimated_runway": "2024-01-08T17:18:00+00:00",
+            "actual_runway": "2024-01-08T17:18:00+00:00"
+        },
+        "arrival": {
+            "airport": "Lambert-St. Louis International",
+            "timezone": "America/Chicago",
+            "iata": "STL",
+            "icao": "KSTL",
+            "terminal": "2",
+            "gate": null,
+            "baggage": null,
+            "delay": null,
+            "scheduled": "2024-01-08T20:48:00+00:00",
+            "estimated": "2024-01-08T20:48:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "airline": {
+            "name": "NetJets Aviation",
+            "iata": "1I",
+            "icao": "EJA"
+        },
+        "flight": {
+            "number": "348",
+            "iata": "1I348",
+            "icao": "EJA348",
+            "codeshared": null
+        },
+        "aircraft": null,
+        "live": null
+    },
+    {
+        "flight_date": "2024-01-08",
+        "flight_status": "diverted",
+        "departure": {
+            "airport": "Houghton County",
+            "timezone": "America/Detroit",
+            "iata": "CMX",
+            "icao": "KCMX",
+            "terminal": null,
+            "gate": null,
+            "delay": 18,
+            "scheduled": "2024-01-08T18:40:00+00:00",
+            "estimated": "2024-01-08T18:40:00+00:00",
+            "actual": "2024-01-08T18:58:00+00:00",
+            "estimated_runway": "2024-01-08T18:58:00+00:00",
+            "actual_runway": "2024-01-08T18:58:00+00:00"
+        },
+        "arrival": {
+            "airport": "Sawyer International",
+            "timezone": "America/Detroit",
+            "iata": "MQT",
+            "icao": "KSAW",
+            "terminal": null,
+            "gate": null,
+            "baggage": null,
+            "delay": 27,
+            "scheduled": "2024-01-08T19:14:00+00:00",
+            "estimated": "2024-01-08T19:14:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "airline": {
+            "name": "Ameriflight",
+            "iata": "A8",
+            "icao": "AMF"
+        },
+        "flight": {
+            "number": "1021",
+            "iata": "A81021",
+            "icao": "AMF1021",
+            "codeshared": null
+        },
+        "aircraft": null,
+        "live": null
+    },
+    {
+        "flight_date": "2024-01-08",
+        "flight_status": "diverted",
+        "departure": {
+            "airport": "Gwinnett County Airport",
+            "timezone": "America/New_York",
+            "iata": "LZU",
+            "icao": "KLZU",
+            "terminal": null,
+            "gate": null,
+            "delay": null,
+            "scheduled": "2024-01-08T21:00:00+00:00",
+            "estimated": "2024-01-08T21:00:00+00:00",
+            "actual": "2024-01-08T18:55:00+00:00",
+            "estimated_runway": "2024-01-08T18:55:00+00:00",
+            "actual_runway": "2024-01-08T18:55:00+00:00"
+        },
+        "arrival": {
+            "airport": "Mc Ghee Tyson",
+            "timezone": "America/New_York",
+            "iata": "TYS",
+            "icao": "KTYS",
+            "terminal": null,
+            "gate": null,
+            "baggage": null,
+            "delay": null,
+            "scheduled": "2024-01-08T21:35:00+00:00",
+            "estimated": "2024-01-08T21:35:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "airline": {
+            "name": "Quest Diagnostics",
+            "iata": "LBQ",
+            "icao": "LBQ"
+        },
+        "flight": {
+            "number": "782",
+            "iata": "LBQ782",
+            "icao": "LBQ782",
+            "codeshared": null
+        },
+        "aircraft": null,
+        "live": null
+    },
+    {
+        "flight_date": "2024-01-08",
+        "flight_status": "diverted",
+        "departure": {
+            "airport": "Tancredo Neves International Airport",
+            "timezone": "America/Sao_Paulo",
+            "iata": "CNF",
+            "icao": "SBCF",
+            "terminal": "1",
+            "gate": "30",
+            "delay": 11,
+            "scheduled": "2024-01-08T14:35:00+00:00",
+            "estimated": "2024-01-08T14:35:00+00:00",
+            "actual": "2024-01-08T14:45:00+00:00",
+            "estimated_runway": "2024-01-08T14:45:00+00:00",
+            "actual_runway": "2024-01-08T14:45:00+00:00"
+        },
+        "arrival": {
+            "airport": "Congonhas International Airport",
+            "timezone": "America/Sao_Paulo",
+            "iata": "CGH",
+            "icao": "SBSP",
+            "terminal": "1",
+            "gate": null,
+            "baggage": null,
+            "delay": 41,
+            "scheduled": "2024-01-08T15:55:00+00:00",
+            "estimated": "2024-01-08T15:55:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "airline": {
+            "name": "LATAM Airlines",
+            "iata": "LA",
+            "icao": "LAN"
+        },
+        "flight": {
+            "number": "3041",
+            "iata": "LA3041",
+            "icao": "LAN3041",
+            "codeshared": null
+        },
+        "aircraft": null,
+        "live": null
+    },
+    {
+        "flight_date": "2024-01-08",
+        "flight_status": "diverted",
+        "departure": {
+            "airport": "Sugar Land Regional",
+            "timezone": "America/Chicago",
+            "iata": "SGR",
+            "icao": "KSGR",
+            "terminal": null,
+            "gate": null,
+            "delay": 6,
+            "scheduled": "2024-01-08T09:42:00+00:00",
+            "estimated": "2024-01-08T09:42:00+00:00",
+            "actual": "2024-01-08T09:31:00+00:00",
+            "estimated_runway": "2024-01-08T09:31:00+00:00",
+            "actual_runway": "2024-01-08T09:31:00+00:00"
+        },
+        "arrival": {
+            "airport": "Love Field",
+            "timezone": "America/Chicago",
+            "iata": "DAL",
+            "icao": "KDAL",
+            "terminal": "1",
+            "gate": null,
+            "baggage": null,
+            "delay": null,
+            "scheduled": "2024-01-08T10:59:00+00:00",
+            "estimated": "2024-01-08T10:59:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "airline": {
+            "name": "NetJets Aviation",
+            "iata": "1I",
+            "icao": "EJA"
+        },
+        "flight": {
+            "number": "419",
+            "iata": "1I419",
+            "icao": "EJA419",
+            "codeshared": null
+        },
+        "aircraft": null,
+        "live": null
+    },
+    {
+        "flight_date": "2024-01-08",
+        "flight_status": "diverted",
+        "departure": {
+            "airport": "Cincinnati/Northern Kentucky",
+            "timezone": "America/New_York",
+            "iata": "CVG",
+            "icao": "KCVG",
+            "terminal": "3",
+            "gate": "B26",
+            "delay": 5,
+            "scheduled": "2024-01-08T09:39:00+00:00",
+            "estimated": "2024-01-08T09:39:00+00:00",
+            "actual": "2024-01-08T09:43:00+00:00",
+            "estimated_runway": "2024-01-08T09:43:00+00:00",
+            "actual_runway": "2024-01-08T09:43:00+00:00"
+        },
+        "arrival": {
+            "airport": "Dallas/Fort Worth International",
+            "timezone": "America/Chicago",
+            "iata": "DFW",
+            "icao": "KDFW",
+            "terminal": "C",
+            "gate": "C16",
+            "baggage": "C12",
+            "delay": 17,
+            "scheduled": "2024-01-08T11:22:00+00:00",
+            "estimated": "2024-01-08T11:22:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "airline": {
+            "name": "Qantas",
+            "iata": "QF",
+            "icao": "QFA"
+        },
+        "flight": {
+            "number": "4337",
+            "iata": "QF4337",
+            "icao": "QFA4337",
+            "codeshared": {
+                "airline_name": "american airlines",
+                "airline_iata": "aa",
+                "airline_icao": "aal",
+                "flight_number": "808",
+                "flight_iata": "aa808",
+                "flight_icao": "aal808"
+            }
+        },
+        "aircraft": null,
+        "live": null
+    },
+    {
+        "flight_date": "2024-01-08",
+        "flight_status": "diverted",
+        "departure": {
+            "airport": "Cincinnati/Northern Kentucky",
+            "timezone": "America/New_York",
+            "iata": "CVG",
+            "icao": "KCVG",
+            "terminal": "3",
+            "gate": "B26",
+            "delay": 5,
+            "scheduled": "2024-01-08T09:39:00+00:00",
+            "estimated": "2024-01-08T09:39:00+00:00",
+            "actual": "2024-01-08T09:43:00+00:00",
+            "estimated_runway": "2024-01-08T09:43:00+00:00",
+            "actual_runway": "2024-01-08T09:43:00+00:00"
+        },
+        "arrival": {
+            "airport": "Dallas/Fort Worth International",
+            "timezone": "America/Chicago",
+            "iata": "DFW",
+            "icao": "KDFW",
+            "terminal": "C",
+            "gate": "C16",
+            "baggage": "C12",
+            "delay": 17,
+            "scheduled": "2024-01-08T11:22:00+00:00",
+            "estimated": "2024-01-08T11:22:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "airline": {
+            "name": "Qatar Airways",
+            "iata": "QR",
+            "icao": "QTR"
+        },
+        "flight": {
+            "number": "9178",
+            "iata": "QR9178",
+            "icao": "QTR9178",
+            "codeshared": {
+                "airline_name": "american airlines",
+                "airline_iata": "aa",
+                "airline_icao": "aal",
+                "flight_number": "808",
+                "flight_iata": "aa808",
+                "flight_icao": "aal808"
+            }
+        },
+        "aircraft": null,
+        "live": null
+    },
+    {
+        "flight_date": "2024-01-08",
+        "flight_status": "diverted",
+        "departure": {
+            "airport": "Osmani International",
+            "timezone": "Asia/Dhaka",
+            "iata": "ZYL",
+            "icao": "VGSY",
+            "terminal": null,
+            "gate": null,
+            "delay": 288,
+            "scheduled": "2024-01-08T18:05:00+00:00",
+            "estimated": "2024-01-08T18:05:00+00:00",
+            "actual": "2024-01-08T22:53:00+00:00",
+            "estimated_runway": "2024-01-08T22:53:00+00:00",
+            "actual_runway": "2024-01-08T22:53:00+00:00"
+        },
+        "arrival": {
+            "airport": "King Abdulaziz International",
+            "timezone": "Asia/Riyadh",
+            "iata": "JED",
+            "icao": "OEJN",
+            "terminal": "N",
+            "gate": null,
+            "baggage": null,
+            "delay": 270,
+            "scheduled": "2024-01-08T22:45:00+00:00",
+            "estimated": "2024-01-08T22:45:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "airline": {
+            "name": "Biman Bangladesh Airlines",
+            "iata": "BG",
+            "icao": "BBC"
+        },
+        "flight": {
+            "number": "235",
+            "iata": "BG235",
+            "icao": "BBC235",
+            "codeshared": null
+        },
+        "aircraft": null,
+        "live": null
+    },
+    {
+        "flight_date": "2024-01-08",
+        "flight_status": "diverted",
+        "departure": {
+            "airport": "Cincinnati/Northern Kentucky",
+            "timezone": "America/New_York",
+            "iata": "CVG",
+            "icao": "KCVG",
+            "terminal": "3",
+            "gate": "B26",
+            "delay": 5,
+            "scheduled": "2024-01-08T09:39:00+00:00",
+            "estimated": "2024-01-08T09:39:00+00:00",
+            "actual": "2024-01-08T09:43:00+00:00",
+            "estimated_runway": "2024-01-08T09:43:00+00:00",
+            "actual_runway": "2024-01-08T09:43:00+00:00"
+        },
+        "arrival": {
+            "airport": "Dallas/Fort Worth International",
+            "timezone": "America/Chicago",
+            "iata": "DFW",
+            "icao": "KDFW",
+            "terminal": "C",
+            "gate": "C16",
+            "baggage": "C12",
+            "delay": 17,
+            "scheduled": "2024-01-08T11:22:00+00:00",
+            "estimated": "2024-01-08T11:22:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "airline": {
+            "name": "Alaska Airlines",
+            "iata": "AS",
+            "icao": "ASA"
+        },
+        "flight": {
+            "number": "6707",
+            "iata": "AS6707",
+            "icao": "ASA6707",
+            "codeshared": {
+                "airline_name": "american airlines",
+                "airline_iata": "aa",
+                "airline_icao": "aal",
+                "flight_number": "808",
+                "flight_iata": "aa808",
+                "flight_icao": "aal808"
+            }
+        },
+        "aircraft": null,
+        "live": null
+    },
+    {
+        "flight_date": "2024-01-08",
+        "flight_status": "diverted",
+        "departure": {
+            "airport": "Orlando Sanford International",
+            "timezone": "America/New_York",
+            "iata": "SFB",
+            "icao": "KSFB",
+            "terminal": null,
+            "gate": null,
+            "delay": 21,
+            "scheduled": "2024-01-08T12:30:00+00:00",
+            "estimated": "2024-01-08T12:30:00+00:00",
+            "actual": "2024-01-08T12:50:00+00:00",
+            "estimated_runway": "2024-01-08T12:50:00+00:00",
+            "actual_runway": "2024-01-08T12:50:00+00:00"
+        },
+        "arrival": {
+            "airport": "Orlando Sanford International",
+            "timezone": "America/New_York",
+            "iata": "SFB",
+            "icao": "KSFB",
+            "terminal": "B",
+            "gate": null,
+            "baggage": null,
+            "delay": null,
+            "scheduled": "2024-01-08T13:52:00+00:00",
+            "estimated": "2024-01-08T13:52:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "airline": {
+            "name": "L3Harris Airline Academy",
+            "iata": null,
+            "icao": "LFA"
+        },
+        "flight": {
+            "number": "474",
+            "iata": null,
+            "icao": "LFA474",
+            "codeshared": null
+        },
+        "aircraft": null,
+        "live": null
+    },
+    {
+        "flight_date": "2024-01-08",
+        "flight_status": "diverted",
+        "departure": {
+            "airport": "Orlando Executive",
+            "timezone": "America/New_York",
+            "iata": "ORL",
+            "icao": "KORL",
+            "terminal": null,
+            "gate": null,
+            "delay": 119,
+            "scheduled": "2024-01-08T08:00:00+00:00",
+            "estimated": "2024-01-08T08:00:00+00:00",
+            "actual": "2024-01-08T09:58:00+00:00",
+            "estimated_runway": "2024-01-08T09:58:00+00:00",
+            "actual_runway": "2024-01-08T09:58:00+00:00"
+        },
+        "arrival": {
+            "airport": "Providenciales International Airport",
+            "timezone": "America/Grand_Turk",
+            "iata": "PLS",
+            "icao": "MBPV",
+            "terminal": "4",
+            "gate": null,
+            "baggage": null,
+            "delay": 100,
+            "scheduled": "2024-01-08T10:12:00+00:00",
+            "estimated": "2024-01-08T10:12:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "airline": {
+            "name": "empty",
+            "iata": null,
+            "icao": null
+        },
+        "flight": {
+            "number": null,
+            "iata": null,
+            "icao": null,
+            "codeshared": null
+        },
+        "aircraft": null,
+        "live": null
+    },
+    {
+        "flight_date": "2024-01-08",
+        "flight_status": "diverted",
+        "departure": {
+            "airport": "Cascavel",
+            "timezone": "America/Sao_Paulo",
+            "iata": "CAC",
+            "icao": "SBCA",
+            "terminal": null,
+            "gate": null,
+            "delay": 11,
+            "scheduled": "2024-01-08T15:00:00+00:00",
+            "estimated": "2024-01-08T15:00:00+00:00",
+            "actual": "2024-01-08T15:10:00+00:00",
+            "estimated_runway": "2024-01-08T15:10:00+00:00",
+            "actual_runway": "2024-01-08T15:10:00+00:00"
+        },
+        "arrival": {
+            "airport": "Congonhas International Airport",
+            "timezone": "America/Sao_Paulo",
+            "iata": "CGH",
+            "icao": "SBSP",
+            "terminal": "2",
+            "gate": null,
+            "baggage": null,
+            "delay": 14,
+            "scheduled": "2024-01-08T16:40:00+00:00",
+            "estimated": "2024-01-08T16:40:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "airline": {
+            "name": "Gol",
+            "iata": "G3",
+            "icao": "GLO"
+        },
+        "flight": {
+            "number": "1263",
+            "iata": "G31263",
+            "icao": "GLO1263",
+            "codeshared": null
+        },
+        "aircraft": null,
+        "live": null
+    },
+    {
+        "flight_date": "2024-01-08",
+        "flight_status": "diverted",
+        "departure": {
+            "airport": "Regional De Maringa SBMG",
+            "timezone": "America/Sao_Paulo",
+            "iata": "MGF",
+            "icao": "SBMG",
+            "terminal": null,
+            "gate": null,
+            "delay": 6,
+            "scheduled": "2024-01-08T15:05:00+00:00",
+            "estimated": "2024-01-08T15:05:00+00:00",
+            "actual": "2024-01-08T15:10:00+00:00",
+            "estimated_runway": "2024-01-08T15:10:00+00:00",
+            "actual_runway": "2024-01-08T15:10:00+00:00"
+        },
+        "arrival": {
+            "airport": "Congonhas International Airport",
+            "timezone": "America/Sao_Paulo",
+            "iata": "CGH",
+            "icao": "SBSP",
+            "terminal": "2",
+            "gate": null,
+            "baggage": null,
+            "delay": 34,
+            "scheduled": "2024-01-08T16:25:00+00:00",
+            "estimated": "2024-01-08T16:25:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "airline": {
+            "name": "Gol",
+            "iata": "G3",
+            "icao": "GLO"
+        },
+        "flight": {
+            "number": "1653",
+            "iata": "G31653",
+            "icao": "GLO1653",
+            "codeshared": null
+        },
+        "aircraft": null,
+        "live": null
+    },
+    {
+        "flight_date": "2024-01-08",
+        "flight_status": "diverted",
+        "departure": {
+            "airport": "Austin-bergstrom International",
+            "timezone": "America/Chicago",
+            "iata": "AUS",
+            "icao": "KAUS",
+            "terminal": null,
+            "gate": "22",
+            "delay": 16,
+            "scheduled": "2024-01-08T10:55:00+00:00",
+            "estimated": "2024-01-08T10:55:00+00:00",
+            "actual": "2024-01-08T11:11:00+00:00",
+            "estimated_runway": "2024-01-08T11:11:00+00:00",
+            "actual_runway": "2024-01-08T11:11:00+00:00"
+        },
+        "arrival": {
+            "airport": "El Paso International Airport",
+            "timezone": "America/Denver",
+            "iata": "ELP",
+            "icao": "KELP",
+            "terminal": "5",
+            "gate": "B5",
+            "baggage": null,
+            "delay": 2,
+            "scheduled": "2024-01-08T11:35:00+00:00",
+            "estimated": "2024-01-08T11:35:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "airline": {
+            "name": "Southwest Airlines",
+            "iata": "WN",
+            "icao": "SWA"
+        },
+        "flight": {
+            "number": "2567",
+            "iata": "WN2567",
+            "icao": "SWA2567",
+            "codeshared": null
+        },
+        "aircraft": null,
+        "live": null
+    },
+    {
+        "flight_date": "2024-01-08",
+        "flight_status": "diverted",
+        "departure": {
+            "airport": "Arkhangelsk",
+            "timezone": "Europe/Moscow",
+            "iata": "ARH",
+            "icao": "ULAA",
+            "terminal": null,
+            "gate": null,
+            "delay": 31,
+            "scheduled": "2024-01-08T16:05:00+00:00",
+            "estimated": "2024-01-08T16:05:00+00:00",
+            "actual": "2024-01-08T16:36:00+00:00",
+            "estimated_runway": "2024-01-08T16:36:00+00:00",
+            "actual_runway": "2024-01-08T16:36:00+00:00"
+        },
+        "arrival": {
+            "airport": "Domodedovo",
+            "timezone": "Europe/Moscow",
+            "iata": "DME",
+            "icao": "UUDD",
+            "terminal": "1",
+            "gate": null,
+            "baggage": null,
+            "delay": 5,
+            "scheduled": "2024-01-08T18:00:00+00:00",
+            "estimated": "2024-01-08T18:00:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "airline": {
+            "name": "Smartavia",
+            "iata": "5N",
+            "icao": "AUL"
+        },
+        "flight": {
+            "number": "120",
+            "iata": "5N120",
+            "icao": "AUL120",
+            "codeshared": null
+        },
+        "aircraft": null,
+        "live": null
+    },
+    {
+        "flight_date": "2024-01-08",
+        "flight_status": "diverted",
+        "departure": {
+            "airport": "Esenboga International",
+            "timezone": "Europe/Istanbul",
+            "iata": "ESB",
+            "icao": "LTAC",
+            "terminal": null,
+            "gate": null,
+            "delay": 32,
+            "scheduled": "2024-01-08T16:00:00+00:00",
+            "estimated": "2024-01-08T16:00:00+00:00",
+            "actual": "2024-01-08T16:31:00+00:00",
+            "estimated_runway": "2024-01-08T16:31:00+00:00",
+            "actual_runway": "2024-01-08T16:31:00+00:00"
+        },
+        "arrival": {
+            "airport": "Ben Gurion International",
+            "timezone": "Asia/Jerusalem",
+            "iata": "TLV",
+            "icao": "LLBG",
+            "terminal": "3",
+            "gate": null,
+            "baggage": null,
+            "delay": 18,
+            "scheduled": "2024-01-08T16:33:00+00:00",
+            "estimated": "2024-01-08T16:33:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "airline": {
+            "name": "MNG Airlines",
+            "iata": "MB",
+            "icao": "MNB"
+        },
+        "flight": {
+            "number": "1940",
+            "iata": "MB1940",
+            "icao": "MNB1940",
+            "codeshared": null
+        },
+        "aircraft": null,
+        "live": null
+    },
+    {
+        "flight_date": "2024-01-08",
+        "flight_status": "diverted",
+        "departure": {
+            "airport": "Mc Carran International",
+            "timezone": "America/Los_Angeles",
+            "iata": "LAS",
+            "icao": "KLAS",
+            "terminal": "3",
+            "gate": "E8",
+            "delay": 8,
+            "scheduled": "2024-01-08T06:05:00+00:00",
+            "estimated": "2024-01-08T06:05:00+00:00",
+            "actual": "2024-01-08T06:12:00+00:00",
+            "estimated_runway": "2024-01-08T06:12:00+00:00",
+            "actual_runway": "2024-01-08T06:12:00+00:00"
+        },
+        "arrival": {
+            "airport": "Dallas/Fort Worth International",
+            "timezone": "America/Chicago",
+            "iata": "DFW",
+            "icao": "KDFW",
+            "terminal": "E",
+            "gate": "E21",
+            "baggage": "32",
+            "delay": 47,
+            "scheduled": "2024-01-08T10:53:00+00:00",
+            "estimated": "2024-01-08T10:53:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "airline": {
+            "name": "Frontier Airlines",
+            "iata": "F9",
+            "icao": "FFT"
+        },
+        "flight": {
+            "number": "1962",
+            "iata": "F91962",
+            "icao": "FFT1962",
+            "codeshared": null
+        },
+        "aircraft": null,
+        "live": null
+    },
+    {
+        "flight_date": "2024-01-08",
+        "flight_status": "diverted",
+        "departure": {
+            "airport": "Batum",
+            "timezone": "Asia/Tbilisi",
+            "iata": "BUS",
+            "icao": "UGSB",
+            "terminal": null,
+            "gate": null,
+            "delay": 15,
+            "scheduled": "2024-01-08T16:55:00+00:00",
+            "estimated": "2024-01-08T16:55:00+00:00",
+            "actual": "2024-01-08T17:09:00+00:00",
+            "estimated_runway": "2024-01-08T17:09:00+00:00",
+            "actual_runway": "2024-01-08T17:09:00+00:00"
+        },
+        "arrival": {
+            "airport": "Ben Gurion International",
+            "timezone": "Asia/Jerusalem",
+            "iata": "TLV",
+            "icao": "LLBG",
+            "terminal": "3",
+            "gate": null,
+            "baggage": null,
+            "delay": null,
+            "scheduled": "2024-01-08T17:25:00+00:00",
+            "estimated": "2024-01-08T17:25:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "airline": {
+            "name": "Israir Airlines",
+            "iata": "6H",
+            "icao": "ISR"
+        },
+        "flight": {
+            "number": "884",
+            "iata": "6H884",
+            "icao": "ISR884",
+            "codeshared": null
+        },
+        "aircraft": null,
+        "live": null
+    },
+    {
+        "flight_date": "2024-01-08",
+        "flight_status": "diverted",
+        "departure": {
+            "airport": "Raiatea",
+            "timezone": "Pacific/Tahiti",
+            "iata": "RFP",
+            "icao": "NTTR",
+            "terminal": null,
+            "gate": null,
+            "delay": null,
+            "scheduled": "2024-01-08T17:25:00+00:00",
+            "estimated": "2024-01-08T17:25:00+00:00",
+            "actual": "2024-01-08T17:15:00+00:00",
+            "estimated_runway": "2024-01-08T17:15:00+00:00",
+            "actual_runway": "2024-01-08T17:15:00+00:00"
+        },
+        "arrival": {
+            "airport": "Motu Mute",
+            "timezone": "Pacific/Tahiti",
+            "iata": "BOB",
+            "icao": "NTTB",
+            "terminal": null,
+            "gate": null,
+            "baggage": null,
+            "delay": null,
+            "scheduled": "2024-01-08T17:45:00+00:00",
+            "estimated": "2024-01-08T17:45:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "airline": {
+            "name": null,
+            "iata": "X1",
+            "icao": "X1"
+        },
+        "flight": {
+            "number": "5571",
+            "iata": "X15571",
+            "icao": "X15571",
+            "codeshared": {
+                "airline_name": "air moana",
+                "airline_iata": "nm",
+                "airline_icao": "ntr",
+                "flight_number": "972",
+                "flight_iata": "nm972",
+                "flight_icao": "ntr972"
+            }
+        },
+        "aircraft": null,
+        "live": null
+    },
+    {
+        "flight_date": "2024-01-08",
+        "flight_status": "diverted",
+        "departure": {
+            "airport": "Santos Dumont",
+            "timezone": "America/Sao_Paulo",
+            "iata": "SDU",
+            "icao": "SBRJ",
+            "terminal": null,
+            "gate": "06",
+            "delay": null,
+            "scheduled": "2024-01-08T13:55:00+00:00",
+            "estimated": "2024-01-08T13:55:00+00:00",
+            "actual": "2024-01-08T13:54:00+00:00",
+            "estimated_runway": "2024-01-08T13:54:00+00:00",
+            "actual_runway": "2024-01-08T13:54:00+00:00"
+        },
+        "arrival": {
+            "airport": "Congonhas International Airport",
+            "timezone": "America/Sao_Paulo",
+            "iata": "CGH",
+            "icao": "SBSP",
+            "terminal": "1",
+            "gate": null,
+            "baggage": null,
+            "delay": 2,
+            "scheduled": "2024-01-08T15:10:00+00:00",
+            "estimated": "2024-01-08T15:10:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "airline": {
+            "name": "Gol",
+            "iata": "G3",
+            "icao": "GLO"
+        },
+        "flight": {
+            "number": "1027",
+            "iata": "G31027",
+            "icao": "GLO1027",
+            "codeshared": null
+        },
+        "aircraft": null,
+        "live": null
+    },
+    {
+        "flight_date": "2024-01-08",
+        "flight_status": "diverted",
+        "departure": {
+            "airport": "Santos Dumont",
+            "timezone": "America/Sao_Paulo",
+            "iata": "SDU",
+            "icao": "SBRJ",
+            "terminal": "1",
+            "gate": "4",
+            "delay": 19,
+            "scheduled": "2024-01-08T14:00:00+00:00",
+            "estimated": "2024-01-08T14:00:00+00:00",
+            "actual": "2024-01-08T14:18:00+00:00",
+            "estimated_runway": "2024-01-08T14:18:00+00:00",
+            "actual_runway": "2024-01-08T14:18:00+00:00"
+        },
+        "arrival": {
+            "airport": "Congonhas International Airport",
+            "timezone": "America/Sao_Paulo",
+            "iata": "CGH",
+            "icao": "SBSP",
+            "terminal": "1",
+            "gate": null,
+            "baggage": null,
+            "delay": 37,
+            "scheduled": "2024-01-08T15:10:00+00:00",
+            "estimated": "2024-01-08T15:10:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "airline": {
+            "name": "LATAM Airlines",
+            "iata": "LA",
+            "icao": "LAN"
+        },
+        "flight": {
+            "number": "3929",
+            "iata": "LA3929",
+            "icao": "LAN3929",
+            "codeshared": null
+        },
+        "aircraft": {
+            "registration": "PR-MBU",
+            "iata": "A319",
+            "icao": "A319",
+            "icao24": "E48198"
+        },
+        "live": {
+            "updated": "2024-01-08T18:48:53+00:00",
+            "latitude": -22.9152,
+            "longitude": -43.1639,
+            "altitude": 0,
+            "direction": 312,
+            "speed_horizontal": 14.816,
+            "speed_vertical": 0,
+            "is_ground": true
+        }
+    }
+]

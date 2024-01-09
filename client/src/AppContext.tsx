@@ -1,40 +1,41 @@
 import { useState, createContext } from "react";
-import { AppContextType } from "./ts/types";
-import { AirportData, AppProviderProps, Watch } from "./ts/interfaces";
-import { ModalContent } from "./ts/enums";
+import { AppContextType, Flights } from "./ts/types";
+import { AirportData, AppProviderProps, FlightData, Watch } from "./ts/interfaces";
+import { DataType, ModalContent } from "./ts/enums";
+import { defaultAirport, defaultMapProps } from "./ts/objects";
+
 
 export const AppContext = createContext<AppContextType | null>(null);
 
 const AppProvider = ({ children }: AppProviderProps) => {
 
-  const [flightData, setFlightData] = useState<[]>([]);
+  const [flightsData, setFlightsData] = useState<Flights>({
+    active: [],
+    scheduled: [],
+    cancelled: [],
+    landed: [],
+    diverted: []
+  });
   const [airportsData, setAirportsData] = useState<AirportData[]>([]);
+
   const [darkMode, setDarkMode] = useState(false);
   const [isModalVisible, setIsModalVisible] = useState(false);
   const [modalContent, setModalContent] = useState(ModalContent.TIMEZONE);
-  const [activeAirport, setActiveAirport] = useState<AirportData>({
-    id: 2637,
-    ident: "EPWA",
-    type: "large_airport",
-    name: "Warsaw Chopin Airport",
-    latitude_deg: 52.1656990051,
-    longitude_deg: 20.967100143399996,
-    elevation_ft: 362,
-    continent: "Europe",
-    iso_country: "PL",
-    municipality: "Warsaw",
-    wikipedia_link: "https://en.wikipedia.org/wiki/Warsaw_Frederic_Chopin_Airport"
-  });
-  const [currentTimezone, setCurrentTimezone] = useState('UTC+01:00');
-  const [currentTime, setCurrentTime] = useState<Watch>({
-    hours: 12,
-    minutes: 50,
-    seconds: 57
-  });
+
+  const [activeAirport, setActiveAirport] = useState<AirportData>(defaultAirport);
+  const [activeFlight, setActiveFlight] = useState<FlightData | null>(null);
+  const [dataType, setDataType] = useState(DataType.AIRPORT);
+  const [currentTimezone, setCurrentTimezone] = useState('UTC+00:00');
+  const [currentTime, setCurrentTime] = useState<Watch | null>(null);
+
+  const [map, setMap] = useState<unknown>(null);
+  const [maps, setMaps] = useState<unknown>(null);
+  const [mapPosition, setMapPosition] = useState({ lat: defaultMapProps.center.lat, lng: defaultMapProps.center.lng });
+
   return (
     <AppContext.Provider value={{
-      flightData,
-      setFlightData,
+      flightsData,
+      // setFlightsData,
       airportsData,
       setAirportsData,
       darkMode,
@@ -48,7 +49,17 @@ const AppProvider = ({ children }: AppProviderProps) => {
       currentTime,
       setCurrentTime,
       activeAirport,
-      setActiveAirport
+      setActiveAirport,
+      activeFlight,
+      setActiveFlight,
+      dataType,
+      setDataType,
+      map,
+      setMap,
+      maps,
+      setMaps,
+      mapPosition,
+      setMapPosition
     }}>{children}</AppContext.Provider>
   )
 }

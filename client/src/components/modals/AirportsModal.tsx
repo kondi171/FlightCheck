@@ -3,9 +3,10 @@ import styles from './../../assets/scss/modules/Modal.module.scss';
 import { AppContext } from '../../AppContext';
 import { AppContextType } from '../../ts/types';
 import { AirportData } from '../../ts/interfaces';
+import { DataType } from '../../ts/enums';
 const AirportsModal = () => {
 
-  const { airportsData, activeAirport, setActiveAirport } = useContext(AppContext) as AppContextType;
+  const { airportsData, activeAirport, setActiveAirport, setDataType } = useContext(AppContext) as AppContextType;
   const [airportsPage, setAirportsPage] = useState<AirportData[]>([]);
   const [page, setPage] = useState(0);
 
@@ -23,6 +24,7 @@ const AirportsModal = () => {
     const clickedElement = e.target?.parentElement as HTMLElement;
     clickedElement.classList.add(styles.activeAirport);
     setActiveAirport(airport);
+    setDataType(DataType.AIRPORT);
   }
 
   useEffect(() => {
@@ -46,7 +48,7 @@ const AirportsModal = () => {
   }, [airportsPage]);
 
   return (
-    <div className={styles.airports}>
+    <div className={styles.dataModal}>
       <h2>Airports Data</h2>
       <div className={styles.data}>
         <div className={styles.thead}>

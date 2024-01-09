@@ -1,0 +1,132 @@
+@import '../variables';
+
+.loaderWrapper {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  flex-direction: column;
+  z-index: 100;
+
+  .logo {
+    position: fixed;
+    left: 2vmin;
+    top: 2vmin;
+    width: 17vw;
+    text-align: center;
+
+    h1 {
+      font-family: $logoFont;
+      font-size: 4vmin;
+      text-shadow: 0 .5vh 0 darken($primaryColor, 10%);
+
+      color: white;
+
+      img {
+        width: 5vh;
+        height: 5vh;
+        filter: drop-shadow(0px 0px 2px $primaryColor);
+      }
+    }
+
+    h2 {
+      font-family: $textFont;
+      font-size: 1.5vmin;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      color: $primaryColor;
+
+      hr {
+        width: 4vw;
+        border: 1px solid $primaryColor;
+        border-radius: 40px;
+      }
+    }
+  }
+
+  .message {
+    font-size: 8vmin;
+    font-family: $logoFont;
+    color: $primaryColor;
+    width: 70%;
+    margin-top: 5%;
+    margin-left: 8%;
+  }
+}
+
+.loader {
+  position: relative;
+  width: 350px;
+  height: 350px;
+  background: transparent;
+  border-radius: 50%;
+  box-shadow: 25px 25px 75px rgba(0, 0, 0, 0.55);
+  border: 4px solid #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.loader::before {
+  content: '';
+  position: absolute;
+  inset: 60px;
+  background: transparent;
+  border: 4px dashed#444;
+  border-radius: 50%;
+  box-shadow: inset -5px -5px 25px rgba(0, 0, 0, 0.25),
+    inset 5px 5px 35px rgba(0, 0, 0, 0.25);
+}
+
+.loader::after {
+  content: '';
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px dashed#444;
+  box-shadow: inset -5px -5px 25px rgba(0, 0, 0, 0.25),
+    inset 5px 5px 35px rgba(0, 0, 0, 0.25);
+}
+
+.loader span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 50%;
+  height: 100%;
+  background: transparent;
+  transform-origin: top left;
+  animation: radar81 2s linear infinite;
+  border-top: 4px dashed $fontColor;
+}
+
+.loader span::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: $primaryColor;
+  transform-origin: top left;
+  transform: rotate(-55deg);
+  filter: blur(30px) drop-shadow(20px 20px 20px $primaryColor);
+}
+
+@keyframes radar81 {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}

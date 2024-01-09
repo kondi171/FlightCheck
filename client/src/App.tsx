@@ -111,7 +111,7 @@ const App = () => {
 
   const pushActiveFlights = () => {
     activeFlights!.forEach((currentFlight: RawFlight) => {
-      const { flight_date, departure, airline, arrival, flight } = currentFlight;
+      const { flight_date, flight_status, departure, airline, arrival, flight } = currentFlight;
       const departureAirport = airportsData.find((airport: AirportData) => {
         return airport.name && airport.name.split(' ')[0] === (currentFlight.departure.airport || '').split(' ')[0];
       });
@@ -121,6 +121,7 @@ const App = () => {
       flightsData.active.push({
         number: flight.number,
         date: flight_date,
+        status: flight_status,
         departure: {
           airport: departureAirport,
           time: departure.scheduled,
@@ -135,7 +136,7 @@ const App = () => {
   }
   const pushScheduledFlights = () => {
     scheduledFlights!.forEach((currentFlight: RawFlight) => {
-      const { flight_date, departure, airline, arrival, flight } = currentFlight;
+      const { flight_date, flight_status, departure, airline, arrival, flight } = currentFlight;
       const departureAirport = airportsData.find((airport: AirportData) => {
         return airport.name && airport.name.split(' ')[0] === (currentFlight.departure.airport || '').split(' ')[0];
       });
@@ -145,6 +146,7 @@ const App = () => {
       flightsData.scheduled.push({
         number: flight.number,
         date: flight_date,
+        status: flight_status,
         departure: {
           airport: departureAirport,
           time: departure.scheduled,
@@ -159,7 +161,7 @@ const App = () => {
   }
   const pushCancelledFlights = () => {
     cancelledFlights!.forEach((currentFlight: RawFlight) => {
-      const { flight_date, departure, airline, arrival, flight } = currentFlight;
+      const { flight_date, flight_status, departure, airline, arrival, flight } = currentFlight;
       const departureAirport = airportsData.find((airport: AirportData) => {
         return airport.name && airport.name.split(' ')[0] === (currentFlight.departure.airport || '').split(' ')[0];
       });
@@ -169,6 +171,7 @@ const App = () => {
       flightsData.cancelled.push({
         number: flight.number,
         date: flight_date,
+        status: flight_status,
         departure: {
           airport: departureAirport,
           time: departure.scheduled,
@@ -183,7 +186,7 @@ const App = () => {
   }
   const pushLandedFlights = () => {
     landedFlights!.forEach((currentFlight: RawFlight) => {
-      const { flight_date, departure, airline, arrival, flight } = currentFlight;
+      const { flight_date, flight_status, departure, airline, arrival, flight } = currentFlight;
       const departureAirport = airportsData.find((airport: AirportData) => {
         return airport.name && airport.name.split(' ')[0] === (currentFlight.departure.airport || '').split(' ')[0];
       });
@@ -193,6 +196,7 @@ const App = () => {
       flightsData.landed.push({
         number: flight.number,
         date: flight_date,
+        status: flight_status,
         departure: {
           airport: departureAirport,
           time: departure.scheduled,
@@ -207,7 +211,7 @@ const App = () => {
   }
   const pushDivertedFlights = () => {
     divertedFlights!.forEach((currentFlight: RawFlight) => {
-      const { flight_date, departure, airline, arrival, flight } = currentFlight;
+      const { flight_date, flight_status, departure, airline, arrival, flight } = currentFlight;
       const departureAirport = airportsData.find((airport: AirportData) => {
         return airport.name && airport.name.split(' ')[0] === (currentFlight.departure.airport || '').split(' ')[0];
       });
@@ -217,6 +221,7 @@ const App = () => {
       flightsData.diverted.push({
         number: flight.number,
         date: flight_date,
+        status: flight_status,
         departure: {
           airport: departureAirport,
           time: departure.scheduled,

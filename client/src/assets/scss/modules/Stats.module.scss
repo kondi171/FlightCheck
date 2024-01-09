@@ -28,20 +28,20 @@
 
         button {
             padding: 2vmin;
-            border: .6vmin solid $secondaryColor;
+            border: none;
             border-radius: 2px;
             text-align: center;
             font-size: 2vmin;
             font-family: $logoFont;
             background-color: $darkColor;
             transition-duration: .4s;
-            color: $secondaryColor;
+            color: $primaryColor;
 
             &:hover {
                 cursor: pointer;
-                border-color: $darkColor;
                 background-color: $secondaryColor;
                 color: $darkColor;
+                letter-spacing: 1px;
             }
         }
 
