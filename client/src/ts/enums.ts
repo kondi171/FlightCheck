@@ -16,3 +16,14 @@ export enum DataType {
     AIRPORT = "Airport",
     FLIGHT = "Flight"
 }
+
+export enum Direction {
+    NORTH,
+    EAST,
+    WEST,
+    SOUTH,
+    NORTHERN_EAST,
+    NORTHERN_WEST,
+    SOUTHERN_EAST,
+    SOUTHERN_WEST
+}

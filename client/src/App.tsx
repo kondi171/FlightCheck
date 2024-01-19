@@ -9,11 +9,11 @@ import { AppContext } from './AppContext';
 import { AppContextType } from './ts/types';
 import Modal from './components/modals/Modal';
 import { AirportData, RawFlight } from './ts/interfaces';
-import { FlightStatus } from './ts/enums';
+import { Direction, FlightStatus } from './ts/enums';
 import Loader from './components/Loader';
 
 const App = () => {
-  const { isModalVisible, setAirportsData, flightsData, airportsData, setFlightsData } = useContext(AppContext) as AppContextType;
+  const { isModalVisible, setAirportsData, flightsData, airportsData } = useContext(AppContext) as AppContextType;
   const [isLoading, setIsLoading] = useState(true);
   const [activeFlights, setActiveFlights] = useState<RawFlight[]>();
   const [scheduledFlights, setScheduledFlights] = useState<RawFlight[]>();
@@ -99,15 +99,16 @@ const App = () => {
   }, []);
 
   // useEffect(() => {
-  //   console.log(activeFlights);
-  // }, [activeFlights]);
-  // useEffect(() => {
   //   console.log(activeflights);
   //   console.log(scheduledflights);
   //   console.log(cancelledflights);
   //   console.log(landedflights);
   //   console.log(divertedflights);
   // }, [activeflights, scheduledflights, cancelledflights, landedflights, divertedflights]);
+
+  // useEffect(() => {
+  //   console.log(liveFlights);
+  // }, [liveFlights.length]);
 
   const pushActiveFlights = () => {
     activeFlights!.forEach((currentFlight: RawFlight) => {
@@ -130,7 +131,11 @@ const App = () => {
           airport: arrivalAirport,
           time: arrival.scheduled,
         },
-        airline: airline.name
+        airline: airline.name,
+        live: {
+          diretion: Direction.NORTH,
+          position: { lat: 0, lng: 0 }
+        }
       });
     });
   }
@@ -155,7 +160,8 @@ const App = () => {
           airport: arrivalAirport,
           time: arrival.scheduled,
         },
-        airline: airline.name
+        airline: airline.name,
+        live: null,
       });
     });
   }
@@ -180,7 +186,8 @@ const App = () => {
           airport: arrivalAirport,
           time: arrival.scheduled,
         },
-        airline: airline.name
+        airline: airline.name,
+        live: null
       });
     });
   }
@@ -205,7 +212,8 @@ const App = () => {
           airport: arrivalAirport,
           time: arrival.scheduled,
         },
-        airline: airline.name
+        airline: airline.name,
+        live: null
       });
     });
   }
@@ -230,7 +238,8 @@ const App = () => {
           airport: arrivalAirport,
           time: arrival.scheduled,
         },
-        airline: airline.name
+        airline: airline.name,
+        live: null
       });
     });
   }

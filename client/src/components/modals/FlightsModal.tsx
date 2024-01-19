@@ -1,5 +1,5 @@
 import { useContext, useEffect, useState } from 'react';
-import styles from './../../assets/scss/modules/Modal.module.scss';
+import styles from './../../assets/scss/modules/FlightsModal.module.scss';
 import { AppContext } from '../../AppContext';
 import { AppContextType } from '../../ts/types';
 import { AirportData, FlightData } from '../../ts/interfaces';
@@ -37,21 +37,21 @@ const FlightsModal = () => {
     else if (status === FlightStatus.CANCELLED) setData(flightsData.cancelled);
     else if (status === FlightStatus.LANDED) setData(flightsData.landed);
     else if (status === FlightStatus.DIVERTED) setData(flightsData.diverted);
-  }, [status]);
+  }, [flightsData, status]);
 
   return (
-    <div className={styles.dataModal}>
-      <h2>
-        Flights Data
-        <div className={styles.flightStatuses}>
-          <div onClick={(e: MouseEvent) => handleChangeStatus(e, FlightStatus.ACTIVE)} className={`${styles.status} ${styles.active}`}>Active</div>
-          <div onClick={(e: MouseEvent) => handleChangeStatus(e, FlightStatus.SCHEDULED)} className={styles.status}>Scheduled</div>
-          <div onClick={(e: MouseEvent) => handleChangeStatus(e, FlightStatus.CANCELLED)} className={styles.status}>Cancelled</div>
-          <div onClick={(e: MouseEvent) => handleChangeStatus(e, FlightStatus.LANDED)} className={styles.status}>Landed</div>
-          <div onClick={(e: MouseEvent) => handleChangeStatus(e, FlightStatus.DIVERTED)} className={styles.status}>Diverted</div>
-        </div>
-      </h2>
-      <div className={styles.data}>
+    <div className={styles.flightsModal}>
+      <div className={styles.scrollDown}>
+        <h2 className={styles.flightsTitle}>
+          Flights Data
+          <div className={styles.flightStatuses}>
+            <div onClick={(e: MouseEvent) => handleChangeStatus(e, FlightStatus.ACTIVE)} className={`${styles.status} ${styles.active}`}>Active</div>
+            <div onClick={(e: MouseEvent) => handleChangeStatus(e, FlightStatus.SCHEDULED)} className={styles.status}>Scheduled</div>
+            <div onClick={(e: MouseEvent) => handleChangeStatus(e, FlightStatus.CANCELLED)} className={styles.status}>Cancelled</div>
+            <div onClick={(e: MouseEvent) => handleChangeStatus(e, FlightStatus.LANDED)} className={styles.status}>Landed</div>
+            <div onClick={(e: MouseEvent) => handleChangeStatus(e, FlightStatus.DIVERTED)} className={styles.status}>Diverted</div>
+          </div>
+        </h2>
         <div className={styles.thead}>
           <div className={`${styles.cell} ${styles.info}`}>Number</div>
           <div className={`${styles.cell} ${styles.info}`}>Date</div>
@@ -61,24 +61,25 @@ const FlightsModal = () => {
           <div className={`${styles.cell} ${styles.info}`}>Arrival Time</div>
           <div className={`${styles.cell} ${styles.info}`}>Airline</div>
         </div>
-        <div className={styles.informations}>
-          {data?.map((flight: FlightData, index: number) => {
-            const { number, date, departure, arrival, airline } = flight;
-            if (!departure.airport || !arrival.airport) return;
-            else return (
-              <div onClick={(e: MouseEvent) => handleSetFlightActive(e, flight)} id={String(`${index}_${number}`)} key={`${index}_${number}`} className={styles.row}>
-                <div className={styles.cell}>{number ? number : <span className={styles.error}>No Data</span>}</div>
-                <div className={styles.cell}>{date ? date : <span className={styles.error}>No Data</span>}</div>
-                <div className={styles.cell}>{departure.airport.name ? departure.airport.name : <span className={styles.error}>No Data</span>}</div>
-                <div className={styles.cell}>{departure.time ? departure.time : <span className={styles.error}>No Data</span>}</div>
+      </div>
+      <div className={styles.clearFloat}></div>
+      <div className={styles.tmain}>
+        {data?.map((flight: FlightData, index: number) => {
+          const { number, date, departure, arrival, airline } = flight;
+          if (!departure.airport || !arrival.airport) return;
+          else return (
+            <div onClick={(e: MouseEvent) => handleSetFlightActive(e, flight)} id={String(`${index}_${number}`)} key={`${index}_${number}`} className={styles.row}>
+              <div className={styles.cell}>{number ? number : <span className={styles.error}>No Data</span>}</div>
+              <div className={styles.cell}>{date ? date : <span className={styles.error}>No Data</span>}</div>
+              <div className={styles.cell}>{departure.airport.name ? departure.airport.name : <span className={styles.error}>No Data</span>}</div>
+              <div className={styles.cell}>{departure.time ? departure.time : <span className={styles.error}>No Data</span>}</div>
 
-                <div className={styles.cell}>{arrival.airport.name ? arrival.airport.name : <span className={styles.error}>No Data</span>}</div>
-                <div className={styles.cell}>{arrival.time ? arrival.time : <span className={styles.error}>No Data</span>}</div>
+              <div className={styles.cell}>{arrival.airport.name ? arrival.airport.name : <span className={styles.error}>No Data</span>}</div>
+              <div className={styles.cell}>{arrival.time ? arrival.time : <span className={styles.error}>No Data</span>}</div>
 
-                <div className={styles.cell}>{airline}</div>
-              </div>);
-          })}
-        </div>
+              <div className={styles.cell}>{airline}</div>
+            </div>);
+        })}
       </div>
     </div>
   );

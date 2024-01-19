@@ -1,9 +1,10 @@
-import { DataType, ModalContent } from "./enums"
-import { AirportData, FlightData, Watch } from "./interfaces"
+import { DataType, Direction, ModalContent } from "./enums"
+import { AirportData, FlightData, Watch, Flights } from "./interfaces"
+
 
 export type AppContextType = {
   flightsData: Flights,
-  // setFlightsData: (statement: []) => void,
+  setFlightsData: (statement: Flights) => void,
   airportsData: AirportData[],
   setAirportsData: (statement: []) => void,
   darkMode: boolean,
@@ -40,10 +41,7 @@ export type Position = {
   lng: number
 }
 
-export type Flights = {
-  active: FlightData[],
-  scheduled: FlightData[],
-  cancelled: FlightData[],
-  landed: FlightData[],
-  diverted: FlightData[]
+export type Live = {
+  direction: Direction,
+  position: Position,
 }

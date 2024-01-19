@@ -3,34 +3,53 @@ import styles from './../assets/scss/modules/Stats.module.scss';
 import { AppContext } from '../AppContext';
 import { AppContextType } from '../ts/types';
 import mapMarker from './../assets/img/marker.png';
-import { DataType } from '../ts/enums';
+import { DataType, FlightStatus } from '../ts/enums';
+import { AirportData, AirportMarker, FlightData } from '../ts/interfaces';
 
 const Stats = () => {
-  const { activeAirport, activeFlight, map, maps, mapPosition, setMapPosition, dataType } = useContext(AppContext) as AppContextType;
+  const { activeAirport, activeFlight, map, maps, setMapPosition, dataType, setActiveAirport, setDataType } = useContext(AppContext) as AppContextType;
   const { ident, type, name, latitude_deg, longitude_deg, elevation_ft, continent, iso_country, municipality, wikipedia_link } = activeAirport;
   const [markerTitles, setMarkerTitles] = useState<string[]>([]);
 
-  const pushMarker = () => {
+  const pushMarker = (airport: AirportData) => {
+    const { name, latitude_deg, longitude_deg, type, elevation_ft, continent, municipality, iso_country } = airport;
     const isMarked = markerTitles.find(markerTitle => markerTitle === name)
+    setMapPosition({ lat: Number(latitude_deg), lng: Number(longitude_deg) });
     if (isMarked) return;
     else {
-      new maps.Marker({
+      const marker = new maps.Marker({
         position: { lat: latitude_deg, lng: longitude_deg },
         map,
-        title: name,
+        title: `
+        Name: ${name}
+Type: ${type}
+Latitude: ${Number(latitude_deg).toFixed(4)}
+Longitude: ${Number(longitude_deg).toFixed(4)}
+Continent: ${continent}
+Country Code: ${iso_country}
+City: ${municipality}
+Sea Level: ${elevation_ft}
+        `,
         icon: {
           url: mapMarker,
           scaledSize: new maps.Size(35, 50),
         }
       });
       setMarkerTitles([...markerTitles, name]);
-      setMapPosition({ lat: Number(latitude_deg), lng: Number(longitude_deg) });
+      marker.addListener('click', function () {
+        setActiveAirport(airport);
+        setDataType(DataType.AIRPORT)
+      });
     }
   }
 
-  useEffect(() => {
-    console.log(activeFlight);
-  }, [activeFlight]);
+  const showFlight = () => {
+
+  }
+
+  // useEffect(() => {
+  //   console.log('status changed');
+  // }, [activeFlight?.status]);
 
   return (
     <section className={styles.stats}>
@@ -56,15 +75,21 @@ const Stats = () => {
             <div className={styles.stat}>Airline: <strong>{!activeFlight?.airline ? <span className={styles.error}>No Data</span> : activeFlight?.airline}</strong></div>
 
             <div className={styles.stat}>Departure Airport: <strong>{!activeFlight?.departure.airport ? <span className={styles.error}>No Data</span> : activeFlight?.departure.airport?.name}</strong></div>
+            <div className={styles.btnsWrapper}>
+              <button onClick={() => pushMarker(activeFlight?.departure.airport)}>Show Departure Airport </button>
+            </div>
             <div className={styles.stat}>Departure Time: <strong>{!activeFlight?.departure ? <span className={styles.error}>No Data</span> : activeFlight?.departure.time}</strong></div>
             <div className={styles.stat}>Arrival Airport: <strong>{!activeFlight?.arrival.airport ? <span className={styles.error}>No Data</span> : activeFlight?.arrival.airport?.name}</strong></div>
+            <div className={styles.btnsWrapper}>
+              <button onClick={() => pushMarker(activeFlight?.arrival.airport)}>Show Arrival Airport </button>
+            </div>
             <div className={styles.stat}>Arrival Time: <strong>{!activeFlight?.arrival ? <span className={styles.error}>No Data</span> : activeFlight?.arrival.time}</strong></div>
           </>
         }
       </div>
       <div className={styles.btnsWrapper}>
-        {/* <button onClick={pushMarker}>Show on the map</button> */}
-        <button>Show on the map</button>
+        {dataType === DataType.AIRPORT && <button onClick={() => pushMarker(activeAirport)}>Show Airport</button>}
+        {dataType === DataType.FLIGHT && activeFlight?.status === FlightStatus.ACTIVE && <button onClick={showFlight}>Show Flight</button>}
       </div>
     </section>
   );

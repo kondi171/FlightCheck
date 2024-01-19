@@ -5,7 +5,7 @@
     top: 14vh;
     left: 2vw;
     bottom: 7vh;
-    width: 25vw;
+    width: 30vw;
     background-color: rgba($color: #1AA782, $alpha: .8);
     font-size: 3vmin;
     padding: 0 1vmin;
@@ -24,7 +24,6 @@
         display: flex;
         width: 100%;
         justify-content: center;
-        margin-top: 10vmin;
 
         button {
             padding: 2vmin;
@@ -36,6 +35,7 @@
             background-color: $darkColor;
             transition-duration: .4s;
             color: $primaryColor;
+            margin: .5vmin 0;
 
             &:hover {
                 cursor: pointer;

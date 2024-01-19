@@ -1,6 +1,6 @@
 import { useState, createContext } from "react";
-import { AppContextType, Flights } from "./ts/types";
-import { AirportData, AppProviderProps, FlightData, Watch } from "./ts/interfaces";
+import { AppContextType } from "./ts/types";
+import { AirportData, AppProviderProps, FlightData, Watch, Flights } from "./ts/interfaces";
 import { DataType, ModalContent } from "./ts/enums";
 import { defaultAirport, defaultMapProps } from "./ts/objects";
 
@@ -16,6 +16,7 @@ const AppProvider = ({ children }: AppProviderProps) => {
     landed: [],
     diverted: []
   });
+
   const [airportsData, setAirportsData] = useState<AirportData[]>([]);
 
   const [darkMode, setDarkMode] = useState(false);
@@ -35,7 +36,7 @@ const AppProvider = ({ children }: AppProviderProps) => {
   return (
     <AppContext.Provider value={{
       flightsData,
-      // setFlightsData,
+      setFlightsData,
       airportsData,
       setAirportsData,
       darkMode,

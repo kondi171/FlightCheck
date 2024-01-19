@@ -1,4 +1,4 @@
-import { Occurrence } from "./types"
+import { Live, Occurrence } from "./types"
 
 export interface AppProviderProps {
   children: JSX.Element,
@@ -78,6 +78,7 @@ export interface FlightData {
     time: string
   }
   airline: string,
+  live: Live | null
 }
 
 export interface TimezoneData {
@@ -89,4 +90,12 @@ export interface Watch {
   hours: number,
   minutes: number,
   seconds: number
+}
+
+export interface Flights {
+  active: FlightData[],
+  scheduled: FlightData[],
+  cancelled: FlightData[],
+  landed: FlightData[],
+  diverted: FlightData[]
 }

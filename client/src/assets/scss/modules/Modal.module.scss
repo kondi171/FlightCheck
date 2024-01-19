@@ -90,188 +90,26 @@
             }
         }
 
-        .dataModal {
-            h2 {
-                position: fixed;
-                text-align: center;
-                border-bottom: none;
-                width: 88%;
-                padding: 2vmin;
-                background-color: $darkColor;
-                margin-top: -2vmin;
-                display: flex;
-                justify-content: space-between;
+        .icon {
+            font-size: 2.5vmin;
+            font-weight: bold;
+            position: fixed;
+            right: 4vmin;
+            top: 4vmin;
+            width: 30px;
+            height: 30px;
+            color: $secondaryColor;
+            background-color: $darkColor;
+            border-radius: 50%;
+            padding: 1vmin;
+            border: 2px solid $secondaryColor;
+            transition-duration: .4s;
 
-                .flightStatuses {
-                    display: flex;
-                    width: 70%;
-                    justify-content: space-evenly;
-                    align-items: center;
-                    font-size: 3vmin;
-
-                    .status {
-                        transition-duration: .4s;
-
-                        &:hover {
-                            cursor: pointer;
-                            color: $primaryColor;
-                        }
-
-                        &.active {
-                            color: $primaryColor;
-                            transform: scale(1.2);
-                        }
-                    }
-                }
+            &:hover {
+                cursor: pointer;
+                color: $darkColor;
+                background-color: $secondaryColor;
             }
-
-            .data {
-                width: 90%;
-                margin: 0 5%;
-
-                .thead {
-                    position: fixed;
-                    width: 78.4%;
-                    margin-top: 9vmin;
-                }
-
-                .thead {
-
-                    &:hover {
-                        background-color: black !important;
-                        cursor: auto !important;
-                    }
-
-                }
-
-                .thead,
-                .row {
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    transition-duration: .4s;
-
-
-                    &.activeAirport,
-                    &.activeFlight {
-                        background-color: $primaryColor;
-                    }
-
-                    &:hover {
-                        cursor: pointer;
-                        background-color: $primaryColor;
-                    }
-                }
-
-                .cell {
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    flex: 1;
-                    color: $fontColor;
-                    text-align: center;
-                    height: 10vmin;
-                    border-radius: 5px;
-                    margin: 1px;
-                    font-size: 1.8vmin;
-                    font-family: $textFont;
-
-                    .error {
-                        font-weight: bold;
-                        color: $supportColor;
-                    }
-
-                    a {
-                        color: $secondaryColor;
-                        text-decoration: none;
-                        transition-duration: .4s;
-
-                        &:hover {
-                            cursor: pointer;
-                            color: $secondaryColor;
-                            font-size: 4vmin;
-                        }
-                    }
-                }
-
-                .thead {
-                    font-weight: bold;
-                    background-color: black;
-                    font-size: 2.4vmin;
-                    border-radius: 5px;
-                }
-
-                .info {
-                    border-radius: 5px;
-                    color: $primaryColor;
-                    border: none;
-                    font-size: 2.5vmin;
-                }
-
-                .row:nth-child(2) {
-                    margin-top: 5.5%;
-                }
-
-                .row:nth-child(odd) {
-                    border-radius: 5px;
-                    background-color: darken($darkColor, 5%);
-                    transition-duration: .4s;
-
-                    &.activeAirport {
-                        background-color: $primaryColor;
-                    }
-
-                    &:hover {
-                        cursor: pointer;
-                        background-color: $primaryColor;
-                    }
-
-                }
-            }
-
-            .selectPage {
-                text-align: center;
-                margin: 2vmin 50vmin;
-                display: flex;
-                align-items: center;
-                justify-content: space-evenly;
-                font-size: 4vmin;
-                color: $primaryColor;
-                font-weight: bold;
-                font-family: $logoFont;
-
-                .change {
-                    transition-duration: .4s;
-
-                    &:hover {
-                        cursor: pointer;
-                        color: $secondaryColor;
-                        transform: scale(1.2);
-                    }
-                }
-            }
-        }
-    }
-
-    .icon {
-        font-size: 2.5vmin;
-        font-weight: bold;
-        position: fixed;
-        right: 4vmin;
-        top: 4vmin;
-        width: 30px;
-        height: 30px;
-        color: $secondaryColor;
-        background-color: $darkColor;
-        border-radius: 50%;
-        padding: 1vmin;
-        border: 2px solid $secondaryColor;
-        transition-duration: .4s;
-
-        &:hover {
-            cursor: pointer;
-            color: $darkColor;
-            background-color: $secondaryColor;
         }
     }
 }

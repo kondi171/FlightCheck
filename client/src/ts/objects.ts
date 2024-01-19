@@ -100,3 +100,38 @@ export const defaultAirport = {
   municipality: "Warsaw",
   wikipedia_link: "https://en.wikipedia.org/wiki/Warsaw_Frederic_Chopin_Airport"
 }
+
+export const directionDeg = {
+  north: {
+    from: 345,
+    to: 15
+  },
+  northernEast: {
+    from: 16,
+    to: 74
+  },
+  east: {
+    from: 75,
+    to: 105
+  },
+  southernEast: {
+    from: 106,
+    to: 164,
+  },
+  south: {
+    from: 165,
+    to: 195,
+  },
+  southernWest: {
+    from: 196,
+    to: 254,
+  },
+  west: {
+    from: 255,
+    to: 285,
+  },
+  nouthernWest: {
+    from: 286,
+    to: 344,
+  }
+}
